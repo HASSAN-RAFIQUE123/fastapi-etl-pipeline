@@ -1,0 +1,1001 @@
+feedback_id,customer_id,product_id,rating,feedback_text,feedback_date
+1,1,1,4,"Average product, could be better",2026-07-23 07:35:08.364204
+2,2,2,4,Fantastic support and fast shipping,2026-05-05 07:35:08.364275
+3,3,3,1,Very satisfied with the experience,2026-03-12 07:35:08.364492
+4,4,4,3,Very satisfied with the experience,2026-04-06 07:35:08.364531
+5,5,5,4,Very satisfied with the experience,2026-05-23 07:35:08.364571
+6,6,6,2,Delivery was late,2026-02-14 07:35:08.364609
+7,7,7,2,Good value for money,2026-03-23 07:35:08.364646
+8,8,8,3,"Average product, could be better",2026-03-12 07:35:08.364690
+9,9,9,1,"Average product, could be better",2026-02-21 07:35:08.364728
+10,10,10,2,Delivery was late,2026-07-17 07:35:08.364767
+11,11,11,5,"Average product, could be better",2026-04-14 07:35:08.364808
+12,12,12,1,Good value for money,2026-05-06 07:35:08.364845
+13,13,13,3,Good value for money,2026-02-10 07:35:08.364882
+14,14,14,4,Very satisfied with the experience,2026-07-18 07:35:08.364921
+15,15,15,2,Very satisfied with the experience,2026-05-21 07:35:08.364960
+16,16,16,2,Very satisfied with the experience,2026-04-20 07:35:08.364997
+17,17,17,5,Fantastic support and fast shipping,2026-07-16 07:35:08.365034
+18,18,18,4,Good value for money,2026-07-01 07:35:08.365071
+19,19,19,4,Delivery was late,2026-06-28 07:35:08.365107
+20,20,20,1,Delivery was late,2026-05-30 07:35:08.365143
+21,21,21,5,Great product and excellent quality,2026-06-22 07:35:08.365190
+22,22,22,3,Very satisfied with the experience,2026-07-20 07:35:08.365226
+23,23,23,3,Great product and excellent quality,2026-03-04 07:35:08.365262
+24,24,24,3,Great product and excellent quality,2026-03-10 07:35:08.365299
+25,25,25,2,Fantastic support and fast shipping,2026-05-24 07:35:08.365338
+26,26,26,4,Good value for money,2026-05-08 07:35:08.365374
+27,27,27,1,Delivery was late,2026-07-04 07:35:08.365450
+28,28,28,4,Fantastic support and fast shipping,2026-07-31 07:35:08.365495
+29,29,29,4,Delivery was late,2026-05-09 07:35:08.365535
+30,30,30,5,Very satisfied with the experience,2026-07-31 07:35:08.365573
+31,31,31,5,"Average product, could be better",2026-05-07 07:35:08.365611
+32,32,32,5,Very satisfied with the experience,2026-06-12 07:35:08.365652
+33,33,33,5,Fantastic support and fast shipping,2026-04-04 07:35:08.365692
+34,34,34,4,"Average product, could be better",2026-06-21 07:35:08.365730
+35,35,35,2,Delivery was late,2026-05-23 07:35:08.365767
+36,36,36,4,"Average product, could be better",2026-04-16 07:35:08.365804
+37,37,37,5,"Average product, could be better",2026-02-27 07:35:08.365843
+38,38,38,4,Great product and excellent quality,2026-03-02 07:35:08.365882
+39,39,39,3,Very satisfied with the experience,2026-04-15 07:35:08.365922
+40,40,40,2,Good value for money,2026-07-26 07:35:08.365959
+41,41,41,1,Fantastic support and fast shipping,2026-06-20 07:35:08.365996
+42,42,42,2,Fantastic support and fast shipping,2026-07-05 07:35:08.366037
+43,43,43,4,Very satisfied with the experience,2026-07-04 07:35:08.366075
+44,44,44,5,Fantastic support and fast shipping,2026-05-24 07:35:08.366112
+45,45,45,3,Good value for money,2026-05-26 07:35:08.366151
+46,46,46,4,Good value for money,2026-02-16 07:35:08.366188
+47,47,47,3,"Average product, could be better",2026-04-14 07:35:08.366224
+48,48,48,2,Good value for money,2026-06-06 07:35:08.366260
+49,49,49,1,Delivery was late,2026-07-18 07:35:08.366298
+50,50,50,1,Very satisfied with the experience,2026-07-15 07:35:08.366334
+51,51,51,5,"Average product, could be better",2026-02-23 07:35:08.366447
+52,52,52,2,Great product and excellent quality,2026-02-21 07:35:08.366483
+53,53,53,1,Delivery was late,2026-06-02 07:35:08.366519
+54,54,54,5,Great product and excellent quality,2026-06-04 07:35:08.366557
+55,55,55,3,Very satisfied with the experience,2026-02-02 07:35:08.366596
+56,56,56,5,Good value for money,2026-03-03 07:35:08.366632
+57,57,57,4,"Average product, could be better",2026-02-19 07:35:08.366670
+58,58,58,4,Fantastic support and fast shipping,2026-03-13 07:35:08.366707
+59,59,59,1,Very satisfied with the experience,2026-06-13 07:35:08.366744
+60,60,60,5,Great product and excellent quality,2026-05-31 07:35:08.366782
+61,61,61,3,Fantastic support and fast shipping,2026-03-23 07:35:08.366821
+62,62,62,4,Delivery was late,2026-05-05 07:35:08.366857
+63,63,63,5,Delivery was late,2026-03-14 07:35:08.366893
+64,64,64,2,Fantastic support and fast shipping,2026-03-27 07:35:08.366930
+65,65,65,3,Very satisfied with the experience,2026-05-06 07:35:08.366968
+66,66,66,1,"Average product, could be better",2026-06-01 07:35:08.367006
+67,67,67,1,Delivery was late,2026-05-17 07:35:08.367042
+68,68,68,2,Fantastic support and fast shipping,2026-03-26 07:35:08.367078
+69,69,69,3,Very satisfied with the experience,2026-03-03 07:35:08.367118
+70,70,70,5,Delivery was late,2026-05-17 07:35:08.367153
+71,71,71,3,"Average product, could be better",2026-06-05 07:35:08.367189
+72,72,72,1,Good value for money,2026-05-17 07:35:08.367225
+73,73,73,3,Delivery was late,2026-07-02 07:35:08.367264
+74,74,74,3,Fantastic support and fast shipping,2026-03-04 07:35:08.367300
+75,75,75,3,Very satisfied with the experience,2026-02-15 07:35:08.367336
+76,76,76,5,Fantastic support and fast shipping,2026-04-15 07:35:08.367375
+77,77,77,3,Good value for money,2026-07-06 07:35:08.367416
+78,78,78,5,Fantastic support and fast shipping,2026-07-26 07:35:08.367453
+79,79,79,3,Great product and excellent quality,2026-06-24 07:35:08.367489
+80,80,80,4,Good value for money,2026-03-19 07:35:08.367525
+81,81,81,1,Very satisfied with the experience,2026-07-16 07:35:08.367563
+82,82,82,3,Good value for money,2026-02-22 07:35:08.367601
+83,83,83,5,Fantastic support and fast shipping,2026-06-06 07:35:08.367637
+84,84,84,4,Good value for money,2026-07-14 07:35:08.367674
+85,85,85,1,Fantastic support and fast shipping,2026-04-17 07:35:08.367713
+86,86,86,3,Great product and excellent quality,2026-03-11 07:35:08.367750
+87,87,87,3,Good value for money,2026-02-02 07:35:08.367789
+88,88,88,5,Fantastic support and fast shipping,2026-06-06 07:35:08.367825
+89,89,89,1,Fantastic support and fast shipping,2026-05-23 07:35:08.367863
+90,90,90,3,"Average product, could be better",2026-07-20 07:35:08.367899
+91,91,91,4,Great product and excellent quality,2026-04-12 07:35:08.367935
+92,92,92,1,Very satisfied with the experience,2026-05-12 07:35:08.367970
+93,93,93,1,Very satisfied with the experience,2026-05-30 07:35:08.368010
+94,94,94,5,Great product and excellent quality,2026-03-23 07:35:08.368046
+95,95,95,4,Fantastic support and fast shipping,2026-04-04 07:35:08.368083
+96,96,96,5,Delivery was late,2026-07-13 07:35:08.368119
+97,97,97,1,"Average product, could be better",2026-04-07 07:35:08.368157
+98,98,98,1,Good value for money,2026-05-29 07:35:08.371019
+99,99,99,3,Fantastic support and fast shipping,2026-07-15 07:35:08.371064
+100,100,100,4,Delivery was late,2026-06-28 07:35:08.371109
+101,101,101,4,Fantastic support and fast shipping,2026-03-23 07:35:08.371147
+102,102,102,5,Great product and excellent quality,2026-03-15 07:35:08.371183
+103,103,103,1,Very satisfied with the experience,2026-04-17 07:35:08.371222
+104,104,104,5,Delivery was late,2026-04-10 07:35:08.371259
+105,105,105,1,"Average product, could be better",2026-03-21 07:35:08.371296
+106,106,106,1,Very satisfied with the experience,2026-04-21 07:35:08.371336
+107,107,107,3,Great product and excellent quality,2026-04-02 07:35:08.371372
+108,108,108,5,"Average product, could be better",2026-04-14 07:35:08.371409
+109,109,109,5,Fantastic support and fast shipping,2026-03-06 07:35:08.371450
+110,110,110,5,Great product and excellent quality,2026-03-14 07:35:08.371489
+111,111,111,2,Delivery was late,2026-02-13 07:35:08.371528
+112,112,112,2,Very satisfied with the experience,2026-06-27 07:35:08.371564
+113,113,113,4,"Average product, could be better",2026-05-28 07:35:08.371600
+114,114,114,4,Very satisfied with the experience,2026-05-06 07:35:08.371637
+115,115,115,1,Delivery was late,2026-07-11 07:35:08.371675
+116,116,116,1,Delivery was late,2026-07-12 07:35:08.371713
+117,117,117,5,Very satisfied with the experience,2026-07-23 07:35:08.371751
+118,118,118,1,Great product and excellent quality,2026-06-14 07:35:08.371790
+119,119,119,2,Great product and excellent quality,2026-07-13 07:35:08.371825
+120,120,120,3,Delivery was late,2026-06-21 07:35:08.371861
+121,121,121,5,"Average product, could be better",2026-04-28 07:35:08.371900
+122,122,122,5,Very satisfied with the experience,2026-07-13 07:35:08.371937
+123,123,123,4,Good value for money,2026-03-25 07:35:08.371975
+124,124,124,5,Good value for money,2026-05-22 07:35:08.372013
+125,125,125,1,Great product and excellent quality,2026-07-11 07:35:08.372049
+126,126,126,4,Delivery was late,2026-05-30 07:35:08.372085
+127,127,127,3,Fantastic support and fast shipping,2026-05-04 07:35:08.372121
+128,128,128,5,Very satisfied with the experience,2026-04-15 07:35:08.372157
+129,129,129,1,Very satisfied with the experience,2026-07-08 07:35:08.372195
+130,130,130,1,"Average product, could be better",2026-07-04 07:35:08.372234
+131,131,131,4,Great product and excellent quality,2026-03-24 07:35:08.372271
+132,132,132,4,"Average product, could be better",2026-03-25 07:35:08.372306
+133,133,133,3,"Average product, could be better",2026-03-02 07:35:08.372345
+134,134,134,1,Delivery was late,2026-03-01 07:35:08.372384
+135,135,135,1,Fantastic support and fast shipping,2026-06-13 07:35:08.372421
+136,136,136,5,Good value for money,2026-05-09 07:35:08.372457
+137,137,137,2,Very satisfied with the experience,2026-05-29 07:35:08.372493
+138,138,138,5,Great product and excellent quality,2026-02-08 07:35:08.372529
+139,139,139,2,Very satisfied with the experience,2026-06-10 07:35:08.372565
+140,140,140,1,Good value for money,2026-07-06 07:35:08.372601
+141,141,141,3,Delivery was late,2026-02-16 07:35:08.372637
+142,142,142,4,Very satisfied with the experience,2026-06-14 07:35:08.372676
+143,143,143,5,"Average product, could be better",2026-03-27 07:35:08.372711
+144,144,144,3,Delivery was late,2026-03-08 07:35:08.372749
+145,145,145,1,Good value for money,2026-05-26 07:35:08.372790
+146,146,146,1,Fantastic support and fast shipping,2026-04-03 07:35:08.372899
+147,147,147,4,Good value for money,2026-02-26 07:35:08.372935
+148,148,148,3,"Average product, could be better",2026-07-12 07:35:08.372972
+149,149,149,4,"Average product, could be better",2026-07-08 07:35:08.373013
+150,150,150,1,Delivery was late,2026-06-06 07:35:08.373050
+151,151,151,2,Good value for money,2026-02-17 07:35:08.373086
+152,152,152,3,Fantastic support and fast shipping,2026-07-01 07:35:08.373122
+153,153,153,2,Very satisfied with the experience,2026-05-29 07:35:08.373158
+154,154,154,5,Great product and excellent quality,2026-07-23 07:35:08.373196
+155,155,155,2,Delivery was late,2026-03-06 07:35:08.373234
+156,156,156,2,Fantastic support and fast shipping,2026-02-21 07:35:08.373270
+157,157,157,5,Good value for money,2026-04-01 07:35:08.373310
+158,158,158,3,Good value for money,2026-02-16 07:35:08.373345
+159,159,159,2,Great product and excellent quality,2026-03-03 07:35:08.373381
+160,160,160,5,Fantastic support and fast shipping,2026-06-09 07:35:08.373417
+161,161,161,4,Great product and excellent quality,2026-05-11 07:35:08.373453
+162,162,162,2,Good value for money,2026-05-08 07:35:08.373489
+163,163,163,3,Good value for money,2026-06-18 07:35:08.373525
+164,164,164,2,Very satisfied with the experience,2026-02-20 07:35:08.373560
+165,165,165,1,Very satisfied with the experience,2026-07-30 07:35:08.373597
+166,166,166,1,Great product and excellent quality,2026-03-19 07:35:08.373637
+167,167,167,2,Fantastic support and fast shipping,2026-05-16 07:35:08.373673
+168,168,168,4,Very satisfied with the experience,2026-02-16 07:35:08.373714
+169,169,169,1,"Average product, could be better",2026-06-16 07:35:08.373777
+170,170,170,2,Very satisfied with the experience,2026-02-05 07:35:08.373815
+171,171,171,3,Great product and excellent quality,2026-04-07 07:35:08.373851
+172,172,172,1,Great product and excellent quality,2026-05-24 07:35:08.373888
+173,173,173,2,Great product and excellent quality,2026-07-09 07:35:08.373925
+174,174,174,4,Very satisfied with the experience,2026-07-10 07:35:08.373961
+175,175,175,4,Delivery was late,2026-05-16 07:35:08.373995
+176,176,176,5,Delivery was late,2026-04-25 07:35:08.374030
+177,177,177,4,Fantastic support and fast shipping,2026-03-06 07:35:08.374065
+178,178,178,4,Fantastic support and fast shipping,2026-06-08 07:35:08.374103
+179,179,179,4,Great product and excellent quality,2026-02-28 07:35:08.374140
+180,180,180,3,Good value for money,2026-06-19 07:35:08.374175
+181,181,181,5,Fantastic support and fast shipping,2026-06-05 07:35:08.374217
+182,182,182,3,Delivery was late,2026-04-06 07:35:08.374252
+183,183,183,1,Delivery was late,2026-02-08 07:35:08.374286
+184,184,184,2,Good value for money,2026-02-18 07:35:08.374320
+185,185,185,5,Great product and excellent quality,2026-06-14 07:35:08.374355
+186,186,186,3,Delivery was late,2026-04-05 07:35:08.374388
+187,187,187,2,Delivery was late,2026-03-23 07:35:08.374424
+188,188,188,4,Delivery was late,2026-02-23 07:35:08.374459
+189,189,189,1,Good value for money,2026-03-09 07:35:08.374493
+190,190,190,1,"Average product, could be better",2026-03-07 07:35:08.374528
+191,191,191,4,Great product and excellent quality,2026-05-25 07:35:08.374566
+192,192,192,2,"Average product, could be better",2026-06-09 07:35:08.374601
+193,193,193,5,Delivery was late,2026-02-08 07:35:08.374637
+194,194,194,4,Very satisfied with the experience,2026-06-25 07:35:08.374743
+195,195,195,3,Very satisfied with the experience,2026-03-05 07:35:08.374778
+196,196,196,4,Good value for money,2026-05-24 07:35:08.374813
+197,197,197,4,Good value for money,2026-04-06 07:35:08.374848
+198,198,198,2,Fantastic support and fast shipping,2026-07-18 07:35:08.374882
+199,199,199,5,Good value for money,2026-02-07 07:35:08.374916
+200,200,200,3,Delivery was late,2026-05-16 07:35:08.374951
+201,201,201,4,"Average product, could be better",2026-06-06 07:35:08.374987
+202,202,202,2,Great product and excellent quality,2026-03-12 07:35:08.375026
+203,203,203,1,Fantastic support and fast shipping,2026-05-31 07:35:08.375063
+204,204,204,3,Very satisfied with the experience,2026-03-14 07:35:08.375098
+205,205,205,5,Fantastic support and fast shipping,2026-04-16 07:35:08.375134
+206,206,206,1,"Average product, could be better",2026-05-13 07:35:08.375169
+207,207,207,2,Fantastic support and fast shipping,2026-07-01 07:35:08.375203
+208,208,208,4,Delivery was late,2026-05-23 07:35:08.375238
+209,209,209,1,Delivery was late,2026-03-07 07:35:08.375275
+210,210,210,4,Fantastic support and fast shipping,2026-06-04 07:35:08.375309
+211,211,211,4,Great product and excellent quality,2026-07-14 07:35:08.375344
+212,212,212,3,Very satisfied with the experience,2026-03-02 07:35:08.375382
+213,213,213,4,Great product and excellent quality,2026-05-14 07:35:08.375423
+214,214,214,3,Very satisfied with the experience,2026-04-05 07:35:08.375461
+215,215,215,4,Delivery was late,2026-02-02 07:35:08.375502
+216,216,216,4,Good value for money,2026-04-03 07:35:08.375536
+217,217,217,5,Fantastic support and fast shipping,2026-07-21 07:35:08.375574
+218,218,218,1,Good value for money,2026-04-19 07:35:08.375609
+219,219,219,3,Very satisfied with the experience,2026-02-06 07:35:08.375643
+220,220,220,1,Great product and excellent quality,2026-04-04 07:35:08.375678
+221,221,221,2,Very satisfied with the experience,2026-07-23 07:35:08.375712
+222,222,222,5,Good value for money,2026-05-29 07:35:08.375745
+223,223,223,2,Delivery was late,2026-07-25 07:35:08.375780
+224,224,224,1,"Average product, could be better",2026-06-05 07:35:08.375814
+225,225,225,3,Fantastic support and fast shipping,2026-03-08 07:35:08.375851
+226,226,226,4,"Average product, could be better",2026-07-31 07:35:08.375886
+227,227,227,3,"Average product, could be better",2026-07-13 07:35:08.375923
+228,228,228,2,Delivery was late,2026-03-10 07:35:08.375958
+229,229,229,1,Good value for money,2026-02-02 07:35:08.375994
+230,230,230,1,Fantastic support and fast shipping,2026-06-01 07:35:08.376030
+231,231,231,1,Fantastic support and fast shipping,2026-07-19 07:35:08.376065
+232,232,232,2,Fantastic support and fast shipping,2026-06-20 07:35:08.376099
+233,233,233,5,Great product and excellent quality,2026-07-08 07:35:08.376137
+234,234,234,2,Delivery was late,2026-06-13 07:35:08.376176
+235,235,235,1,Delivery was late,2026-04-13 07:35:08.376211
+236,236,236,4,Very satisfied with the experience,2026-03-28 07:35:08.376246
+237,237,237,2,Delivery was late,2026-05-24 07:35:08.376281
+238,238,238,5,Very satisfied with the experience,2026-04-15 07:35:08.376315
+239,239,239,4,Great product and excellent quality,2026-06-17 07:35:08.376352
+240,240,240,1,Delivery was late,2026-07-09 07:35:08.376387
+241,241,241,4,Great product and excellent quality,2026-06-23 07:35:08.376490
+242,242,242,4,Fantastic support and fast shipping,2026-03-07 07:35:08.376525
+243,243,243,4,Fantastic support and fast shipping,2026-05-24 07:35:08.376561
+244,244,244,3,Very satisfied with the experience,2026-05-24 07:35:08.376596
+245,245,245,1,Good value for money,2026-05-13 07:35:08.376630
+246,246,246,2,Delivery was late,2026-05-22 07:35:08.376666
+247,247,247,3,"Average product, could be better",2026-05-04 07:35:08.376703
+248,248,248,3,Good value for money,2026-02-15 07:35:08.376738
+249,249,249,3,Very satisfied with the experience,2026-04-05 07:35:08.376773
+250,250,250,1,Fantastic support and fast shipping,2026-03-30 07:35:08.376807
+251,251,251,3,Very satisfied with the experience,2026-02-07 07:35:08.376845
+252,252,252,2,Delivery was late,2026-02-06 07:35:08.376880
+253,253,253,2,"Average product, could be better",2026-02-07 07:35:08.376916
+254,254,254,4,Delivery was late,2026-07-01 07:35:08.376950
+255,255,255,3,Good value for money,2026-04-18 07:35:08.376985
+256,256,256,1,Great product and excellent quality,2026-04-07 07:35:08.377019
+257,257,257,1,Great product and excellent quality,2026-03-17 07:35:08.377058
+258,258,258,1,Good value for money,2026-04-24 07:35:08.377094
+259,259,259,2,Fantastic support and fast shipping,2026-05-05 07:35:08.377149
+260,260,260,3,Great product and excellent quality,2026-02-15 07:35:08.377184
+261,261,261,4,Great product and excellent quality,2026-04-09 07:35:08.377219
+262,262,262,5,"Average product, could be better",2026-02-02 07:35:08.377255
+263,263,263,4,Delivery was late,2026-05-17 07:35:08.377292
+264,264,264,5,Great product and excellent quality,2026-07-12 07:35:08.377326
+265,265,265,3,Fantastic support and fast shipping,2026-04-13 07:35:08.377362
+266,266,266,3,Great product and excellent quality,2026-05-05 07:35:08.377397
+267,267,267,1,Fantastic support and fast shipping,2026-06-21 07:35:08.377431
+268,268,268,1,Very satisfied with the experience,2026-04-17 07:35:08.377466
+269,269,269,5,Fantastic support and fast shipping,2026-07-07 07:35:08.377501
+270,270,270,2,Fantastic support and fast shipping,2026-03-24 07:35:08.377538
+271,271,271,1,Good value for money,2026-04-05 07:35:08.377572
+272,272,272,5,Great product and excellent quality,2026-03-13 07:35:08.377610
+273,273,273,5,Delivery was late,2026-02-23 07:35:08.377645
+274,274,274,3,"Average product, could be better",2026-02-02 07:35:08.377679
+275,275,275,2,Very satisfied with the experience,2026-04-05 07:35:08.377713
+276,276,276,4,Good value for money,2026-07-30 07:35:08.377750
+277,277,277,5,Fantastic support and fast shipping,2026-02-26 07:35:08.377786
+278,278,278,4,Good value for money,2026-02-27 07:35:08.377820
+279,279,279,2,Good value for money,2026-03-25 07:35:08.377855
+280,280,280,1,"Average product, could be better",2026-07-25 07:35:08.377892
+281,281,281,3,Fantastic support and fast shipping,2026-06-09 07:35:08.377928
+282,282,282,3,Fantastic support and fast shipping,2026-02-04 07:35:08.377963
+283,283,283,3,Good value for money,2026-03-03 07:35:08.377997
+284,284,284,4,Great product and excellent quality,2026-05-21 07:35:08.378031
+285,285,285,3,"Average product, could be better",2026-03-28 07:35:08.378068
+286,286,286,1,Very satisfied with the experience,2026-05-03 07:35:08.378102
+287,287,287,4,Delivery was late,2026-05-31 07:35:08.378137
+288,288,288,3,Fantastic support and fast shipping,2026-07-25 07:35:08.378173
+289,289,289,1,"Average product, could be better",2026-02-21 07:35:08.378279
+290,290,290,3,Very satisfied with the experience,2026-07-22 07:35:08.378315
+291,291,291,4,Very satisfied with the experience,2026-05-12 07:35:08.378349
+292,292,292,3,Delivery was late,2026-02-26 07:35:08.378384
+293,293,293,2,Fantastic support and fast shipping,2026-05-16 07:35:08.378421
+294,294,294,5,"Average product, could be better",2026-07-10 07:35:08.378456
+295,295,295,2,Great product and excellent quality,2026-02-10 07:35:08.378490
+296,296,296,2,Delivery was late,2026-02-10 07:35:08.378524
+297,297,297,5,"Average product, could be better",2026-04-29 07:35:08.378558
+298,298,298,4,Very satisfied with the experience,2026-05-01 07:35:08.378593
+299,299,299,1,Great product and excellent quality,2026-03-24 07:35:08.378627
+300,300,300,2,Very satisfied with the experience,2026-03-03 07:35:08.378664
+301,301,301,5,Good value for money,2026-06-26 07:35:08.378700
+302,302,302,2,Fantastic support and fast shipping,2026-03-21 07:35:08.378735
+303,303,303,4,Good value for money,2026-02-14 07:35:08.378769
+304,304,304,1,"Average product, could be better",2026-03-25 07:35:08.378805
+305,305,305,4,Good value for money,2026-05-08 07:35:08.378839
+306,306,306,2,Good value for money,2026-02-20 07:35:08.378874
+307,307,307,3,Great product and excellent quality,2026-07-10 07:35:08.378908
+308,308,308,3,Good value for money,2026-04-06 07:35:08.378943
+309,309,309,1,"Average product, could be better",2026-06-16 07:35:08.378983
+310,310,310,4,Fantastic support and fast shipping,2026-03-20 07:35:08.379021
+311,311,311,2,Very satisfied with the experience,2026-05-27 07:35:08.379057
+312,312,312,5,Great product and excellent quality,2026-07-30 07:35:08.379124
+313,313,313,3,"Average product, could be better",2026-02-25 07:35:08.379164
+314,314,314,5,Delivery was late,2026-05-04 07:35:08.379203
+315,315,315,1,"Average product, could be better",2026-06-20 07:35:08.379241
+316,316,316,1,"Average product, could be better",2026-04-24 07:35:08.379276
+317,317,317,3,"Average product, could be better",2026-06-12 07:35:08.379311
+318,318,318,3,Very satisfied with the experience,2026-02-10 07:35:08.379346
+319,319,319,4,Very satisfied with the experience,2026-03-06 07:35:08.379381
+320,320,320,4,Delivery was late,2026-04-26 07:35:08.379416
+321,321,321,2,Good value for money,2026-05-12 07:35:08.379450
+322,322,322,3,Very satisfied with the experience,2026-05-02 07:35:08.379484
+323,323,323,5,Good value for money,2026-05-01 07:35:08.379518
+324,324,324,3,"Average product, could be better",2026-03-28 07:35:08.379555
+325,325,325,3,"Average product, could be better",2026-04-22 07:35:08.379591
+326,326,326,3,Delivery was late,2026-02-25 07:35:08.379625
+327,327,327,3,Fantastic support and fast shipping,2026-04-29 07:35:08.379661
+328,328,328,2,Good value for money,2026-06-23 07:35:08.379695
+329,329,329,4,Great product and excellent quality,2026-07-06 07:35:08.379729
+330,330,330,1,Delivery was late,2026-04-17 07:35:08.379764
+331,331,331,4,"Average product, could be better",2026-04-08 07:35:08.379798
+332,332,332,2,Great product and excellent quality,2026-05-05 07:35:08.379832
+333,333,333,2,Very satisfied with the experience,2026-06-14 07:35:08.379867
+334,334,334,5,Very satisfied with the experience,2026-07-10 07:35:08.379901
+335,335,335,1,Great product and excellent quality,2026-02-12 07:35:08.379935
+336,336,336,4,"Average product, could be better",2026-02-20 07:35:08.380045
+337,337,337,3,Very satisfied with the experience,2026-04-29 07:35:08.380082
+338,338,338,4,Very satisfied with the experience,2026-05-16 07:35:08.380118
+339,339,339,4,Fantastic support and fast shipping,2026-04-26 07:35:08.380153
+340,340,340,1,Good value for money,2026-06-15 07:35:08.380189
+341,341,341,2,Great product and excellent quality,2026-07-05 07:35:08.380223
+342,342,342,4,Delivery was late,2026-02-03 07:35:08.380257
+343,343,343,2,Fantastic support and fast shipping,2026-04-24 07:35:08.380291
+344,344,344,1,Fantastic support and fast shipping,2026-03-13 07:35:08.380326
+345,345,345,2,Great product and excellent quality,2026-05-22 07:35:08.380360
+346,346,346,4,Good value for money,2026-07-08 07:35:08.380394
+347,347,347,4,Delivery was late,2026-06-12 07:35:08.380429
+348,348,348,2,"Average product, could be better",2026-03-14 07:35:08.380474
+349,349,349,5,Great product and excellent quality,2026-04-25 07:35:08.380512
+350,350,350,4,Fantastic support and fast shipping,2026-03-12 07:35:08.380548
+351,351,351,4,Great product and excellent quality,2026-06-12 07:35:08.380583
+352,352,352,4,Good value for money,2026-07-11 07:35:08.380617
+353,353,353,1,"Average product, could be better",2026-07-13 07:35:08.380657
+354,354,354,2,Fantastic support and fast shipping,2026-03-11 07:35:08.380692
+355,355,355,3,"Average product, could be better",2026-02-13 07:35:08.380727
+356,356,356,5,Delivery was late,2026-05-31 07:35:08.380761
+357,357,357,2,"Average product, could be better",2026-05-15 07:35:08.380797
+358,358,358,1,Good value for money,2026-07-22 07:35:08.380831
+359,359,359,1,Good value for money,2026-05-09 07:35:08.380867
+360,360,360,1,Very satisfied with the experience,2026-06-03 07:35:08.380902
+361,361,361,2,Fantastic support and fast shipping,2026-06-22 07:35:08.380942
+362,362,362,4,Great product and excellent quality,2026-03-07 07:35:08.380976
+363,363,363,5,Very satisfied with the experience,2026-06-11 07:35:08.381012
+364,364,364,4,Very satisfied with the experience,2026-04-29 07:35:08.381046
+365,365,365,3,Fantastic support and fast shipping,2026-06-22 07:35:08.381081
+366,366,366,1,Very satisfied with the experience,2026-05-08 07:35:08.381115
+367,367,367,5,"Average product, could be better",2026-07-20 07:35:08.381149
+368,368,368,3,Great product and excellent quality,2026-02-15 07:35:08.381184
+369,369,369,1,Great product and excellent quality,2026-05-29 07:35:08.381218
+370,370,370,3,Great product and excellent quality,2026-04-23 07:35:08.381253
+371,371,371,2,Fantastic support and fast shipping,2026-04-16 07:35:08.381287
+372,372,372,2,Good value for money,2026-05-13 07:35:08.381324
+373,373,373,2,Delivery was late,2026-07-24 07:35:08.381363
+374,374,374,5,Great product and excellent quality,2026-02-24 07:35:08.381397
+375,375,375,4,"Average product, could be better",2026-02-15 07:35:08.381431
+376,376,376,2,Fantastic support and fast shipping,2026-06-09 07:35:08.381465
+377,377,377,4,Delivery was late,2026-02-25 07:35:08.381499
+378,378,378,1,Fantastic support and fast shipping,2026-03-11 07:35:08.381534
+379,379,379,5,Delivery was late,2026-07-18 07:35:08.381567
+380,380,380,4,Very satisfied with the experience,2026-05-10 07:35:08.381600
+381,381,381,3,Very satisfied with the experience,2026-07-10 07:35:08.381634
+382,382,382,2,Good value for money,2026-07-18 07:35:08.381669
+383,383,383,4,Very satisfied with the experience,2026-03-26 07:35:08.381704
+384,384,384,2,Great product and excellent quality,2026-03-13 07:35:08.381804
+385,385,385,3,Delivery was late,2026-07-09 07:35:08.381841
+386,386,386,3,Great product and excellent quality,2026-05-10 07:35:08.381874
+387,387,387,2,"Average product, could be better",2026-02-03 07:35:08.381908
+388,388,388,3,"Average product, could be better",2026-06-28 07:35:08.381941
+389,389,389,1,Very satisfied with the experience,2026-06-08 07:35:08.381977
+390,390,390,3,Great product and excellent quality,2026-05-16 07:35:08.382012
+391,391,391,4,Very satisfied with the experience,2026-07-22 07:35:08.382046
+392,392,392,3,Fantastic support and fast shipping,2026-03-11 07:35:08.382124
+393,393,393,5,"Average product, could be better",2026-04-23 07:35:08.382164
+394,394,394,3,"Average product, could be better",2026-06-17 07:35:08.382202
+395,395,395,5,Fantastic support and fast shipping,2026-05-13 07:35:08.382241
+396,396,396,5,Great product and excellent quality,2026-07-09 07:35:08.382276
+397,397,397,2,Good value for money,2026-05-19 07:35:08.382315
+398,398,398,5,Good value for money,2026-05-03 07:35:08.382350
+399,399,399,1,Good value for money,2026-04-02 07:35:08.382386
+400,400,400,5,Fantastic support and fast shipping,2026-07-11 07:35:08.382422
+401,401,401,4,Delivery was late,2026-06-15 07:35:08.382462
+402,402,402,5,Delivery was late,2026-03-06 07:35:08.382497
+403,403,403,2,"Average product, could be better",2026-03-13 07:35:08.382530
+404,404,404,2,Fantastic support and fast shipping,2026-06-17 07:35:08.382563
+405,405,405,5,Great product and excellent quality,2026-07-04 07:35:08.382597
+406,406,406,2,Fantastic support and fast shipping,2026-04-07 07:35:08.382633
+407,407,407,1,Delivery was late,2026-03-04 07:35:08.382668
+408,408,408,2,Great product and excellent quality,2026-04-12 07:35:08.382703
+409,409,409,3,Very satisfied with the experience,2026-04-16 07:35:08.382739
+410,410,410,2,Great product and excellent quality,2026-02-17 07:35:08.382773
+411,411,411,4,Good value for money,2026-02-27 07:35:08.382807
+412,412,412,1,Delivery was late,2026-03-05 07:35:08.382843
+413,413,413,1,Fantastic support and fast shipping,2026-02-06 07:35:08.382878
+414,414,414,4,Delivery was late,2026-05-02 07:35:08.382914
+415,415,415,1,"Average product, could be better",2026-05-19 07:35:08.382947
+416,416,416,5,Good value for money,2026-06-23 07:35:08.382983
+417,417,417,4,Very satisfied with the experience,2026-04-24 07:35:08.383019
+418,418,418,4,Very satisfied with the experience,2026-04-01 07:35:08.383053
+419,419,419,4,Very satisfied with the experience,2026-02-08 07:35:08.383086
+420,420,420,1,Delivery was late,2026-05-27 07:35:08.383122
+421,421,421,4,Great product and excellent quality,2026-07-06 07:35:08.383159
+422,422,422,2,Fantastic support and fast shipping,2026-02-28 07:35:08.383193
+423,423,423,1,Very satisfied with the experience,2026-02-18 07:35:08.383228
+424,424,424,3,Great product and excellent quality,2026-05-25 07:35:08.383263
+425,425,425,1,Fantastic support and fast shipping,2026-04-09 07:35:08.383296
+426,426,426,4,Fantastic support and fast shipping,2026-05-24 07:35:08.383330
+427,427,427,4,Great product and excellent quality,2026-02-05 07:35:08.383365
+428,428,428,1,Delivery was late,2026-04-05 07:35:08.383400
+429,429,429,4,Great product and excellent quality,2026-06-13 07:35:08.383436
+430,430,430,3,Great product and excellent quality,2026-07-21 07:35:08.383469
+431,431,431,4,Great product and excellent quality,2026-02-23 07:35:08.383502
+432,432,432,1,"Average product, could be better",2026-07-04 07:35:08.383604
+433,433,433,2,Delivery was late,2026-07-20 07:35:08.383642
+434,434,434,1,"Average product, could be better",2026-06-27 07:35:08.383675
+435,435,435,4,Very satisfied with the experience,2026-02-04 07:35:08.383709
+436,436,436,5,Very satisfied with the experience,2026-07-09 07:35:08.383743
+437,437,437,5,"Average product, could be better",2026-06-05 07:35:08.383776
+438,438,438,1,Fantastic support and fast shipping,2026-07-18 07:35:08.383809
+439,439,439,1,Good value for money,2026-03-29 07:35:08.383842
+440,440,440,1,Good value for money,2026-06-01 07:35:08.383877
+441,441,441,2,Very satisfied with the experience,2026-04-23 07:35:08.383912
+442,442,442,4,Great product and excellent quality,2026-04-05 07:35:08.383945
+443,443,443,4,"Average product, could be better",2026-06-06 07:35:08.383978
+444,444,444,5,Good value for money,2026-07-30 07:35:08.384012
+445,445,445,1,Good value for money,2026-03-11 07:35:08.384047
+446,446,446,5,Very satisfied with the experience,2026-03-04 07:35:08.384082
+447,447,447,4,Great product and excellent quality,2026-02-05 07:35:08.384115
+448,448,448,5,Great product and excellent quality,2026-02-09 07:35:08.384148
+449,449,449,2,Fantastic support and fast shipping,2026-06-26 07:35:08.384182
+450,450,450,1,Great product and excellent quality,2026-04-27 07:35:08.384218
+451,451,451,1,Very satisfied with the experience,2026-07-11 07:35:08.384253
+452,452,452,5,Very satisfied with the experience,2026-06-28 07:35:08.384287
+453,453,453,3,"Average product, could be better",2026-02-14 07:35:08.384320
+454,454,454,1,Delivery was late,2026-06-24 07:35:08.384353
+455,455,455,1,Good value for money,2026-07-21 07:35:08.384391
+456,456,456,2,"Average product, could be better",2026-03-17 07:35:08.384424
+457,457,457,3,Fantastic support and fast shipping,2026-04-01 07:35:08.384463
+458,458,458,5,Fantastic support and fast shipping,2026-07-02 07:35:08.384499
+459,459,459,2,Delivery was late,2026-07-26 07:35:08.384533
+460,460,460,4,Good value for money,2026-04-28 07:35:08.384566
+461,461,461,4,Good value for money,2026-04-16 07:35:08.384599
+462,462,462,3,Very satisfied with the experience,2026-04-16 07:35:08.384633
+463,463,463,5,Very satisfied with the experience,2026-04-04 07:35:08.384669
+464,464,464,2,Very satisfied with the experience,2026-07-24 07:35:08.384702
+465,465,465,3,Great product and excellent quality,2026-03-22 07:35:08.384737
+466,466,466,3,Delivery was late,2026-04-15 07:35:08.384770
+467,467,467,5,Good value for money,2026-05-10 07:35:08.384805
+468,468,468,5,Good value for money,2026-05-20 07:35:08.384839
+469,469,469,5,Fantastic support and fast shipping,2026-02-02 07:35:08.384874
+470,470,470,2,Delivery was late,2026-05-15 07:35:08.384909
+471,471,471,1,Fantastic support and fast shipping,2026-07-12 07:35:08.384942
+472,472,472,1,Fantastic support and fast shipping,2026-07-07 07:35:08.384975
+473,473,473,2,Delivery was late,2026-03-25 07:35:08.385008
+474,474,474,1,Fantastic support and fast shipping,2026-06-07 07:35:08.385043
+475,475,475,2,"Average product, could be better",2026-04-18 07:35:08.385076
+476,476,476,1,Great product and excellent quality,2026-05-09 07:35:08.385109
+477,477,477,4,Great product and excellent quality,2026-02-08 07:35:08.385142
+478,478,478,2,Fantastic support and fast shipping,2026-07-15 07:35:08.385176
+479,479,479,4,Fantastic support and fast shipping,2026-05-01 07:35:08.385273
+480,480,480,2,Fantastic support and fast shipping,2026-07-24 07:35:08.385306
+481,481,481,5,Fantastic support and fast shipping,2026-03-27 07:35:08.385341
+482,482,482,1,Very satisfied with the experience,2026-04-24 07:35:08.385376
+483,483,483,4,Delivery was late,2026-03-29 07:35:08.385409
+484,484,484,3,Fantastic support and fast shipping,2026-05-20 07:35:08.385445
+485,485,485,3,Very satisfied with the experience,2026-05-01 07:35:08.385479
+486,486,486,1,Good value for money,2026-03-16 07:35:08.385513
+487,487,487,5,Very satisfied with the experience,2026-04-23 07:35:08.385546
+488,488,488,1,Very satisfied with the experience,2026-03-16 07:35:08.385579
+489,489,489,1,Delivery was late,2026-03-08 07:35:08.385612
+490,490,490,3,Very satisfied with the experience,2026-02-22 07:35:08.385645
+491,491,491,5,Fantastic support and fast shipping,2026-02-24 07:35:08.385678
+492,492,492,3,Very satisfied with the experience,2026-07-15 07:35:08.385711
+493,493,493,3,Good value for money,2026-04-04 07:35:08.385745
+494,494,494,1,Fantastic support and fast shipping,2026-03-29 07:35:08.385779
+495,495,495,2,Fantastic support and fast shipping,2026-06-01 07:35:08.385813
+496,496,496,3,Delivery was late,2026-03-04 07:35:08.385845
+497,497,497,1,"Average product, could be better",2026-03-28 07:35:08.385880
+498,498,498,3,Delivery was late,2026-07-26 07:35:08.385912
+499,499,499,5,Great product and excellent quality,2026-06-01 07:35:08.385945
+500,500,500,1,Very satisfied with the experience,2026-05-22 07:35:08.385978
+501,501,501,4,Delivery was late,2026-02-27 07:35:08.386010
+502,502,502,1,Good value for money,2026-04-20 07:35:08.386043
+503,503,503,2,Very satisfied with the experience,2026-05-26 07:35:08.386076
+504,504,504,5,Great product and excellent quality,2026-02-16 07:35:08.386114
+505,505,505,1,Good value for money,2026-04-28 07:35:08.386150
+506,506,506,2,Good value for money,2026-05-24 07:35:08.386185
+507,507,507,1,Good value for money,2026-05-18 07:35:08.386219
+508,508,508,2,Very satisfied with the experience,2026-04-24 07:35:08.386253
+509,509,509,5,Fantastic support and fast shipping,2026-07-20 07:35:08.386286
+510,510,510,2,Delivery was late,2026-03-25 07:35:08.386319
+511,511,511,3,Very satisfied with the experience,2026-04-30 07:35:08.386354
+512,512,512,4,Fantastic support and fast shipping,2026-07-18 07:35:08.386387
+513,513,513,5,Fantastic support and fast shipping,2026-03-29 07:35:08.386419
+514,514,514,5,Fantastic support and fast shipping,2026-06-07 07:35:08.386452
+515,515,515,1,Fantastic support and fast shipping,2026-04-22 07:35:08.386484
+516,516,516,5,Great product and excellent quality,2026-04-07 07:35:08.386519
+517,517,517,1,Very satisfied with the experience,2026-04-20 07:35:08.386554
+518,518,518,4,Very satisfied with the experience,2026-05-13 07:35:08.386589
+519,519,519,1,Very satisfied with the experience,2026-04-14 07:35:08.386625
+520,520,520,5,"Average product, could be better",2026-07-10 07:35:08.386658
+521,521,521,5,Great product and excellent quality,2026-07-12 07:35:08.386692
+522,522,522,4,Great product and excellent quality,2026-06-16 07:35:08.386725
+523,523,523,2,Good value for money,2026-06-14 07:35:08.386757
+524,524,524,4,Fantastic support and fast shipping,2026-02-13 07:35:08.386790
+525,525,525,1,Good value for money,2026-07-27 07:35:08.386823
+526,526,526,4,Delivery was late,2026-06-24 07:35:08.386857
+527,527,527,5,Delivery was late,2026-04-22 07:35:08.386955
+528,528,528,5,Fantastic support and fast shipping,2026-02-08 07:35:08.386989
+529,529,529,5,Very satisfied with the experience,2026-02-16 07:35:08.387025
+530,530,530,3,Fantastic support and fast shipping,2026-02-27 07:35:08.387058
+531,531,531,1,Fantastic support and fast shipping,2026-02-11 07:35:08.387095
+532,532,532,1,"Average product, could be better",2026-07-27 07:35:08.387127
+533,533,533,2,"Average product, could be better",2026-03-29 07:35:08.387160
+534,534,534,5,"Average product, could be better",2026-07-05 07:35:08.387194
+535,535,535,1,Fantastic support and fast shipping,2026-06-22 07:35:08.387226
+536,536,536,1,Good value for money,2026-05-24 07:35:08.387259
+537,537,537,5,Very satisfied with the experience,2026-02-07 07:35:08.387292
+538,538,538,4,Great product and excellent quality,2026-07-22 07:35:08.387325
+539,539,539,5,"Average product, could be better",2026-06-24 07:35:08.387358
+540,540,540,1,Great product and excellent quality,2026-03-16 07:35:08.387391
+541,541,541,1,Good value for money,2026-07-24 07:35:08.387425
+542,542,542,1,Great product and excellent quality,2026-02-15 07:35:08.387460
+543,543,543,4,Good value for money,2026-03-20 07:35:08.387496
+544,544,544,4,Good value for money,2026-06-07 07:35:08.387528
+545,545,545,4,Fantastic support and fast shipping,2026-04-16 07:35:08.387564
+546,546,546,5,Good value for money,2026-04-28 07:35:08.387596
+547,547,547,3,Delivery was late,2026-03-29 07:35:08.387631
+548,548,548,3,"Average product, could be better",2026-07-14 07:35:08.387664
+549,549,549,4,"Average product, could be better",2026-04-07 07:35:08.387697
+550,550,550,4,Fantastic support and fast shipping,2026-05-21 07:35:08.387730
+551,551,551,5,Good value for money,2026-03-15 07:35:08.387763
+552,552,552,2,Good value for money,2026-03-05 07:35:08.387799
+553,553,553,4,Delivery was late,2026-05-27 07:35:08.387835
+554,554,554,3,"Average product, could be better",2026-06-15 07:35:08.387868
+555,555,555,5,"Average product, could be better",2026-06-01 07:35:08.387903
+556,556,556,2,Fantastic support and fast shipping,2026-07-27 07:35:08.387936
+557,557,557,2,"Average product, could be better",2026-06-25 07:35:08.387969
+558,558,558,1,Good value for money,2026-07-16 07:35:08.388003
+559,559,559,1,Delivery was late,2026-04-21 07:35:08.388036
+560,560,560,3,Very satisfied with the experience,2026-05-30 07:35:08.388068
+561,561,561,2,Great product and excellent quality,2026-04-17 07:35:08.388100
+562,562,562,5,Very satisfied with the experience,2026-05-01 07:35:08.388133
+563,563,563,3,Fantastic support and fast shipping,2026-06-12 07:35:08.388166
+564,564,564,2,Great product and excellent quality,2026-02-18 07:35:08.388198
+565,565,565,2,"Average product, could be better",2026-03-20 07:35:08.388235
+566,566,566,4,Very satisfied with the experience,2026-05-22 07:35:08.388268
+567,567,567,4,Great product and excellent quality,2026-06-12 07:35:08.388305
+568,568,568,1,Great product and excellent quality,2026-07-24 07:35:08.388340
+569,569,569,5,Great product and excellent quality,2026-02-23 07:35:08.388373
+570,570,570,4,Great product and excellent quality,2026-07-17 07:35:08.388406
+571,571,571,2,Very satisfied with the experience,2026-02-28 07:35:08.388438
+572,572,572,5,Delivery was late,2026-06-12 07:35:08.388471
+573,573,573,5,Fantastic support and fast shipping,2026-04-09 07:35:08.388503
+574,574,574,5,Delivery was late,2026-05-05 07:35:08.388536
+575,575,575,2,Delivery was late,2026-02-11 07:35:08.388634
+576,576,576,2,Very satisfied with the experience,2026-07-31 07:35:08.388669
+577,577,577,3,Great product and excellent quality,2026-07-29 07:35:08.388703
+578,578,578,2,Good value for money,2026-05-25 07:35:08.388736
+579,579,579,1,Fantastic support and fast shipping,2026-05-06 07:35:08.388770
+580,580,580,2,Good value for money,2026-03-17 07:35:08.388803
+581,581,581,3,Great product and excellent quality,2026-06-29 07:35:08.388836
+582,582,582,5,Very satisfied with the experience,2026-04-04 07:35:08.388869
+583,583,583,2,Good value for money,2026-04-07 07:35:08.388901
+584,584,584,5,Very satisfied with the experience,2026-05-02 07:35:08.388936
+585,585,585,2,Great product and excellent quality,2026-04-09 07:35:08.388968
+586,586,586,1,Delivery was late,2026-03-14 07:35:08.389002
+587,587,587,3,Great product and excellent quality,2026-05-20 07:35:08.389037
+588,588,588,5,Good value for money,2026-03-03 07:35:08.389070
+589,589,589,5,Very satisfied with the experience,2026-07-24 07:35:08.389109
+590,590,590,3,"Average product, could be better",2026-05-09 07:35:08.389143
+591,591,591,2,Very satisfied with the experience,2026-04-01 07:35:08.389178
+592,592,592,2,Good value for money,2026-07-14 07:35:08.389211
+593,593,593,1,Good value for money,2026-06-28 07:35:08.389250
+594,594,594,5,"Average product, could be better",2026-05-13 07:35:08.389285
+595,595,595,5,Delivery was late,2026-03-28 07:35:08.389318
+596,596,596,4,Good value for money,2026-05-29 07:35:08.389350
+597,597,597,3,Good value for money,2026-02-21 07:35:08.389384
+598,598,598,4,Very satisfied with the experience,2026-06-19 07:35:08.389416
+599,599,599,1,Great product and excellent quality,2026-05-28 07:35:08.389450
+600,600,600,2,Delivery was late,2026-06-18 07:35:08.389485
+601,601,601,3,Very satisfied with the experience,2026-06-16 07:35:08.389522
+602,602,602,1,Great product and excellent quality,2026-04-26 07:35:08.389554
+603,603,603,2,Great product and excellent quality,2026-06-19 07:35:08.389588
+604,604,604,1,Good value for money,2026-05-01 07:35:08.389620
+605,605,605,1,Great product and excellent quality,2026-06-06 07:35:08.389652
+606,606,606,4,Fantastic support and fast shipping,2026-02-08 07:35:08.389685
+607,607,607,1,Fantastic support and fast shipping,2026-06-02 07:35:08.389718
+608,608,608,2,Delivery was late,2026-06-23 07:35:08.389750
+609,609,609,3,Very satisfied with the experience,2026-07-25 07:35:08.389783
+610,610,610,3,"Average product, could be better",2026-06-15 07:35:08.389817
+611,611,611,2,"Average product, could be better",2026-06-01 07:35:08.389851
+612,612,612,4,"Average product, could be better",2026-02-19 07:35:08.389883
+613,613,613,1,Very satisfied with the experience,2026-04-25 07:35:08.389917
+614,614,614,4,"Average product, could be better",2026-07-13 07:35:08.389949
+615,615,615,3,Very satisfied with the experience,2026-02-17 07:35:08.389981
+616,616,616,3,Very satisfied with the experience,2026-02-03 07:35:08.390073
+617,617,617,4,"Average product, could be better",2026-02-07 07:35:08.390105
+618,618,618,2,Very satisfied with the experience,2026-04-13 07:35:08.390140
+619,619,619,2,Fantastic support and fast shipping,2026-04-21 07:35:08.390172
+620,620,620,3,Good value for money,2026-06-14 07:35:08.390206
+621,621,621,4,Very satisfied with the experience,2026-02-21 07:35:08.390241
+622,622,622,4,Very satisfied with the experience,2026-02-09 07:35:08.390336
+623,623,623,5,Delivery was late,2026-04-13 07:35:08.390374
+624,624,624,4,Very satisfied with the experience,2026-06-26 07:35:08.390440
+625,625,625,1,Delivery was late,2026-02-19 07:35:08.390479
+626,626,626,1,Fantastic support and fast shipping,2026-04-24 07:35:08.390513
+627,627,627,4,Good value for money,2026-07-02 07:35:08.390547
+628,628,628,3,Very satisfied with the experience,2026-06-05 07:35:08.390583
+629,629,629,1,"Average product, could be better",2026-02-17 07:35:08.390619
+630,630,630,5,Delivery was late,2026-06-13 07:35:08.390654
+631,631,631,3,Very satisfied with the experience,2026-04-29 07:35:08.390689
+632,632,632,2,Very satisfied with the experience,2026-02-28 07:35:08.390724
+633,633,633,4,Good value for money,2026-05-18 07:35:08.390761
+634,634,634,3,Very satisfied with the experience,2026-02-13 07:35:08.390797
+635,635,635,3,Delivery was late,2026-02-03 07:35:08.390832
+636,636,636,5,Good value for money,2026-06-26 07:35:08.390866
+637,637,637,2,Fantastic support and fast shipping,2026-04-26 07:35:08.390902
+638,638,638,2,Very satisfied with the experience,2026-02-21 07:35:08.390938
+639,639,639,4,Fantastic support and fast shipping,2026-05-22 07:35:08.390972
+640,640,640,5,"Average product, could be better",2026-03-31 07:35:08.391007
+641,641,641,5,Fantastic support and fast shipping,2026-06-14 07:35:08.391039
+642,642,642,1,Fantastic support and fast shipping,2026-06-15 07:35:08.391071
+643,643,643,1,Great product and excellent quality,2026-03-24 07:35:08.391103
+644,644,644,5,Good value for money,2026-03-28 07:35:08.391138
+645,645,645,5,"Average product, could be better",2026-06-06 07:35:08.391171
+646,646,646,4,Delivery was late,2026-02-04 07:35:08.391203
+647,647,647,5,Great product and excellent quality,2026-05-29 07:35:08.391235
+648,648,648,1,Delivery was late,2026-07-06 07:35:08.391267
+649,649,649,5,Fantastic support and fast shipping,2026-05-20 07:35:08.391303
+650,650,650,4,"Average product, could be better",2026-03-31 07:35:08.391335
+651,651,651,5,Good value for money,2026-04-15 07:35:08.391367
+652,652,652,3,Great product and excellent quality,2026-04-18 07:35:08.391402
+653,653,653,1,Very satisfied with the experience,2026-04-14 07:35:08.391440
+654,654,654,5,Very satisfied with the experience,2026-05-04 07:35:08.391476
+655,655,655,4,Great product and excellent quality,2026-03-27 07:35:08.391511
+656,656,656,5,Great product and excellent quality,2026-04-22 07:35:08.391543
+657,657,657,1,Delivery was late,2026-07-30 07:35:08.391575
+658,658,658,4,Great product and excellent quality,2026-07-30 07:35:08.391607
+659,659,659,4,Very satisfied with the experience,2026-06-20 07:35:08.391639
+660,660,660,1,Delivery was late,2026-06-20 07:35:08.391672
+661,661,661,4,"Average product, could be better",2026-06-28 07:35:08.391706
+662,662,662,4,Great product and excellent quality,2026-03-31 07:35:08.391740
+663,663,663,2,Very satisfied with the experience,2026-04-01 07:35:08.391772
+664,664,664,2,Good value for money,2026-04-13 07:35:08.391807
+665,665,665,1,Very satisfied with the experience,2026-05-15 07:35:08.391839
+666,666,666,4,Delivery was late,2026-05-21 07:35:08.391871
+667,667,667,3,Delivery was late,2026-04-30 07:35:08.391905
+668,668,668,5,Great product and excellent quality,2026-02-14 07:35:08.391938
+669,669,669,2,Good value for money,2026-04-15 07:35:08.391971
+670,670,670,1,"Average product, could be better",2026-06-19 07:35:08.392835
+671,671,671,2,Great product and excellent quality,2026-04-10 07:35:08.392868
+672,672,672,5,Very satisfied with the experience,2026-03-19 07:35:08.392900
+673,673,673,3,Good value for money,2026-06-27 07:35:08.392936
+674,674,674,3,"Average product, could be better",2026-06-27 07:35:08.392970
+675,675,675,5,"Average product, could be better",2026-07-04 07:35:08.393003
+676,676,676,2,Very satisfied with the experience,2026-04-08 07:35:08.393038
+677,677,677,2,Fantastic support and fast shipping,2026-02-16 07:35:08.393070
+678,678,678,1,Very satisfied with the experience,2026-03-19 07:35:08.393104
+679,679,679,3,Great product and excellent quality,2026-06-25 07:35:08.393136
+680,680,680,3,Delivery was late,2026-03-31 07:35:08.393169
+681,681,681,1,Good value for money,2026-06-04 07:35:08.393202
+682,682,682,2,Great product and excellent quality,2026-07-05 07:35:08.393235
+683,683,683,3,"Average product, could be better",2026-02-28 07:35:08.393267
+684,684,684,1,Fantastic support and fast shipping,2026-07-31 07:35:08.393299
+685,685,685,2,Delivery was late,2026-07-08 07:35:08.393334
+686,686,686,2,Fantastic support and fast shipping,2026-04-24 07:35:08.393366
+687,687,687,2,Fantastic support and fast shipping,2026-02-02 07:35:08.393399
+688,688,688,4,Delivery was late,2026-06-25 07:35:08.393435
+689,689,689,1,Fantastic support and fast shipping,2026-02-03 07:35:08.393470
+690,690,690,1,Great product and excellent quality,2026-03-08 07:35:08.393502
+691,691,691,1,Fantastic support and fast shipping,2026-05-19 07:35:08.393534
+692,692,692,3,Fantastic support and fast shipping,2026-03-07 07:35:08.393566
+693,693,693,2,Great product and excellent quality,2026-04-22 07:35:08.393599
+694,694,694,2,Very satisfied with the experience,2026-05-23 07:35:08.393632
+695,695,695,2,"Average product, could be better",2026-02-18 07:35:08.393666
+696,696,696,5,Very satisfied with the experience,2026-06-12 07:35:08.393699
+697,697,697,1,Good value for money,2026-03-03 07:35:08.393735
+698,698,698,2,Fantastic support and fast shipping,2026-06-20 07:35:08.393767
+699,699,699,5,Good value for money,2026-02-26 07:35:08.393800
+700,700,700,2,Delivery was late,2026-05-17 07:35:08.393833
+701,701,701,1,Good value for money,2026-03-08 07:35:08.393871
+702,702,702,4,Great product and excellent quality,2026-03-24 07:35:08.393903
+703,703,703,4,Delivery was late,2026-06-21 07:35:08.393936
+704,704,704,2,Great product and excellent quality,2026-07-04 07:35:08.393970
+705,705,705,1,Very satisfied with the experience,2026-03-14 07:35:08.394005
+706,706,706,2,Great product and excellent quality,2026-07-26 07:35:08.394038
+707,707,707,3,Good value for money,2026-06-14 07:35:08.394070
+708,708,708,3,Very satisfied with the experience,2026-02-04 07:35:08.394102
+709,709,709,2,Very satisfied with the experience,2026-03-26 07:35:08.394138
+710,710,710,1,"Average product, could be better",2026-07-22 07:35:08.394171
+711,711,711,3,Delivery was late,2026-07-27 07:35:08.394204
+712,712,712,1,Delivery was late,2026-06-16 07:35:08.394240
+713,713,713,1,Great product and excellent quality,2026-02-15 07:35:08.394276
+714,714,714,4,Delivery was late,2026-06-07 07:35:08.394309
+715,715,715,2,Delivery was late,2026-03-24 07:35:08.394342
+716,716,716,3,Good value for money,2026-03-21 07:35:08.394376
+717,717,717,2,Very satisfied with the experience,2026-02-19 07:35:08.394412
+718,718,718,4,"Average product, could be better",2026-02-21 07:35:08.394511
+719,719,719,5,Fantastic support and fast shipping,2026-07-11 07:35:08.394545
+720,720,720,2,"Average product, could be better",2026-04-26 07:35:08.394585
+721,721,721,3,Delivery was late,2026-06-15 07:35:08.394620
+722,722,722,4,Fantastic support and fast shipping,2026-04-26 07:35:08.394656
+723,723,723,3,Delivery was late,2026-03-30 07:35:08.394691
+724,724,724,2,"Average product, could be better",2026-06-06 07:35:08.394724
+725,725,725,5,Fantastic support and fast shipping,2026-02-15 07:35:08.394760
+726,726,726,5,"Average product, could be better",2026-05-13 07:35:08.394793
+727,727,727,2,Very satisfied with the experience,2026-03-08 07:35:08.394826
+728,728,728,1,Very satisfied with the experience,2026-07-02 07:35:08.394860
+729,729,729,1,Fantastic support and fast shipping,2026-05-08 07:35:08.394893
+730,730,730,1,"Average product, could be better",2026-03-07 07:35:08.394926
+731,731,731,2,Very satisfied with the experience,2026-02-28 07:35:08.394959
+732,732,732,5,"Average product, could be better",2026-07-21 07:35:08.394993
+733,733,733,4,Delivery was late,2026-02-25 07:35:08.395029
+734,734,734,1,Great product and excellent quality,2026-06-26 07:35:08.395064
+735,735,735,1,Great product and excellent quality,2026-07-19 07:35:08.395099
+736,736,736,4,"Average product, could be better",2026-02-18 07:35:08.395133
+737,737,737,3,Delivery was late,2026-07-10 07:35:08.395170
+738,738,738,4,Good value for money,2026-07-05 07:35:08.395205
+739,739,739,4,Very satisfied with the experience,2026-02-23 07:35:08.395239
+740,740,740,1,Very satisfied with the experience,2026-07-03 07:35:08.395274
+741,741,741,2,Very satisfied with the experience,2026-06-23 07:35:08.395308
+742,742,742,4,Good value for money,2026-06-16 07:35:08.395381
+743,743,743,5,Great product and excellent quality,2026-05-24 07:35:08.395415
+744,744,744,2,Good value for money,2026-06-09 07:35:08.395449
+745,745,745,1,Fantastic support and fast shipping,2026-06-19 07:35:08.395489
+746,746,746,5,Great product and excellent quality,2026-05-02 07:35:08.395525
+747,747,747,2,Good value for money,2026-07-07 07:35:08.395559
+748,748,748,3,Delivery was late,2026-05-07 07:35:08.395594
+749,749,749,1,Very satisfied with the experience,2026-05-30 07:35:08.395630
+750,750,750,2,"Average product, could be better",2026-05-25 07:35:08.395664
+751,751,751,5,Delivery was late,2026-06-30 07:35:08.395696
+752,752,752,5,Delivery was late,2026-03-11 07:35:08.395728
+753,753,753,1,Delivery was late,2026-04-12 07:35:08.395761
+754,754,754,3,Great product and excellent quality,2026-06-25 07:35:08.395795
+755,755,755,1,Very satisfied with the experience,2026-05-26 07:35:08.395830
+756,756,756,1,Delivery was late,2026-05-16 07:35:08.395865
+757,757,757,4,Delivery was late,2026-04-03 07:35:08.395903
+758,758,758,5,"Average product, could be better",2026-04-27 07:35:08.395936
+759,759,759,3,Great product and excellent quality,2026-02-15 07:35:08.395973
+760,760,760,1,Fantastic support and fast shipping,2026-02-02 07:35:08.396008
+761,761,761,2,Fantastic support and fast shipping,2026-07-02 07:35:08.396049
+762,762,762,3,Great product and excellent quality,2026-04-19 07:35:08.396088
+763,763,763,2,Fantastic support and fast shipping,2026-06-18 07:35:08.396121
+764,764,764,1,Very satisfied with the experience,2026-04-04 07:35:08.396153
+765,765,765,3,Great product and excellent quality,2026-06-26 07:35:08.396253
+766,766,766,2,Great product and excellent quality,2026-02-14 07:35:08.396285
+767,767,767,4,Fantastic support and fast shipping,2026-04-26 07:35:08.396320
+768,768,768,2,Fantastic support and fast shipping,2026-06-02 07:35:08.396353
+769,769,769,5,Great product and excellent quality,2026-05-28 07:35:08.396389
+770,770,770,5,Good value for money,2026-03-11 07:35:08.396421
+771,771,771,1,Great product and excellent quality,2026-06-09 07:35:08.396456
+772,772,772,2,Good value for money,2026-03-07 07:35:08.396488
+773,773,773,1,Delivery was late,2026-07-01 07:35:08.396522
+774,774,774,3,Good value for money,2026-07-12 07:35:08.396554
+775,775,775,4,Delivery was late,2026-05-26 07:35:08.396587
+776,776,776,5,Great product and excellent quality,2026-02-25 07:35:08.396619
+777,777,777,1,Great product and excellent quality,2026-07-22 07:35:08.396652
+778,778,778,4,"Average product, could be better",2026-02-07 07:35:08.396685
+779,779,779,1,Very satisfied with the experience,2026-02-24 07:35:08.396718
+780,780,780,2,Great product and excellent quality,2026-07-17 07:35:08.396754
+781,781,781,1,Fantastic support and fast shipping,2026-02-13 07:35:08.396788
+782,782,782,3,"Average product, could be better",2026-02-14 07:35:08.396821
+783,783,783,2,Great product and excellent quality,2026-06-26 07:35:08.396853
+784,784,784,1,Very satisfied with the experience,2026-07-26 07:35:08.396885
+785,785,785,4,Very satisfied with the experience,2026-04-09 07:35:08.396917
+786,786,786,5,Delivery was late,2026-06-06 07:35:08.396951
+787,787,787,4,Very satisfied with the experience,2026-03-07 07:35:08.396984
+788,788,788,5,Good value for money,2026-05-17 07:35:08.397016
+789,789,789,4,Good value for money,2026-04-04 07:35:08.397049
+790,790,790,3,"Average product, could be better",2026-07-15 07:35:08.397084
+791,791,791,1,Great product and excellent quality,2026-06-14 07:35:08.397120
+792,792,792,5,Delivery was late,2026-07-20 07:35:08.397155
+793,793,793,1,Very satisfied with the experience,2026-02-17 07:35:08.397189
+794,794,794,1,"Average product, could be better",2026-06-20 07:35:08.397223
+795,795,795,2,Delivery was late,2026-04-26 07:35:08.397255
+796,796,796,5,Fantastic support and fast shipping,2026-04-15 07:35:08.397287
+797,797,797,2,Delivery was late,2026-04-30 07:35:08.397320
+798,798,798,4,Delivery was late,2026-02-27 07:35:08.397356
+799,799,799,5,Good value for money,2026-05-26 07:35:08.397388
+800,800,800,2,Great product and excellent quality,2026-07-01 07:35:08.397421
+801,801,801,4,"Average product, could be better",2026-04-14 07:35:08.397455
+802,802,802,3,Fantastic support and fast shipping,2026-04-08 07:35:08.397487
+803,803,803,5,Great product and excellent quality,2026-03-02 07:35:08.397522
+804,804,804,1,Delivery was late,2026-03-09 07:35:08.397554
+805,805,805,5,Delivery was late,2026-02-24 07:35:08.397588
+806,806,806,2,Great product and excellent quality,2026-02-11 07:35:08.397620
+807,807,807,4,"Average product, could be better",2026-04-09 07:35:08.397653
+808,808,808,3,Good value for money,2026-02-10 07:35:08.397685
+809,809,809,3,Fantastic support and fast shipping,2026-07-22 07:35:08.397717
+810,810,810,4,"Average product, could be better",2026-06-05 07:35:08.397758
+811,811,811,2,Fantastic support and fast shipping,2026-07-31 07:35:08.397791
+812,812,812,4,Delivery was late,2026-03-18 07:35:08.397824
+813,813,813,1,Good value for money,2026-05-19 07:35:08.397919
+814,814,814,4,Good value for money,2026-03-28 07:35:08.397954
+815,815,815,4,Very satisfied with the experience,2026-04-14 07:35:08.397986
+816,816,816,2,"Average product, could be better",2026-02-21 07:35:08.398018
+817,817,817,1,"Average product, could be better",2026-02-14 07:35:08.398052
+818,818,818,5,Good value for money,2026-05-29 07:35:08.398086
+819,819,819,2,Fantastic support and fast shipping,2026-07-23 07:35:08.398118
+820,820,820,5,Great product and excellent quality,2026-02-27 07:35:08.398150
+821,821,821,2,Very satisfied with the experience,2026-07-06 07:35:08.398182
+822,822,822,5,Fantastic support and fast shipping,2026-03-24 07:35:08.398219
+823,823,823,4,Delivery was late,2026-03-09 07:35:08.398251
+824,824,824,4,Good value for money,2026-02-24 07:35:08.398284
+825,825,825,5,"Average product, could be better",2026-04-18 07:35:08.398319
+826,826,826,1,Fantastic support and fast shipping,2026-07-05 07:35:08.398351
+827,827,827,2,Very satisfied with the experience,2026-02-21 07:35:08.398384
+828,828,828,5,Delivery was late,2026-04-27 07:35:08.398416
+829,829,829,2,Delivery was late,2026-06-19 07:35:08.398450
+830,830,830,1,Fantastic support and fast shipping,2026-03-16 07:35:08.398481
+831,831,831,5,Very satisfied with the experience,2026-05-14 07:35:08.398513
+832,832,832,3,Good value for money,2026-03-09 07:35:08.398545
+833,833,833,1,Good value for money,2026-06-02 07:35:08.398578
+834,834,834,4,Very satisfied with the experience,2026-05-09 07:35:08.398611
+835,835,835,1,"Average product, could be better",2026-02-27 07:35:08.398643
+836,836,836,3,Very satisfied with the experience,2026-06-16 07:35:08.398676
+837,837,837,5,Delivery was late,2026-06-12 07:35:08.398712
+838,838,838,4,Very satisfied with the experience,2026-07-20 07:35:08.398793
+839,839,839,5,Very satisfied with the experience,2026-07-05 07:35:08.398834
+840,840,840,5,Great product and excellent quality,2026-05-21 07:35:08.398873
+841,841,841,4,Great product and excellent quality,2026-04-16 07:35:08.398914
+842,842,842,5,Fantastic support and fast shipping,2026-04-18 07:35:08.398952
+843,843,843,1,Great product and excellent quality,2026-07-08 07:35:08.398986
+844,844,844,2,Great product and excellent quality,2026-05-14 07:35:08.399023
+845,845,845,2,Good value for money,2026-05-23 07:35:08.399056
+846,846,846,2,Fantastic support and fast shipping,2026-07-22 07:35:08.399091
+847,847,847,1,Delivery was late,2026-03-22 07:35:08.399125
+848,848,848,4,"Average product, could be better",2026-02-13 07:35:08.399159
+849,849,849,2,Delivery was late,2026-04-03 07:35:08.399192
+850,850,850,5,Delivery was late,2026-05-06 07:35:08.399227
+851,851,851,5,Good value for money,2026-06-19 07:35:08.399260
+852,852,852,4,Delivery was late,2026-04-21 07:35:08.399293
+853,853,853,2,Good value for money,2026-02-06 07:35:08.399327
+854,854,854,4,Fantastic support and fast shipping,2026-04-04 07:35:08.399360
+855,855,855,5,Very satisfied with the experience,2026-07-13 07:35:08.399392
+856,856,856,4,"Average product, could be better",2026-07-12 07:35:08.399424
+857,857,857,3,Delivery was late,2026-04-23 07:35:08.399458
+858,858,858,1,Very satisfied with the experience,2026-06-20 07:35:08.399495
+859,859,859,1,Fantastic support and fast shipping,2026-02-27 07:35:08.399530
+860,860,860,3,Great product and excellent quality,2026-03-02 07:35:08.399631
+861,861,861,3,"Average product, could be better",2026-05-28 07:35:08.399670
+862,862,862,5,Great product and excellent quality,2026-07-03 07:35:08.399706
+863,863,863,3,Delivery was late,2026-04-05 07:35:08.399738
+864,864,864,1,"Average product, could be better",2026-05-06 07:35:08.399771
+865,865,865,5,Good value for money,2026-05-26 07:35:08.399808
+866,866,866,1,"Average product, could be better",2026-02-27 07:35:08.399840
+867,867,867,5,Very satisfied with the experience,2026-02-19 07:35:08.399873
+868,868,868,5,Fantastic support and fast shipping,2026-05-08 07:35:08.399905
+869,869,869,2,Fantastic support and fast shipping,2026-02-09 07:35:08.399937
+870,870,870,4,Delivery was late,2026-02-09 07:35:08.399969
+871,871,871,2,Very satisfied with the experience,2026-04-26 07:35:08.400005
+872,872,872,3,Very satisfied with the experience,2026-06-06 07:35:08.400038
+873,873,873,4,Very satisfied with the experience,2026-05-19 07:35:08.400072
+874,874,874,4,"Average product, could be better",2026-04-15 07:35:08.400104
+875,875,875,2,"Average product, could be better",2026-06-19 07:35:08.400137
+876,876,876,2,Fantastic support and fast shipping,2026-06-17 07:35:08.400169
+877,877,877,4,"Average product, could be better",2026-05-31 07:35:08.400203
+878,878,878,4,Great product and excellent quality,2026-03-20 07:35:08.400236
+879,879,879,1,Fantastic support and fast shipping,2026-04-29 07:35:08.400268
+880,880,880,3,Very satisfied with the experience,2026-06-25 07:35:08.400300
+881,881,881,3,Delivery was late,2026-02-05 07:35:08.400332
+882,882,882,3,"Average product, could be better",2026-05-18 07:35:08.400367
+883,883,883,4,Delivery was late,2026-05-27 07:35:08.400401
+884,884,884,2,"Average product, could be better",2026-05-04 07:35:08.400436
+885,885,885,1,Very satisfied with the experience,2026-02-10 07:35:08.400469
+886,886,886,1,Fantastic support and fast shipping,2026-03-19 07:35:08.400504
+887,887,887,1,"Average product, could be better",2026-07-17 07:35:08.400537
+888,888,888,3,"Average product, could be better",2026-03-12 07:35:08.400569
+889,889,889,5,Great product and excellent quality,2026-07-18 07:35:08.400603
+890,890,890,3,Very satisfied with the experience,2026-03-08 07:35:08.400638
+891,891,891,2,Very satisfied with the experience,2026-05-08 07:35:08.400671
+892,892,892,4,Good value for money,2026-07-30 07:35:08.400706
+893,893,893,5,Fantastic support and fast shipping,2026-06-15 07:35:08.400741
+894,894,894,2,Fantastic support and fast shipping,2026-05-10 07:35:08.400774
+895,895,895,3,Fantastic support and fast shipping,2026-06-03 07:35:08.400808
+896,896,896,4,"Average product, could be better",2026-04-16 07:35:08.400841
+897,897,897,3,Fantastic support and fast shipping,2026-05-17 07:35:08.400874
+898,898,898,1,Great product and excellent quality,2026-05-30 07:35:08.400906
+899,899,899,1,Great product and excellent quality,2026-02-18 07:35:08.400938
+900,900,900,3,"Average product, could be better",2026-03-07 07:35:08.400970
+901,901,901,3,Great product and excellent quality,2026-04-30 07:35:08.401005
+902,902,902,1,"Average product, could be better",2026-06-26 07:35:08.401037
+903,903,903,1,Very satisfied with the experience,2026-03-24 07:35:08.401069
+904,904,904,1,"Average product, could be better",2026-03-07 07:35:08.401102
+905,905,905,5,Very satisfied with the experience,2026-02-04 07:35:08.401136
+906,906,906,2,Delivery was late,2026-03-04 07:35:08.401168
+907,907,907,1,Great product and excellent quality,2026-03-17 07:35:08.401204
+908,908,908,2,Delivery was late,2026-04-14 07:35:08.401300
+909,909,909,2,Fantastic support and fast shipping,2026-04-25 07:35:08.401333
+910,910,910,1,"Average product, could be better",2026-06-20 07:35:08.401365
+911,911,911,4,Great product and excellent quality,2026-07-27 07:35:08.401397
+912,912,912,1,Fantastic support and fast shipping,2026-02-15 07:35:08.401429
+913,913,913,5,Good value for money,2026-06-22 07:35:08.401463
+914,914,914,5,Good value for money,2026-06-23 07:35:08.401495
+915,915,915,3,"Average product, could be better",2026-07-24 07:35:08.401528
+916,916,916,1,Great product and excellent quality,2026-05-03 07:35:08.401561
+917,917,917,4,Very satisfied with the experience,2026-05-27 07:35:08.401594
+918,918,918,2,"Average product, could be better",2026-06-25 07:35:08.401626
+919,919,919,4,Fantastic support and fast shipping,2026-02-10 07:35:08.401660
+920,920,920,1,Good value for money,2026-06-25 07:35:08.401693
+921,921,921,2,Very satisfied with the experience,2026-04-06 07:35:08.401725
+922,922,922,4,"Average product, could be better",2026-02-12 07:35:08.401757
+923,923,923,1,Great product and excellent quality,2026-03-13 07:35:08.401790
+924,924,924,2,Good value for money,2026-02-07 07:35:08.401825
+925,925,925,2,"Average product, could be better",2026-04-27 07:35:08.401859
+926,926,926,5,Very satisfied with the experience,2026-04-15 07:35:08.401894
+927,927,927,4,Great product and excellent quality,2026-06-26 07:35:08.401928
+928,928,928,2,Delivery was late,2026-04-20 07:35:08.401964
+929,929,929,5,Delivery was late,2026-07-05 07:35:08.401997
+930,930,930,3,Very satisfied with the experience,2026-07-03 07:35:08.402030
+931,931,931,4,Good value for money,2026-02-02 07:35:08.402065
+932,932,932,1,Great product and excellent quality,2026-07-06 07:35:08.402097
+933,933,933,4,"Average product, could be better",2026-02-26 07:35:08.402130
+934,934,934,5,Fantastic support and fast shipping,2026-04-15 07:35:08.402162
+935,935,935,2,"Average product, could be better",2026-07-25 07:35:08.402196
+936,936,936,4,Delivery was late,2026-07-19 07:35:08.402229
+937,937,937,3,Delivery was late,2026-02-24 07:35:08.402266
+938,938,938,4,Good value for money,2026-06-10 07:35:08.402298
+939,939,939,3,"Average product, could be better",2026-03-24 07:35:08.402334
+940,940,940,3,Good value for money,2026-03-17 07:35:08.402367
+941,941,941,2,"Average product, could be better",2026-02-11 07:35:08.402399
+942,942,942,4,Very satisfied with the experience,2026-04-16 07:35:08.402432
+943,943,943,3,Very satisfied with the experience,2026-04-29 07:35:08.402466
+944,944,944,4,Fantastic support and fast shipping,2026-03-16 07:35:08.402498
+945,945,945,4,Very satisfied with the experience,2026-03-02 07:35:08.402531
+946,946,946,3,Fantastic support and fast shipping,2026-07-15 07:35:08.402563
+947,947,947,3,"Average product, could be better",2026-05-08 07:35:08.402595
+948,948,948,1,Great product and excellent quality,2026-02-24 07:35:08.402628
+949,949,949,3,Great product and excellent quality,2026-07-09 07:35:08.402663
+950,950,950,4,Good value for money,2026-05-28 07:35:08.402698
+951,951,951,1,"Average product, could be better",2026-03-11 07:35:08.402730
+952,952,952,2,Great product and excellent quality,2026-06-13 07:35:08.402762
+953,953,953,5,Good value for money,2026-06-23 07:35:08.402794
+954,954,954,2,"Average product, could be better",2026-02-25 07:35:08.402827
+955,955,955,4,Good value for money,2026-07-21 07:35:08.402859
+956,956,956,5,Very satisfied with the experience,2026-02-17 07:35:08.402958
+957,957,957,1,Very satisfied with the experience,2026-05-10 07:35:08.402990
+958,958,958,5,"Average product, could be better",2026-03-15 07:35:08.403022
+959,959,959,5,Very satisfied with the experience,2026-03-19 07:35:08.403054
+960,960,960,4,Good value for money,2026-06-09 07:35:08.403089
+961,961,961,2,Very satisfied with the experience,2026-04-27 07:35:08.403129
+962,962,962,3,Fantastic support and fast shipping,2026-04-18 07:35:08.403162
+963,963,963,4,Fantastic support and fast shipping,2026-06-29 07:35:08.403199
+964,964,964,4,Delivery was late,2026-05-20 07:35:08.403231
+965,965,965,1,"Average product, could be better",2026-04-02 07:35:08.403264
+966,966,966,4,Good value for money,2026-03-01 07:35:08.403296
+967,967,967,2,Very satisfied with the experience,2026-02-17 07:35:08.403328
+968,968,968,2,Great product and excellent quality,2026-02-27 07:35:08.403363
+969,969,969,3,Good value for money,2026-04-28 07:35:08.403395
+970,970,970,5,Great product and excellent quality,2026-03-14 07:35:08.403427
+971,971,971,3,Delivery was late,2026-02-19 07:35:08.403462
+972,972,972,1,Delivery was late,2026-04-12 07:35:08.403494
+973,973,973,4,Very satisfied with the experience,2026-04-07 07:35:08.403537
+974,974,974,5,Good value for money,2026-06-12 07:35:08.403577
+975,975,975,1,Very satisfied with the experience,2026-03-15 07:35:08.403614
+976,976,976,2,Great product and excellent quality,2026-04-24 07:35:08.403659
+977,977,977,4,Good value for money,2026-05-12 07:35:08.403692
+978,978,978,2,Delivery was late,2026-06-23 07:35:08.403724
+979,979,979,5,Great product and excellent quality,2026-06-21 07:35:08.403756
+980,980,980,2,Fantastic support and fast shipping,2026-04-09 07:35:08.403794
+981,981,981,4,Good value for money,2026-07-26 07:35:08.403826
+982,982,982,2,Great product and excellent quality,2026-02-19 07:35:08.403858
+983,983,983,5,Delivery was late,2026-07-25 07:35:08.403897
+984,984,984,4,Fantastic support and fast shipping,2026-02-13 07:35:08.403932
+985,985,985,3,Great product and excellent quality,2026-02-03 07:35:08.403966
+986,986,986,1,Delivery was late,2026-04-07 07:35:08.403998
+987,987,987,1,Delivery was late,2026-06-22 07:35:08.404032
+988,988,988,4,Fantastic support and fast shipping,2026-02-20 07:35:08.404064
+989,989,989,2,Fantastic support and fast shipping,2026-06-08 07:35:08.404097
+990,990,990,5,Delivery was late,2026-07-16 07:35:08.404129
+991,991,991,2,Delivery was late,2026-06-20 07:35:08.404161
+992,992,992,3,Great product and excellent quality,2026-05-20 07:35:08.404197
+993,993,993,1,Fantastic support and fast shipping,2026-05-11 07:35:08.404230
+994,994,994,4,Delivery was late,2026-05-12 07:35:08.404265
+995,995,995,4,Very satisfied with the experience,2026-06-22 07:35:08.404299
+996,996,996,4,Great product and excellent quality,2026-02-12 07:35:08.404332
+997,997,997,3,Good value for money,2026-03-13 07:35:08.404366
+998,998,998,3,Great product and excellent quality,2026-03-31 07:35:08.404398
+999,999,999,4,"Average product, could be better",2026-02-25 07:35:08.404431
+1000,1000,1000,4,Delivery was late,2026-05-29 07:35:08.404463

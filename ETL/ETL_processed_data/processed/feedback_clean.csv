@@ -1,0 +1,1001 @@
+feedback_id,customer_id,product_id,rating,feedback_text,feedback_date,sentiment_id,sentiment,confidence,model_name,sentiment_label,feedback_bucket
+1,1,1,4,"Average product, could be better",2026-07-23 07:35:08.364204,1,positive,0.55,bert-base,positive,positive
+2,2,2,4,Fantastic support and fast shipping,2026-05-05 07:35:08.364275,2,neutral,0.58,roberta-base,neutral,positive
+3,3,3,1,Very satisfied with the experience,2026-03-12 07:35:08.364492,3,neutral,0.91,distilbert,neutral,negative
+4,4,4,3,Very satisfied with the experience,2026-04-06 07:35:08.364531,4,negative,0.91,bert-base,negative,neutral
+5,5,5,4,Very satisfied with the experience,2026-05-23 07:35:08.364571,5,negative,0.84,bert-base,negative,positive
+6,6,6,2,Delivery was late,2026-02-14 07:35:08.364609,6,neutral,0.69,distilbert,neutral,negative
+7,7,7,2,Good value for money,2026-03-23 07:35:08.364646,7,neutral,0.54,bert-base,neutral,negative
+8,8,8,3,"Average product, could be better",2026-03-12 07:35:08.364690,8,positive,0.83,bert-base,positive,neutral
+9,9,9,1,"Average product, could be better",2026-02-21 07:35:08.364728,9,neutral,0.91,distilbert,neutral,negative
+10,10,10,2,Delivery was late,2026-07-17 07:35:08.364767,10,positive,0.93,bert-base,positive,negative
+11,11,11,5,"Average product, could be better",2026-04-14 07:35:08.364808,11,positive,0.96,distilbert,positive,positive
+12,12,12,1,Good value for money,2026-05-06 07:35:08.364845,12,positive,0.79,bert-base,positive,negative
+13,13,13,3,Good value for money,2026-02-10 07:35:08.364882,13,neutral,0.6,bert-base,neutral,neutral
+14,14,14,4,Very satisfied with the experience,2026-07-18 07:35:08.364921,14,negative,0.82,distilbert,negative,positive
+15,15,15,2,Very satisfied with the experience,2026-05-21 07:35:08.364960,15,neutral,0.62,bert-base,neutral,negative
+16,16,16,2,Very satisfied with the experience,2026-04-20 07:35:08.364997,16,positive,0.58,bert-base,positive,negative
+17,17,17,5,Fantastic support and fast shipping,2026-07-16 07:35:08.365034,17,negative,0.65,bert-base,negative,positive
+18,18,18,4,Good value for money,2026-07-01 07:35:08.365071,18,negative,0.62,distilbert,negative,positive
+19,19,19,4,Delivery was late,2026-06-28 07:35:08.365107,19,negative,0.82,roberta-base,negative,positive
+20,20,20,1,Delivery was late,2026-05-30 07:35:08.365143,20,neutral,0.64,roberta-base,neutral,negative
+21,21,21,5,Great product and excellent quality,2026-06-22 07:35:08.365190,21,neutral,0.64,bert-base,neutral,positive
+22,22,22,3,Very satisfied with the experience,2026-07-20 07:35:08.365226,22,positive,0.66,bert-base,positive,neutral
+23,23,23,3,Great product and excellent quality,2026-03-04 07:35:08.365262,23,negative,0.57,bert-base,negative,neutral
+24,24,24,3,Great product and excellent quality,2026-03-10 07:35:08.365299,24,neutral,0.98,distilbert,neutral,neutral
+25,25,25,2,Fantastic support and fast shipping,2026-05-24 07:35:08.365338,25,positive,0.89,bert-base,positive,negative
+26,26,26,4,Good value for money,2026-05-08 07:35:08.365374,26,neutral,0.92,roberta-base,neutral,positive
+27,27,27,1,Delivery was late,2026-07-04 07:35:08.365450,27,negative,0.71,distilbert,negative,negative
+28,28,28,4,Fantastic support and fast shipping,2026-07-31 07:35:08.365495,28,negative,0.95,distilbert,negative,positive
+29,29,29,4,Delivery was late,2026-05-09 07:35:08.365535,29,neutral,0.84,distilbert,neutral,positive
+30,30,30,5,Very satisfied with the experience,2026-07-31 07:35:08.365573,30,neutral,0.64,roberta-base,neutral,positive
+31,31,31,5,"Average product, could be better",2026-05-07 07:35:08.365611,31,positive,0.9,bert-base,positive,positive
+32,32,32,5,Very satisfied with the experience,2026-06-12 07:35:08.365652,32,negative,0.84,roberta-base,negative,positive
+33,33,33,5,Fantastic support and fast shipping,2026-04-04 07:35:08.365692,33,positive,0.77,bert-base,positive,positive
+34,34,34,4,"Average product, could be better",2026-06-21 07:35:08.365730,34,negative,0.92,roberta-base,negative,positive
+35,35,35,2,Delivery was late,2026-05-23 07:35:08.365767,35,neutral,0.66,distilbert,neutral,negative
+36,36,36,4,"Average product, could be better",2026-04-16 07:35:08.365804,36,positive,0.6,roberta-base,positive,positive
+37,37,37,5,"Average product, could be better",2026-02-27 07:35:08.365843,37,positive,0.74,roberta-base,positive,positive
+38,38,38,4,Great product and excellent quality,2026-03-02 07:35:08.365882,38,negative,0.82,bert-base,negative,positive
+39,39,39,3,Very satisfied with the experience,2026-04-15 07:35:08.365922,39,neutral,0.91,roberta-base,neutral,neutral
+40,40,40,2,Good value for money,2026-07-26 07:35:08.365959,40,negative,0.57,bert-base,negative,negative
+41,41,41,1,Fantastic support and fast shipping,2026-06-20 07:35:08.365996,41,neutral,0.55,bert-base,neutral,negative
+42,42,42,2,Fantastic support and fast shipping,2026-07-05 07:35:08.366037,42,negative,0.88,distilbert,negative,negative
+43,43,43,4,Very satisfied with the experience,2026-07-04 07:35:08.366075,43,neutral,0.97,distilbert,neutral,positive
+44,44,44,5,Fantastic support and fast shipping,2026-05-24 07:35:08.366112,44,neutral,0.92,bert-base,neutral,positive
+45,45,45,3,Good value for money,2026-05-26 07:35:08.366151,45,neutral,0.64,distilbert,neutral,neutral
+46,46,46,4,Good value for money,2026-02-16 07:35:08.366188,46,negative,0.74,bert-base,negative,positive
+47,47,47,3,"Average product, could be better",2026-04-14 07:35:08.366224,47,negative,0.77,roberta-base,negative,neutral
+48,48,48,2,Good value for money,2026-06-06 07:35:08.366260,48,negative,0.74,distilbert,negative,negative
+49,49,49,1,Delivery was late,2026-07-18 07:35:08.366298,49,negative,0.64,bert-base,negative,negative
+50,50,50,1,Very satisfied with the experience,2026-07-15 07:35:08.366334,50,neutral,0.74,distilbert,neutral,negative
+51,51,51,5,"Average product, could be better",2026-02-23 07:35:08.366447,51,positive,0.88,roberta-base,positive,positive
+52,52,52,2,Great product and excellent quality,2026-02-21 07:35:08.366483,52,positive,0.63,bert-base,positive,negative
+53,53,53,1,Delivery was late,2026-06-02 07:35:08.366519,53,neutral,0.85,distilbert,neutral,negative
+54,54,54,5,Great product and excellent quality,2026-06-04 07:35:08.366557,54,negative,0.57,roberta-base,negative,positive
+55,55,55,3,Very satisfied with the experience,2026-02-02 07:35:08.366596,55,neutral,0.96,distilbert,neutral,neutral
+56,56,56,5,Good value for money,2026-03-03 07:35:08.366632,56,positive,0.99,distilbert,positive,positive
+57,57,57,4,"Average product, could be better",2026-02-19 07:35:08.366670,57,neutral,0.97,roberta-base,neutral,positive
+58,58,58,4,Fantastic support and fast shipping,2026-03-13 07:35:08.366707,58,positive,0.72,roberta-base,positive,positive
+59,59,59,1,Very satisfied with the experience,2026-06-13 07:35:08.366744,59,negative,0.68,roberta-base,negative,negative
+60,60,60,5,Great product and excellent quality,2026-05-31 07:35:08.366782,60,negative,0.58,distilbert,negative,positive
+61,61,61,3,Fantastic support and fast shipping,2026-03-23 07:35:08.366821,61,negative,0.63,roberta-base,negative,neutral
+62,62,62,4,Delivery was late,2026-05-05 07:35:08.366857,62,negative,0.63,bert-base,negative,positive
+63,63,63,5,Delivery was late,2026-03-14 07:35:08.366893,63,neutral,0.72,roberta-base,neutral,positive
+64,64,64,2,Fantastic support and fast shipping,2026-03-27 07:35:08.366930,64,positive,0.56,distilbert,positive,negative
+65,65,65,3,Very satisfied with the experience,2026-05-06 07:35:08.366968,65,negative,0.84,distilbert,negative,neutral
+66,66,66,1,"Average product, could be better",2026-06-01 07:35:08.367006,66,negative,0.84,roberta-base,negative,negative
+67,67,67,1,Delivery was late,2026-05-17 07:35:08.367042,67,neutral,0.68,bert-base,neutral,negative
+68,68,68,2,Fantastic support and fast shipping,2026-03-26 07:35:08.367078,68,negative,0.57,roberta-base,negative,negative
+69,69,69,3,Very satisfied with the experience,2026-03-03 07:35:08.367118,69,neutral,0.81,roberta-base,neutral,neutral
+70,70,70,5,Delivery was late,2026-05-17 07:35:08.367153,70,negative,0.64,distilbert,negative,positive
+71,71,71,3,"Average product, could be better",2026-06-05 07:35:08.367189,71,negative,0.59,roberta-base,negative,neutral
+72,72,72,1,Good value for money,2026-05-17 07:35:08.367225,72,neutral,0.87,bert-base,neutral,negative
+73,73,73,3,Delivery was late,2026-07-02 07:35:08.367264,73,neutral,0.97,bert-base,neutral,neutral
+74,74,74,3,Fantastic support and fast shipping,2026-03-04 07:35:08.367300,74,neutral,0.9,roberta-base,neutral,neutral
+75,75,75,3,Very satisfied with the experience,2026-02-15 07:35:08.367336,75,neutral,0.56,bert-base,neutral,neutral
+76,76,76,5,Fantastic support and fast shipping,2026-04-15 07:35:08.367375,76,negative,0.86,bert-base,negative,positive
+77,77,77,3,Good value for money,2026-07-06 07:35:08.367416,77,negative,0.68,distilbert,negative,neutral
+78,78,78,5,Fantastic support and fast shipping,2026-07-26 07:35:08.367453,78,positive,0.89,bert-base,positive,positive
+79,79,79,3,Great product and excellent quality,2026-06-24 07:35:08.367489,79,positive,0.76,bert-base,positive,neutral
+80,80,80,4,Good value for money,2026-03-19 07:35:08.367525,80,positive,0.87,roberta-base,positive,positive
+81,81,81,1,Very satisfied with the experience,2026-07-16 07:35:08.367563,81,neutral,0.92,roberta-base,neutral,negative
+82,82,82,3,Good value for money,2026-02-22 07:35:08.367601,82,negative,0.79,distilbert,negative,neutral
+83,83,83,5,Fantastic support and fast shipping,2026-06-06 07:35:08.367637,83,neutral,0.72,bert-base,neutral,positive
+84,84,84,4,Good value for money,2026-07-14 07:35:08.367674,84,positive,0.91,bert-base,positive,positive
+85,85,85,1,Fantastic support and fast shipping,2026-04-17 07:35:08.367713,85,neutral,0.93,roberta-base,neutral,negative
+86,86,86,3,Great product and excellent quality,2026-03-11 07:35:08.367750,86,neutral,0.56,roberta-base,neutral,neutral
+87,87,87,3,Good value for money,2026-02-02 07:35:08.367789,87,neutral,0.95,roberta-base,neutral,neutral
+88,88,88,5,Fantastic support and fast shipping,2026-06-06 07:35:08.367825,88,neutral,0.71,roberta-base,neutral,positive
+89,89,89,1,Fantastic support and fast shipping,2026-05-23 07:35:08.367863,89,neutral,0.82,roberta-base,neutral,negative
+90,90,90,3,"Average product, could be better",2026-07-20 07:35:08.367899,90,positive,0.69,distilbert,positive,neutral
+91,91,91,4,Great product and excellent quality,2026-04-12 07:35:08.367935,91,positive,0.56,distilbert,positive,positive
+92,92,92,1,Very satisfied with the experience,2026-05-12 07:35:08.367970,92,negative,0.71,roberta-base,negative,negative
+93,93,93,1,Very satisfied with the experience,2026-05-30 07:35:08.368010,93,neutral,0.79,distilbert,neutral,negative
+94,94,94,5,Great product and excellent quality,2026-03-23 07:35:08.368046,94,positive,0.94,roberta-base,positive,positive
+95,95,95,4,Fantastic support and fast shipping,2026-04-04 07:35:08.368083,95,negative,0.87,roberta-base,negative,positive
+96,96,96,5,Delivery was late,2026-07-13 07:35:08.368119,96,neutral,0.73,bert-base,neutral,positive
+97,97,97,1,"Average product, could be better",2026-04-07 07:35:08.368157,97,negative,0.82,roberta-base,negative,negative
+98,98,98,1,Good value for money,2026-05-29 07:35:08.371019,98,negative,0.71,roberta-base,negative,negative
+99,99,99,3,Fantastic support and fast shipping,2026-07-15 07:35:08.371064,99,neutral,0.55,distilbert,neutral,neutral
+100,100,100,4,Delivery was late,2026-06-28 07:35:08.371109,100,negative,0.85,bert-base,negative,positive
+101,101,101,4,Fantastic support and fast shipping,2026-03-23 07:35:08.371147,101,neutral,0.51,roberta-base,neutral,positive
+102,102,102,5,Great product and excellent quality,2026-03-15 07:35:08.371183,102,negative,0.93,bert-base,negative,positive
+103,103,103,1,Very satisfied with the experience,2026-04-17 07:35:08.371222,103,neutral,0.83,bert-base,neutral,negative
+104,104,104,5,Delivery was late,2026-04-10 07:35:08.371259,104,neutral,0.88,roberta-base,neutral,positive
+105,105,105,1,"Average product, could be better",2026-03-21 07:35:08.371296,105,positive,0.64,bert-base,positive,negative
+106,106,106,1,Very satisfied with the experience,2026-04-21 07:35:08.371336,106,negative,0.68,roberta-base,negative,negative
+107,107,107,3,Great product and excellent quality,2026-04-02 07:35:08.371372,107,negative,0.91,distilbert,negative,neutral
+108,108,108,5,"Average product, could be better",2026-04-14 07:35:08.371409,108,positive,0.88,bert-base,positive,positive
+109,109,109,5,Fantastic support and fast shipping,2026-03-06 07:35:08.371450,109,positive,0.85,roberta-base,positive,positive
+110,110,110,5,Great product and excellent quality,2026-03-14 07:35:08.371489,110,negative,0.89,distilbert,negative,positive
+111,111,111,2,Delivery was late,2026-02-13 07:35:08.371528,111,negative,0.55,distilbert,negative,negative
+112,112,112,2,Very satisfied with the experience,2026-06-27 07:35:08.371564,112,positive,0.85,roberta-base,positive,negative
+113,113,113,4,"Average product, could be better",2026-05-28 07:35:08.371600,113,positive,0.87,bert-base,positive,positive
+114,114,114,4,Very satisfied with the experience,2026-05-06 07:35:08.371637,114,positive,0.74,roberta-base,positive,positive
+115,115,115,1,Delivery was late,2026-07-11 07:35:08.371675,115,neutral,0.82,roberta-base,neutral,negative
+116,116,116,1,Delivery was late,2026-07-12 07:35:08.371713,116,negative,0.81,roberta-base,negative,negative
+117,117,117,5,Very satisfied with the experience,2026-07-23 07:35:08.371751,117,negative,0.58,roberta-base,negative,positive
+118,118,118,1,Great product and excellent quality,2026-06-14 07:35:08.371790,118,neutral,0.75,distilbert,neutral,negative
+119,119,119,2,Great product and excellent quality,2026-07-13 07:35:08.371825,119,neutral,0.58,distilbert,neutral,negative
+120,120,120,3,Delivery was late,2026-06-21 07:35:08.371861,120,negative,0.85,distilbert,negative,neutral
+121,121,121,5,"Average product, could be better",2026-04-28 07:35:08.371900,121,neutral,0.89,distilbert,neutral,positive
+122,122,122,5,Very satisfied with the experience,2026-07-13 07:35:08.371937,122,positive,0.98,distilbert,positive,positive
+123,123,123,4,Good value for money,2026-03-25 07:35:08.371975,123,positive,0.91,distilbert,positive,positive
+124,124,124,5,Good value for money,2026-05-22 07:35:08.372013,124,positive,0.81,distilbert,positive,positive
+125,125,125,1,Great product and excellent quality,2026-07-11 07:35:08.372049,125,positive,0.96,distilbert,positive,negative
+126,126,126,4,Delivery was late,2026-05-30 07:35:08.372085,126,negative,0.7,roberta-base,negative,positive
+127,127,127,3,Fantastic support and fast shipping,2026-05-04 07:35:08.372121,127,neutral,0.56,roberta-base,neutral,neutral
+128,128,128,5,Very satisfied with the experience,2026-04-15 07:35:08.372157,128,positive,0.97,bert-base,positive,positive
+129,129,129,1,Very satisfied with the experience,2026-07-08 07:35:08.372195,129,neutral,0.75,bert-base,neutral,negative
+130,130,130,1,"Average product, could be better",2026-07-04 07:35:08.372234,130,neutral,0.57,roberta-base,neutral,negative
+131,131,131,4,Great product and excellent quality,2026-03-24 07:35:08.372271,131,neutral,0.87,roberta-base,neutral,positive
+132,132,132,4,"Average product, could be better",2026-03-25 07:35:08.372306,132,positive,0.52,bert-base,positive,positive
+133,133,133,3,"Average product, could be better",2026-03-02 07:35:08.372345,133,neutral,0.75,distilbert,neutral,neutral
+134,134,134,1,Delivery was late,2026-03-01 07:35:08.372384,134,neutral,0.63,distilbert,neutral,negative
+135,135,135,1,Fantastic support and fast shipping,2026-06-13 07:35:08.372421,135,positive,0.72,roberta-base,positive,negative
+136,136,136,5,Good value for money,2026-05-09 07:35:08.372457,136,negative,0.73,roberta-base,negative,positive
+137,137,137,2,Very satisfied with the experience,2026-05-29 07:35:08.372493,137,neutral,0.77,bert-base,neutral,negative
+138,138,138,5,Great product and excellent quality,2026-02-08 07:35:08.372529,138,negative,0.69,roberta-base,negative,positive
+139,139,139,2,Very satisfied with the experience,2026-06-10 07:35:08.372565,139,negative,0.63,distilbert,negative,negative
+140,140,140,1,Good value for money,2026-07-06 07:35:08.372601,140,neutral,0.66,roberta-base,neutral,negative
+141,141,141,3,Delivery was late,2026-02-16 07:35:08.372637,141,positive,0.94,bert-base,positive,neutral
+142,142,142,4,Very satisfied with the experience,2026-06-14 07:35:08.372676,142,negative,0.97,roberta-base,negative,positive
+143,143,143,5,"Average product, could be better",2026-03-27 07:35:08.372711,143,positive,0.92,roberta-base,positive,positive
+144,144,144,3,Delivery was late,2026-03-08 07:35:08.372749,144,negative,0.87,bert-base,negative,neutral
+145,145,145,1,Good value for money,2026-05-26 07:35:08.372790,145,neutral,0.62,roberta-base,neutral,negative
+146,146,146,1,Fantastic support and fast shipping,2026-04-03 07:35:08.372899,146,neutral,0.58,distilbert,neutral,negative
+147,147,147,4,Good value for money,2026-02-26 07:35:08.372935,147,neutral,0.7,distilbert,neutral,positive
+148,148,148,3,"Average product, could be better",2026-07-12 07:35:08.372972,148,negative,0.55,distilbert,negative,neutral
+149,149,149,4,"Average product, could be better",2026-07-08 07:35:08.373013,149,negative,0.72,bert-base,negative,positive
+150,150,150,1,Delivery was late,2026-06-06 07:35:08.373050,150,negative,0.54,roberta-base,negative,negative
+151,151,151,2,Good value for money,2026-02-17 07:35:08.373086,151,negative,0.82,roberta-base,negative,negative
+152,152,152,3,Fantastic support and fast shipping,2026-07-01 07:35:08.373122,152,positive,0.99,roberta-base,positive,neutral
+153,153,153,2,Very satisfied with the experience,2026-05-29 07:35:08.373158,153,neutral,0.67,roberta-base,neutral,negative
+154,154,154,5,Great product and excellent quality,2026-07-23 07:35:08.373196,154,neutral,0.79,distilbert,neutral,positive
+155,155,155,2,Delivery was late,2026-03-06 07:35:08.373234,155,neutral,0.78,distilbert,neutral,negative
+156,156,156,2,Fantastic support and fast shipping,2026-02-21 07:35:08.373270,156,negative,0.71,roberta-base,negative,negative
+157,157,157,5,Good value for money,2026-04-01 07:35:08.373310,157,positive,0.92,roberta-base,positive,positive
+158,158,158,3,Good value for money,2026-02-16 07:35:08.373345,158,positive,0.95,roberta-base,positive,neutral
+159,159,159,2,Great product and excellent quality,2026-03-03 07:35:08.373381,159,negative,0.83,bert-base,negative,negative
+160,160,160,5,Fantastic support and fast shipping,2026-06-09 07:35:08.373417,160,neutral,0.95,distilbert,neutral,positive
+161,161,161,4,Great product and excellent quality,2026-05-11 07:35:08.373453,161,positive,0.68,roberta-base,positive,positive
+162,162,162,2,Good value for money,2026-05-08 07:35:08.373489,162,positive,0.69,bert-base,positive,negative
+163,163,163,3,Good value for money,2026-06-18 07:35:08.373525,163,positive,0.85,roberta-base,positive,neutral
+164,164,164,2,Very satisfied with the experience,2026-02-20 07:35:08.373560,164,positive,0.53,bert-base,positive,negative
+165,165,165,1,Very satisfied with the experience,2026-07-30 07:35:08.373597,165,negative,0.77,bert-base,negative,negative
+166,166,166,1,Great product and excellent quality,2026-03-19 07:35:08.373637,166,positive,0.62,distilbert,positive,negative
+167,167,167,2,Fantastic support and fast shipping,2026-05-16 07:35:08.373673,167,negative,0.91,bert-base,negative,negative
+168,168,168,4,Very satisfied with the experience,2026-02-16 07:35:08.373714,168,neutral,0.78,bert-base,neutral,positive
+169,169,169,1,"Average product, could be better",2026-06-16 07:35:08.373777,169,neutral,0.51,bert-base,neutral,negative
+170,170,170,2,Very satisfied with the experience,2026-02-05 07:35:08.373815,170,negative,0.54,distilbert,negative,negative
+171,171,171,3,Great product and excellent quality,2026-04-07 07:35:08.373851,171,neutral,0.61,distilbert,neutral,neutral
+172,172,172,1,Great product and excellent quality,2026-05-24 07:35:08.373888,172,positive,0.69,distilbert,positive,negative
+173,173,173,2,Great product and excellent quality,2026-07-09 07:35:08.373925,173,positive,0.71,distilbert,positive,negative
+174,174,174,4,Very satisfied with the experience,2026-07-10 07:35:08.373961,174,negative,0.94,bert-base,negative,positive
+175,175,175,4,Delivery was late,2026-05-16 07:35:08.373995,175,neutral,0.88,roberta-base,neutral,positive
+176,176,176,5,Delivery was late,2026-04-25 07:35:08.374030,176,neutral,0.72,roberta-base,neutral,positive
+177,177,177,4,Fantastic support and fast shipping,2026-03-06 07:35:08.374065,177,positive,0.66,roberta-base,positive,positive
+178,178,178,4,Fantastic support and fast shipping,2026-06-08 07:35:08.374103,178,neutral,0.89,distilbert,neutral,positive
+179,179,179,4,Great product and excellent quality,2026-02-28 07:35:08.374140,179,neutral,0.79,distilbert,neutral,positive
+180,180,180,3,Good value for money,2026-06-19 07:35:08.374175,180,negative,0.8,distilbert,negative,neutral
+181,181,181,5,Fantastic support and fast shipping,2026-06-05 07:35:08.374217,181,neutral,0.68,roberta-base,neutral,positive
+182,182,182,3,Delivery was late,2026-04-06 07:35:08.374252,182,positive,0.76,roberta-base,positive,neutral
+183,183,183,1,Delivery was late,2026-02-08 07:35:08.374286,183,positive,0.96,distilbert,positive,negative
+184,184,184,2,Good value for money,2026-02-18 07:35:08.374320,184,negative,0.71,bert-base,negative,negative
+185,185,185,5,Great product and excellent quality,2026-06-14 07:35:08.374355,185,neutral,0.66,roberta-base,neutral,positive
+186,186,186,3,Delivery was late,2026-04-05 07:35:08.374388,186,negative,0.58,distilbert,negative,neutral
+187,187,187,2,Delivery was late,2026-03-23 07:35:08.374424,187,neutral,0.7,bert-base,neutral,negative
+188,188,188,4,Delivery was late,2026-02-23 07:35:08.374459,188,positive,0.92,bert-base,positive,positive
+189,189,189,1,Good value for money,2026-03-09 07:35:08.374493,189,positive,0.89,bert-base,positive,negative
+190,190,190,1,"Average product, could be better",2026-03-07 07:35:08.374528,190,positive,0.63,distilbert,positive,negative
+191,191,191,4,Great product and excellent quality,2026-05-25 07:35:08.374566,191,neutral,0.92,bert-base,neutral,positive
+192,192,192,2,"Average product, could be better",2026-06-09 07:35:08.374601,192,positive,0.89,distilbert,positive,negative
+193,193,193,5,Delivery was late,2026-02-08 07:35:08.374637,193,positive,0.57,roberta-base,positive,positive
+194,194,194,4,Very satisfied with the experience,2026-06-25 07:35:08.374743,194,negative,0.81,distilbert,negative,positive
+195,195,195,3,Very satisfied with the experience,2026-03-05 07:35:08.374778,195,positive,0.93,distilbert,positive,neutral
+196,196,196,4,Good value for money,2026-05-24 07:35:08.374813,196,neutral,0.91,roberta-base,neutral,positive
+197,197,197,4,Good value for money,2026-04-06 07:35:08.374848,197,positive,0.99,roberta-base,positive,positive
+198,198,198,2,Fantastic support and fast shipping,2026-07-18 07:35:08.374882,198,neutral,0.81,distilbert,neutral,negative
+199,199,199,5,Good value for money,2026-02-07 07:35:08.374916,199,neutral,0.5,distilbert,neutral,positive
+200,200,200,3,Delivery was late,2026-05-16 07:35:08.374951,200,positive,0.69,bert-base,positive,neutral
+201,201,201,4,"Average product, could be better",2026-06-06 07:35:08.374987,201,positive,0.94,bert-base,positive,positive
+202,202,202,2,Great product and excellent quality,2026-03-12 07:35:08.375026,202,negative,0.79,distilbert,negative,negative
+203,203,203,1,Fantastic support and fast shipping,2026-05-31 07:35:08.375063,203,neutral,0.69,bert-base,neutral,negative
+204,204,204,3,Very satisfied with the experience,2026-03-14 07:35:08.375098,204,negative,0.58,roberta-base,negative,neutral
+205,205,205,5,Fantastic support and fast shipping,2026-04-16 07:35:08.375134,205,neutral,0.84,bert-base,neutral,positive
+206,206,206,1,"Average product, could be better",2026-05-13 07:35:08.375169,206,negative,0.71,bert-base,negative,negative
+207,207,207,2,Fantastic support and fast shipping,2026-07-01 07:35:08.375203,207,positive,0.85,distilbert,positive,negative
+208,208,208,4,Delivery was late,2026-05-23 07:35:08.375238,208,negative,0.53,distilbert,negative,positive
+209,209,209,1,Delivery was late,2026-03-07 07:35:08.375275,209,negative,0.85,bert-base,negative,negative
+210,210,210,4,Fantastic support and fast shipping,2026-06-04 07:35:08.375309,210,neutral,0.62,distilbert,neutral,positive
+211,211,211,4,Great product and excellent quality,2026-07-14 07:35:08.375344,211,neutral,0.92,roberta-base,neutral,positive
+212,212,212,3,Very satisfied with the experience,2026-03-02 07:35:08.375382,212,neutral,0.99,bert-base,neutral,neutral
+213,213,213,4,Great product and excellent quality,2026-05-14 07:35:08.375423,213,positive,0.6,bert-base,positive,positive
+214,214,214,3,Very satisfied with the experience,2026-04-05 07:35:08.375461,214,negative,0.54,bert-base,negative,neutral
+215,215,215,4,Delivery was late,2026-02-02 07:35:08.375502,215,negative,0.66,roberta-base,negative,positive
+216,216,216,4,Good value for money,2026-04-03 07:35:08.375536,216,neutral,0.7,distilbert,neutral,positive
+217,217,217,5,Fantastic support and fast shipping,2026-07-21 07:35:08.375574,217,positive,0.91,roberta-base,positive,positive
+218,218,218,1,Good value for money,2026-04-19 07:35:08.375609,218,neutral,0.77,distilbert,neutral,negative
+219,219,219,3,Very satisfied with the experience,2026-02-06 07:35:08.375643,219,negative,0.96,bert-base,negative,neutral
+220,220,220,1,Great product and excellent quality,2026-04-04 07:35:08.375678,220,positive,0.58,distilbert,positive,negative
+221,221,221,2,Very satisfied with the experience,2026-07-23 07:35:08.375712,221,negative,0.8,bert-base,negative,negative
+222,222,222,5,Good value for money,2026-05-29 07:35:08.375745,222,negative,0.99,distilbert,negative,positive
+223,223,223,2,Delivery was late,2026-07-25 07:35:08.375780,223,neutral,0.79,bert-base,neutral,negative
+224,224,224,1,"Average product, could be better",2026-06-05 07:35:08.375814,224,negative,0.91,roberta-base,negative,negative
+225,225,225,3,Fantastic support and fast shipping,2026-03-08 07:35:08.375851,225,negative,0.57,bert-base,negative,neutral
+226,226,226,4,"Average product, could be better",2026-07-31 07:35:08.375886,226,neutral,0.95,bert-base,neutral,positive
+227,227,227,3,"Average product, could be better",2026-07-13 07:35:08.375923,227,neutral,0.85,distilbert,neutral,neutral
+228,228,228,2,Delivery was late,2026-03-10 07:35:08.375958,228,negative,0.94,distilbert,negative,negative
+229,229,229,1,Good value for money,2026-02-02 07:35:08.375994,229,negative,0.69,distilbert,negative,negative
+230,230,230,1,Fantastic support and fast shipping,2026-06-01 07:35:08.376030,230,neutral,0.98,bert-base,neutral,negative
+231,231,231,1,Fantastic support and fast shipping,2026-07-19 07:35:08.376065,231,neutral,0.71,roberta-base,neutral,negative
+232,232,232,2,Fantastic support and fast shipping,2026-06-20 07:35:08.376099,232,neutral,0.54,bert-base,neutral,negative
+233,233,233,5,Great product and excellent quality,2026-07-08 07:35:08.376137,233,neutral,0.79,distilbert,neutral,positive
+234,234,234,2,Delivery was late,2026-06-13 07:35:08.376176,234,neutral,0.84,distilbert,neutral,negative
+235,235,235,1,Delivery was late,2026-04-13 07:35:08.376211,235,positive,0.64,distilbert,positive,negative
+236,236,236,4,Very satisfied with the experience,2026-03-28 07:35:08.376246,236,negative,0.63,distilbert,negative,positive
+237,237,237,2,Delivery was late,2026-05-24 07:35:08.376281,237,negative,0.53,distilbert,negative,negative
+238,238,238,5,Very satisfied with the experience,2026-04-15 07:35:08.376315,238,negative,0.84,roberta-base,negative,positive
+239,239,239,4,Great product and excellent quality,2026-06-17 07:35:08.376352,239,positive,0.98,bert-base,positive,positive
+240,240,240,1,Delivery was late,2026-07-09 07:35:08.376387,240,neutral,0.77,distilbert,neutral,negative
+241,241,241,4,Great product and excellent quality,2026-06-23 07:35:08.376490,241,positive,0.78,distilbert,positive,positive
+242,242,242,4,Fantastic support and fast shipping,2026-03-07 07:35:08.376525,242,negative,0.73,bert-base,negative,positive
+243,243,243,4,Fantastic support and fast shipping,2026-05-24 07:35:08.376561,243,neutral,0.51,roberta-base,neutral,positive
+244,244,244,3,Very satisfied with the experience,2026-05-24 07:35:08.376596,244,negative,0.7,distilbert,negative,neutral
+245,245,245,1,Good value for money,2026-05-13 07:35:08.376630,245,negative,0.75,bert-base,negative,negative
+246,246,246,2,Delivery was late,2026-05-22 07:35:08.376666,246,neutral,0.9,distilbert,neutral,negative
+247,247,247,3,"Average product, could be better",2026-05-04 07:35:08.376703,247,positive,0.91,roberta-base,positive,neutral
+248,248,248,3,Good value for money,2026-02-15 07:35:08.376738,248,neutral,0.75,distilbert,neutral,neutral
+249,249,249,3,Very satisfied with the experience,2026-04-05 07:35:08.376773,249,neutral,0.61,roberta-base,neutral,neutral
+250,250,250,1,Fantastic support and fast shipping,2026-03-30 07:35:08.376807,250,positive,0.66,roberta-base,positive,negative
+251,251,251,3,Very satisfied with the experience,2026-02-07 07:35:08.376845,251,positive,0.85,distilbert,positive,neutral
+252,252,252,2,Delivery was late,2026-02-06 07:35:08.376880,252,negative,0.81,roberta-base,negative,negative
+253,253,253,2,"Average product, could be better",2026-02-07 07:35:08.376916,253,neutral,0.82,bert-base,neutral,negative
+254,254,254,4,Delivery was late,2026-07-01 07:35:08.376950,254,neutral,0.53,distilbert,neutral,positive
+255,255,255,3,Good value for money,2026-04-18 07:35:08.376985,255,negative,0.94,roberta-base,negative,neutral
+256,256,256,1,Great product and excellent quality,2026-04-07 07:35:08.377019,256,neutral,0.6,bert-base,neutral,negative
+257,257,257,1,Great product and excellent quality,2026-03-17 07:35:08.377058,257,positive,0.86,bert-base,positive,negative
+258,258,258,1,Good value for money,2026-04-24 07:35:08.377094,258,negative,0.79,bert-base,negative,negative
+259,259,259,2,Fantastic support and fast shipping,2026-05-05 07:35:08.377149,259,neutral,0.68,bert-base,neutral,negative
+260,260,260,3,Great product and excellent quality,2026-02-15 07:35:08.377184,260,positive,0.68,distilbert,positive,neutral
+261,261,261,4,Great product and excellent quality,2026-04-09 07:35:08.377219,261,neutral,0.56,roberta-base,neutral,positive
+262,262,262,5,"Average product, could be better",2026-02-02 07:35:08.377255,262,positive,0.71,bert-base,positive,positive
+263,263,263,4,Delivery was late,2026-05-17 07:35:08.377292,263,positive,0.52,roberta-base,positive,positive
+264,264,264,5,Great product and excellent quality,2026-07-12 07:35:08.377326,264,negative,0.85,roberta-base,negative,positive
+265,265,265,3,Fantastic support and fast shipping,2026-04-13 07:35:08.377362,265,negative,0.56,bert-base,negative,neutral
+266,266,266,3,Great product and excellent quality,2026-05-05 07:35:08.377397,266,positive,0.56,roberta-base,positive,neutral
+267,267,267,1,Fantastic support and fast shipping,2026-06-21 07:35:08.377431,267,positive,0.7,distilbert,positive,negative
+268,268,268,1,Very satisfied with the experience,2026-04-17 07:35:08.377466,268,neutral,0.52,roberta-base,neutral,negative
+269,269,269,5,Fantastic support and fast shipping,2026-07-07 07:35:08.377501,269,neutral,0.82,bert-base,neutral,positive
+270,270,270,2,Fantastic support and fast shipping,2026-03-24 07:35:08.377538,270,neutral,0.92,bert-base,neutral,negative
+271,271,271,1,Good value for money,2026-04-05 07:35:08.377572,271,neutral,0.89,roberta-base,neutral,negative
+272,272,272,5,Great product and excellent quality,2026-03-13 07:35:08.377610,272,positive,0.9,distilbert,positive,positive
+273,273,273,5,Delivery was late,2026-02-23 07:35:08.377645,273,negative,0.73,distilbert,negative,positive
+274,274,274,3,"Average product, could be better",2026-02-02 07:35:08.377679,274,positive,0.52,bert-base,positive,neutral
+275,275,275,2,Very satisfied with the experience,2026-04-05 07:35:08.377713,275,positive,0.85,bert-base,positive,negative
+276,276,276,4,Good value for money,2026-07-30 07:35:08.377750,276,negative,0.86,distilbert,negative,positive
+277,277,277,5,Fantastic support and fast shipping,2026-02-26 07:35:08.377786,277,neutral,0.75,roberta-base,neutral,positive
+278,278,278,4,Good value for money,2026-02-27 07:35:08.377820,278,negative,0.93,distilbert,negative,positive
+279,279,279,2,Good value for money,2026-03-25 07:35:08.377855,279,negative,0.84,roberta-base,negative,negative
+280,280,280,1,"Average product, could be better",2026-07-25 07:35:08.377892,280,neutral,0.57,distilbert,neutral,negative
+281,281,281,3,Fantastic support and fast shipping,2026-06-09 07:35:08.377928,281,negative,0.52,roberta-base,negative,neutral
+282,282,282,3,Fantastic support and fast shipping,2026-02-04 07:35:08.377963,282,negative,0.52,roberta-base,negative,neutral
+283,283,283,3,Good value for money,2026-03-03 07:35:08.377997,283,negative,0.86,bert-base,negative,neutral
+284,284,284,4,Great product and excellent quality,2026-05-21 07:35:08.378031,284,negative,0.63,bert-base,negative,positive
+285,285,285,3,"Average product, could be better",2026-03-28 07:35:08.378068,285,negative,0.77,bert-base,negative,neutral
+286,286,286,1,Very satisfied with the experience,2026-05-03 07:35:08.378102,286,positive,0.93,distilbert,positive,negative
+287,287,287,4,Delivery was late,2026-05-31 07:35:08.378137,287,negative,0.8,distilbert,negative,positive
+288,288,288,3,Fantastic support and fast shipping,2026-07-25 07:35:08.378173,288,negative,0.9,roberta-base,negative,neutral
+289,289,289,1,"Average product, could be better",2026-02-21 07:35:08.378279,289,positive,0.6,distilbert,positive,negative
+290,290,290,3,Very satisfied with the experience,2026-07-22 07:35:08.378315,290,positive,0.54,bert-base,positive,neutral
+291,291,291,4,Very satisfied with the experience,2026-05-12 07:35:08.378349,291,positive,0.69,bert-base,positive,positive
+292,292,292,3,Delivery was late,2026-02-26 07:35:08.378384,292,positive,0.64,roberta-base,positive,neutral
+293,293,293,2,Fantastic support and fast shipping,2026-05-16 07:35:08.378421,293,negative,0.93,distilbert,negative,negative
+294,294,294,5,"Average product, could be better",2026-07-10 07:35:08.378456,294,neutral,0.6,distilbert,neutral,positive
+295,295,295,2,Great product and excellent quality,2026-02-10 07:35:08.378490,295,negative,0.92,distilbert,negative,negative
+296,296,296,2,Delivery was late,2026-02-10 07:35:08.378524,296,negative,0.61,roberta-base,negative,negative
+297,297,297,5,"Average product, could be better",2026-04-29 07:35:08.378558,297,neutral,0.97,bert-base,neutral,positive
+298,298,298,4,Very satisfied with the experience,2026-05-01 07:35:08.378593,298,neutral,0.74,bert-base,neutral,positive
+299,299,299,1,Great product and excellent quality,2026-03-24 07:35:08.378627,299,negative,0.52,distilbert,negative,negative
+300,300,300,2,Very satisfied with the experience,2026-03-03 07:35:08.378664,300,negative,0.92,bert-base,negative,negative
+301,301,301,5,Good value for money,2026-06-26 07:35:08.378700,301,neutral,0.58,distilbert,neutral,positive
+302,302,302,2,Fantastic support and fast shipping,2026-03-21 07:35:08.378735,302,neutral,0.69,roberta-base,neutral,negative
+303,303,303,4,Good value for money,2026-02-14 07:35:08.378769,303,neutral,0.68,distilbert,neutral,positive
+304,304,304,1,"Average product, could be better",2026-03-25 07:35:08.378805,304,positive,0.72,bert-base,positive,negative
+305,305,305,4,Good value for money,2026-05-08 07:35:08.378839,305,negative,0.56,distilbert,negative,positive
+306,306,306,2,Good value for money,2026-02-20 07:35:08.378874,306,negative,0.52,distilbert,negative,negative
+307,307,307,3,Great product and excellent quality,2026-07-10 07:35:08.378908,307,positive,0.72,roberta-base,positive,neutral
+308,308,308,3,Good value for money,2026-04-06 07:35:08.378943,308,negative,0.79,bert-base,negative,neutral
+309,309,309,1,"Average product, could be better",2026-06-16 07:35:08.378983,309,neutral,0.94,distilbert,neutral,negative
+310,310,310,4,Fantastic support and fast shipping,2026-03-20 07:35:08.379021,310,neutral,0.68,bert-base,neutral,positive
+311,311,311,2,Very satisfied with the experience,2026-05-27 07:35:08.379057,311,neutral,0.88,bert-base,neutral,negative
+312,312,312,5,Great product and excellent quality,2026-07-30 07:35:08.379124,312,neutral,0.82,distilbert,neutral,positive
+313,313,313,3,"Average product, could be better",2026-02-25 07:35:08.379164,313,neutral,0.99,roberta-base,neutral,neutral
+314,314,314,5,Delivery was late,2026-05-04 07:35:08.379203,314,negative,0.7,bert-base,negative,positive
+315,315,315,1,"Average product, could be better",2026-06-20 07:35:08.379241,315,neutral,0.97,bert-base,neutral,negative
+316,316,316,1,"Average product, could be better",2026-04-24 07:35:08.379276,316,neutral,0.8,distilbert,neutral,negative
+317,317,317,3,"Average product, could be better",2026-06-12 07:35:08.379311,317,positive,0.88,distilbert,positive,neutral
+318,318,318,3,Very satisfied with the experience,2026-02-10 07:35:08.379346,318,neutral,0.7,bert-base,neutral,neutral
+319,319,319,4,Very satisfied with the experience,2026-03-06 07:35:08.379381,319,positive,0.63,roberta-base,positive,positive
+320,320,320,4,Delivery was late,2026-04-26 07:35:08.379416,320,negative,0.74,bert-base,negative,positive
+321,321,321,2,Good value for money,2026-05-12 07:35:08.379450,321,neutral,0.97,distilbert,neutral,negative
+322,322,322,3,Very satisfied with the experience,2026-05-02 07:35:08.379484,322,positive,0.94,roberta-base,positive,neutral
+323,323,323,5,Good value for money,2026-05-01 07:35:08.379518,323,positive,0.88,bert-base,positive,positive
+324,324,324,3,"Average product, could be better",2026-03-28 07:35:08.379555,324,positive,0.98,distilbert,positive,neutral
+325,325,325,3,"Average product, could be better",2026-04-22 07:35:08.379591,325,negative,0.88,roberta-base,negative,neutral
+326,326,326,3,Delivery was late,2026-02-25 07:35:08.379625,326,neutral,0.59,roberta-base,neutral,neutral
+327,327,327,3,Fantastic support and fast shipping,2026-04-29 07:35:08.379661,327,neutral,0.64,bert-base,neutral,neutral
+328,328,328,2,Good value for money,2026-06-23 07:35:08.379695,328,neutral,0.89,bert-base,neutral,negative
+329,329,329,4,Great product and excellent quality,2026-07-06 07:35:08.379729,329,negative,0.58,bert-base,negative,positive
+330,330,330,1,Delivery was late,2026-04-17 07:35:08.379764,330,positive,0.67,distilbert,positive,negative
+331,331,331,4,"Average product, could be better",2026-04-08 07:35:08.379798,331,positive,0.69,roberta-base,positive,positive
+332,332,332,2,Great product and excellent quality,2026-05-05 07:35:08.379832,332,positive,0.65,distilbert,positive,negative
+333,333,333,2,Very satisfied with the experience,2026-06-14 07:35:08.379867,333,positive,0.56,bert-base,positive,negative
+334,334,334,5,Very satisfied with the experience,2026-07-10 07:35:08.379901,334,positive,0.63,bert-base,positive,positive
+335,335,335,1,Great product and excellent quality,2026-02-12 07:35:08.379935,335,neutral,0.92,roberta-base,neutral,negative
+336,336,336,4,"Average product, could be better",2026-02-20 07:35:08.380045,336,negative,0.81,distilbert,negative,positive
+337,337,337,3,Very satisfied with the experience,2026-04-29 07:35:08.380082,337,neutral,0.63,roberta-base,neutral,neutral
+338,338,338,4,Very satisfied with the experience,2026-05-16 07:35:08.380118,338,positive,0.88,roberta-base,positive,positive
+339,339,339,4,Fantastic support and fast shipping,2026-04-26 07:35:08.380153,339,positive,0.63,roberta-base,positive,positive
+340,340,340,1,Good value for money,2026-06-15 07:35:08.380189,340,positive,0.64,distilbert,positive,negative
+341,341,341,2,Great product and excellent quality,2026-07-05 07:35:08.380223,341,neutral,0.63,distilbert,neutral,negative
+342,342,342,4,Delivery was late,2026-02-03 07:35:08.380257,342,positive,0.66,bert-base,positive,positive
+343,343,343,2,Fantastic support and fast shipping,2026-04-24 07:35:08.380291,343,neutral,0.62,bert-base,neutral,negative
+344,344,344,1,Fantastic support and fast shipping,2026-03-13 07:35:08.380326,344,negative,0.56,roberta-base,negative,negative
+345,345,345,2,Great product and excellent quality,2026-05-22 07:35:08.380360,345,negative,0.56,bert-base,negative,negative
+346,346,346,4,Good value for money,2026-07-08 07:35:08.380394,346,negative,0.8,distilbert,negative,positive
+347,347,347,4,Delivery was late,2026-06-12 07:35:08.380429,347,positive,0.84,roberta-base,positive,positive
+348,348,348,2,"Average product, could be better",2026-03-14 07:35:08.380474,348,neutral,0.66,roberta-base,neutral,negative
+349,349,349,5,Great product and excellent quality,2026-04-25 07:35:08.380512,349,negative,0.59,bert-base,negative,positive
+350,350,350,4,Fantastic support and fast shipping,2026-03-12 07:35:08.380548,350,positive,0.8,roberta-base,positive,positive
+351,351,351,4,Great product and excellent quality,2026-06-12 07:35:08.380583,351,positive,0.52,distilbert,positive,positive
+352,352,352,4,Good value for money,2026-07-11 07:35:08.380617,352,neutral,0.89,bert-base,neutral,positive
+353,353,353,1,"Average product, could be better",2026-07-13 07:35:08.380657,353,neutral,0.54,bert-base,neutral,negative
+354,354,354,2,Fantastic support and fast shipping,2026-03-11 07:35:08.380692,354,negative,0.77,distilbert,negative,negative
+355,355,355,3,"Average product, could be better",2026-02-13 07:35:08.380727,355,positive,0.76,distilbert,positive,neutral
+356,356,356,5,Delivery was late,2026-05-31 07:35:08.380761,356,negative,0.77,roberta-base,negative,positive
+357,357,357,2,"Average product, could be better",2026-05-15 07:35:08.380797,357,positive,0.65,bert-base,positive,negative
+358,358,358,1,Good value for money,2026-07-22 07:35:08.380831,358,neutral,0.67,bert-base,neutral,negative
+359,359,359,1,Good value for money,2026-05-09 07:35:08.380867,359,neutral,0.58,distilbert,neutral,negative
+360,360,360,1,Very satisfied with the experience,2026-06-03 07:35:08.380902,360,negative,0.82,distilbert,negative,negative
+361,361,361,2,Fantastic support and fast shipping,2026-06-22 07:35:08.380942,361,positive,0.83,roberta-base,positive,negative
+362,362,362,4,Great product and excellent quality,2026-03-07 07:35:08.380976,362,negative,0.52,roberta-base,negative,positive
+363,363,363,5,Very satisfied with the experience,2026-06-11 07:35:08.381012,363,negative,0.8,distilbert,negative,positive
+364,364,364,4,Very satisfied with the experience,2026-04-29 07:35:08.381046,364,neutral,0.59,roberta-base,neutral,positive
+365,365,365,3,Fantastic support and fast shipping,2026-06-22 07:35:08.381081,365,negative,0.92,bert-base,negative,neutral
+366,366,366,1,Very satisfied with the experience,2026-05-08 07:35:08.381115,366,positive,0.86,bert-base,positive,negative
+367,367,367,5,"Average product, could be better",2026-07-20 07:35:08.381149,367,neutral,0.58,roberta-base,neutral,positive
+368,368,368,3,Great product and excellent quality,2026-02-15 07:35:08.381184,368,neutral,0.61,roberta-base,neutral,neutral
+369,369,369,1,Great product and excellent quality,2026-05-29 07:35:08.381218,369,negative,0.65,roberta-base,negative,negative
+370,370,370,3,Great product and excellent quality,2026-04-23 07:35:08.381253,370,positive,0.96,roberta-base,positive,neutral
+371,371,371,2,Fantastic support and fast shipping,2026-04-16 07:35:08.381287,371,positive,0.78,roberta-base,positive,negative
+372,372,372,2,Good value for money,2026-05-13 07:35:08.381324,372,negative,0.85,distilbert,negative,negative
+373,373,373,2,Delivery was late,2026-07-24 07:35:08.381363,373,neutral,0.93,roberta-base,neutral,negative
+374,374,374,5,Great product and excellent quality,2026-02-24 07:35:08.381397,374,neutral,0.8,distilbert,neutral,positive
+375,375,375,4,"Average product, could be better",2026-02-15 07:35:08.381431,375,neutral,0.59,roberta-base,neutral,positive
+376,376,376,2,Fantastic support and fast shipping,2026-06-09 07:35:08.381465,376,positive,0.59,roberta-base,positive,negative
+377,377,377,4,Delivery was late,2026-02-25 07:35:08.381499,377,negative,0.78,distilbert,negative,positive
+378,378,378,1,Fantastic support and fast shipping,2026-03-11 07:35:08.381534,378,neutral,0.75,distilbert,neutral,negative
+379,379,379,5,Delivery was late,2026-07-18 07:35:08.381567,379,negative,0.75,bert-base,negative,positive
+380,380,380,4,Very satisfied with the experience,2026-05-10 07:35:08.381600,380,neutral,0.51,roberta-base,neutral,positive
+381,381,381,3,Very satisfied with the experience,2026-07-10 07:35:08.381634,381,negative,0.85,distilbert,negative,neutral
+382,382,382,2,Good value for money,2026-07-18 07:35:08.381669,382,neutral,0.65,distilbert,neutral,negative
+383,383,383,4,Very satisfied with the experience,2026-03-26 07:35:08.381704,383,negative,0.9,distilbert,negative,positive
+384,384,384,2,Great product and excellent quality,2026-03-13 07:35:08.381804,384,neutral,0.8,distilbert,neutral,negative
+385,385,385,3,Delivery was late,2026-07-09 07:35:08.381841,385,positive,0.55,bert-base,positive,neutral
+386,386,386,3,Great product and excellent quality,2026-05-10 07:35:08.381874,386,neutral,0.94,bert-base,neutral,neutral
+387,387,387,2,"Average product, could be better",2026-02-03 07:35:08.381908,387,positive,0.8,bert-base,positive,negative
+388,388,388,3,"Average product, could be better",2026-06-28 07:35:08.381941,388,negative,0.78,distilbert,negative,neutral
+389,389,389,1,Very satisfied with the experience,2026-06-08 07:35:08.381977,389,negative,0.99,roberta-base,negative,negative
+390,390,390,3,Great product and excellent quality,2026-05-16 07:35:08.382012,390,negative,0.77,bert-base,negative,neutral
+391,391,391,4,Very satisfied with the experience,2026-07-22 07:35:08.382046,391,negative,0.57,bert-base,negative,positive
+392,392,392,3,Fantastic support and fast shipping,2026-03-11 07:35:08.382124,392,negative,0.51,distilbert,negative,neutral
+393,393,393,5,"Average product, could be better",2026-04-23 07:35:08.382164,393,positive,0.79,roberta-base,positive,positive
+394,394,394,3,"Average product, could be better",2026-06-17 07:35:08.382202,394,positive,0.68,bert-base,positive,neutral
+395,395,395,5,Fantastic support and fast shipping,2026-05-13 07:35:08.382241,395,neutral,0.57,bert-base,neutral,positive
+396,396,396,5,Great product and excellent quality,2026-07-09 07:35:08.382276,396,neutral,0.73,bert-base,neutral,positive
+397,397,397,2,Good value for money,2026-05-19 07:35:08.382315,397,neutral,0.76,roberta-base,neutral,negative
+398,398,398,5,Good value for money,2026-05-03 07:35:08.382350,398,negative,0.66,bert-base,negative,positive
+399,399,399,1,Good value for money,2026-04-02 07:35:08.382386,399,negative,0.52,roberta-base,negative,negative
+400,400,400,5,Fantastic support and fast shipping,2026-07-11 07:35:08.382422,400,neutral,0.78,bert-base,neutral,positive
+401,401,401,4,Delivery was late,2026-06-15 07:35:08.382462,401,negative,0.95,roberta-base,negative,positive
+402,402,402,5,Delivery was late,2026-03-06 07:35:08.382497,402,positive,0.75,roberta-base,positive,positive
+403,403,403,2,"Average product, could be better",2026-03-13 07:35:08.382530,403,positive,0.98,roberta-base,positive,negative
+404,404,404,2,Fantastic support and fast shipping,2026-06-17 07:35:08.382563,404,negative,0.83,distilbert,negative,negative
+405,405,405,5,Great product and excellent quality,2026-07-04 07:35:08.382597,405,negative,0.9,roberta-base,negative,positive
+406,406,406,2,Fantastic support and fast shipping,2026-04-07 07:35:08.382633,406,negative,0.64,distilbert,negative,negative
+407,407,407,1,Delivery was late,2026-03-04 07:35:08.382668,407,positive,0.8,distilbert,positive,negative
+408,408,408,2,Great product and excellent quality,2026-04-12 07:35:08.382703,408,negative,0.79,distilbert,negative,negative
+409,409,409,3,Very satisfied with the experience,2026-04-16 07:35:08.382739,409,positive,0.64,distilbert,positive,neutral
+410,410,410,2,Great product and excellent quality,2026-02-17 07:35:08.382773,410,neutral,0.92,distilbert,neutral,negative
+411,411,411,4,Good value for money,2026-02-27 07:35:08.382807,411,positive,0.78,distilbert,positive,positive
+412,412,412,1,Delivery was late,2026-03-05 07:35:08.382843,412,neutral,0.97,bert-base,neutral,negative
+413,413,413,1,Fantastic support and fast shipping,2026-02-06 07:35:08.382878,413,negative,0.76,distilbert,negative,negative
+414,414,414,4,Delivery was late,2026-05-02 07:35:08.382914,414,neutral,0.64,bert-base,neutral,positive
+415,415,415,1,"Average product, could be better",2026-05-19 07:35:08.382947,415,neutral,0.54,distilbert,neutral,negative
+416,416,416,5,Good value for money,2026-06-23 07:35:08.382983,416,negative,0.72,bert-base,negative,positive
+417,417,417,4,Very satisfied with the experience,2026-04-24 07:35:08.383019,417,positive,0.82,distilbert,positive,positive
+418,418,418,4,Very satisfied with the experience,2026-04-01 07:35:08.383053,418,neutral,0.73,distilbert,neutral,positive
+419,419,419,4,Very satisfied with the experience,2026-02-08 07:35:08.383086,419,neutral,0.97,distilbert,neutral,positive
+420,420,420,1,Delivery was late,2026-05-27 07:35:08.383122,420,negative,0.79,roberta-base,negative,negative
+421,421,421,4,Great product and excellent quality,2026-07-06 07:35:08.383159,421,negative,0.55,roberta-base,negative,positive
+422,422,422,2,Fantastic support and fast shipping,2026-02-28 07:35:08.383193,422,negative,0.56,bert-base,negative,negative
+423,423,423,1,Very satisfied with the experience,2026-02-18 07:35:08.383228,423,neutral,0.95,roberta-base,neutral,negative
+424,424,424,3,Great product and excellent quality,2026-05-25 07:35:08.383263,424,positive,0.72,roberta-base,positive,neutral
+425,425,425,1,Fantastic support and fast shipping,2026-04-09 07:35:08.383296,425,negative,0.63,bert-base,negative,negative
+426,426,426,4,Fantastic support and fast shipping,2026-05-24 07:35:08.383330,426,positive,0.84,roberta-base,positive,positive
+427,427,427,4,Great product and excellent quality,2026-02-05 07:35:08.383365,427,neutral,0.56,distilbert,neutral,positive
+428,428,428,1,Delivery was late,2026-04-05 07:35:08.383400,428,neutral,0.82,bert-base,neutral,negative
+429,429,429,4,Great product and excellent quality,2026-06-13 07:35:08.383436,429,positive,0.52,bert-base,positive,positive
+430,430,430,3,Great product and excellent quality,2026-07-21 07:35:08.383469,430,neutral,0.56,distilbert,neutral,neutral
+431,431,431,4,Great product and excellent quality,2026-02-23 07:35:08.383502,431,positive,0.62,distilbert,positive,positive
+432,432,432,1,"Average product, could be better",2026-07-04 07:35:08.383604,432,positive,0.74,distilbert,positive,negative
+433,433,433,2,Delivery was late,2026-07-20 07:35:08.383642,433,negative,0.58,bert-base,negative,negative
+434,434,434,1,"Average product, could be better",2026-06-27 07:35:08.383675,434,positive,0.89,distilbert,positive,negative
+435,435,435,4,Very satisfied with the experience,2026-02-04 07:35:08.383709,435,positive,0.6,distilbert,positive,positive
+436,436,436,5,Very satisfied with the experience,2026-07-09 07:35:08.383743,436,negative,0.9,roberta-base,negative,positive
+437,437,437,5,"Average product, could be better",2026-06-05 07:35:08.383776,437,neutral,0.88,distilbert,neutral,positive
+438,438,438,1,Fantastic support and fast shipping,2026-07-18 07:35:08.383809,438,negative,0.68,bert-base,negative,negative
+439,439,439,1,Good value for money,2026-03-29 07:35:08.383842,439,negative,0.56,bert-base,negative,negative
+440,440,440,1,Good value for money,2026-06-01 07:35:08.383877,440,negative,0.7,bert-base,negative,negative
+441,441,441,2,Very satisfied with the experience,2026-04-23 07:35:08.383912,441,neutral,0.57,distilbert,neutral,negative
+442,442,442,4,Great product and excellent quality,2026-04-05 07:35:08.383945,442,neutral,0.58,roberta-base,neutral,positive
+443,443,443,4,"Average product, could be better",2026-06-06 07:35:08.383978,443,negative,0.73,roberta-base,negative,positive
+444,444,444,5,Good value for money,2026-07-30 07:35:08.384012,444,neutral,0.98,bert-base,neutral,positive
+445,445,445,1,Good value for money,2026-03-11 07:35:08.384047,445,positive,0.84,roberta-base,positive,negative
+446,446,446,5,Very satisfied with the experience,2026-03-04 07:35:08.384082,446,positive,0.98,roberta-base,positive,positive
+447,447,447,4,Great product and excellent quality,2026-02-05 07:35:08.384115,447,neutral,0.76,roberta-base,neutral,positive
+448,448,448,5,Great product and excellent quality,2026-02-09 07:35:08.384148,448,neutral,0.94,bert-base,neutral,positive
+449,449,449,2,Fantastic support and fast shipping,2026-06-26 07:35:08.384182,449,neutral,0.62,bert-base,neutral,negative
+450,450,450,1,Great product and excellent quality,2026-04-27 07:35:08.384218,450,neutral,0.72,distilbert,neutral,negative
+451,451,451,1,Very satisfied with the experience,2026-07-11 07:35:08.384253,451,neutral,0.94,roberta-base,neutral,negative
+452,452,452,5,Very satisfied with the experience,2026-06-28 07:35:08.384287,452,neutral,0.67,roberta-base,neutral,positive
+453,453,453,3,"Average product, could be better",2026-02-14 07:35:08.384320,453,negative,0.89,roberta-base,negative,neutral
+454,454,454,1,Delivery was late,2026-06-24 07:35:08.384353,454,neutral,0.64,bert-base,neutral,negative
+455,455,455,1,Good value for money,2026-07-21 07:35:08.384391,455,neutral,0.78,roberta-base,neutral,negative
+456,456,456,2,"Average product, could be better",2026-03-17 07:35:08.384424,456,neutral,0.56,bert-base,neutral,negative
+457,457,457,3,Fantastic support and fast shipping,2026-04-01 07:35:08.384463,457,neutral,0.98,distilbert,neutral,neutral
+458,458,458,5,Fantastic support and fast shipping,2026-07-02 07:35:08.384499,458,neutral,0.51,distilbert,neutral,positive
+459,459,459,2,Delivery was late,2026-07-26 07:35:08.384533,459,positive,0.76,roberta-base,positive,negative
+460,460,460,4,Good value for money,2026-04-28 07:35:08.384566,460,neutral,0.68,roberta-base,neutral,positive
+461,461,461,4,Good value for money,2026-04-16 07:35:08.384599,461,positive,0.91,distilbert,positive,positive
+462,462,462,3,Very satisfied with the experience,2026-04-16 07:35:08.384633,462,positive,0.77,distilbert,positive,neutral
+463,463,463,5,Very satisfied with the experience,2026-04-04 07:35:08.384669,463,positive,0.51,bert-base,positive,positive
+464,464,464,2,Very satisfied with the experience,2026-07-24 07:35:08.384702,464,positive,0.87,roberta-base,positive,negative
+465,465,465,3,Great product and excellent quality,2026-03-22 07:35:08.384737,465,negative,0.78,roberta-base,negative,neutral
+466,466,466,3,Delivery was late,2026-04-15 07:35:08.384770,466,negative,0.95,roberta-base,negative,neutral
+467,467,467,5,Good value for money,2026-05-10 07:35:08.384805,467,neutral,0.91,distilbert,neutral,positive
+468,468,468,5,Good value for money,2026-05-20 07:35:08.384839,468,neutral,0.88,roberta-base,neutral,positive
+469,469,469,5,Fantastic support and fast shipping,2026-02-02 07:35:08.384874,469,positive,0.7,bert-base,positive,positive
+470,470,470,2,Delivery was late,2026-05-15 07:35:08.384909,470,positive,0.86,bert-base,positive,negative
+471,471,471,1,Fantastic support and fast shipping,2026-07-12 07:35:08.384942,471,positive,0.88,roberta-base,positive,negative
+472,472,472,1,Fantastic support and fast shipping,2026-07-07 07:35:08.384975,472,positive,0.95,bert-base,positive,negative
+473,473,473,2,Delivery was late,2026-03-25 07:35:08.385008,473,negative,0.8,distilbert,negative,negative
+474,474,474,1,Fantastic support and fast shipping,2026-06-07 07:35:08.385043,474,negative,0.92,roberta-base,negative,negative
+475,475,475,2,"Average product, could be better",2026-04-18 07:35:08.385076,475,positive,0.87,roberta-base,positive,negative
+476,476,476,1,Great product and excellent quality,2026-05-09 07:35:08.385109,476,neutral,0.56,roberta-base,neutral,negative
+477,477,477,4,Great product and excellent quality,2026-02-08 07:35:08.385142,477,neutral,0.59,distilbert,neutral,positive
+478,478,478,2,Fantastic support and fast shipping,2026-07-15 07:35:08.385176,478,neutral,0.98,roberta-base,neutral,negative
+479,479,479,4,Fantastic support and fast shipping,2026-05-01 07:35:08.385273,479,neutral,0.83,roberta-base,neutral,positive
+480,480,480,2,Fantastic support and fast shipping,2026-07-24 07:35:08.385306,480,positive,0.86,bert-base,positive,negative
+481,481,481,5,Fantastic support and fast shipping,2026-03-27 07:35:08.385341,481,neutral,0.6,distilbert,neutral,positive
+482,482,482,1,Very satisfied with the experience,2026-04-24 07:35:08.385376,482,neutral,0.65,roberta-base,neutral,negative
+483,483,483,4,Delivery was late,2026-03-29 07:35:08.385409,483,positive,0.78,roberta-base,positive,positive
+484,484,484,3,Fantastic support and fast shipping,2026-05-20 07:35:08.385445,484,neutral,0.53,distilbert,neutral,neutral
+485,485,485,3,Very satisfied with the experience,2026-05-01 07:35:08.385479,485,neutral,0.67,distilbert,neutral,neutral
+486,486,486,1,Good value for money,2026-03-16 07:35:08.385513,486,neutral,0.52,distilbert,neutral,negative
+487,487,487,5,Very satisfied with the experience,2026-04-23 07:35:08.385546,487,neutral,0.78,roberta-base,neutral,positive
+488,488,488,1,Very satisfied with the experience,2026-03-16 07:35:08.385579,488,positive,0.64,bert-base,positive,negative
+489,489,489,1,Delivery was late,2026-03-08 07:35:08.385612,489,negative,0.73,bert-base,negative,negative
+490,490,490,3,Very satisfied with the experience,2026-02-22 07:35:08.385645,490,negative,0.72,distilbert,negative,neutral
+491,491,491,5,Fantastic support and fast shipping,2026-02-24 07:35:08.385678,491,neutral,0.96,distilbert,neutral,positive
+492,492,492,3,Very satisfied with the experience,2026-07-15 07:35:08.385711,492,negative,0.6,roberta-base,negative,neutral
+493,493,493,3,Good value for money,2026-04-04 07:35:08.385745,493,neutral,0.77,roberta-base,neutral,neutral
+494,494,494,1,Fantastic support and fast shipping,2026-03-29 07:35:08.385779,494,positive,0.53,bert-base,positive,negative
+495,495,495,2,Fantastic support and fast shipping,2026-06-01 07:35:08.385813,495,positive,0.78,distilbert,positive,negative
+496,496,496,3,Delivery was late,2026-03-04 07:35:08.385845,496,negative,0.69,distilbert,negative,neutral
+497,497,497,1,"Average product, could be better",2026-03-28 07:35:08.385880,497,negative,0.68,bert-base,negative,negative
+498,498,498,3,Delivery was late,2026-07-26 07:35:08.385912,498,negative,0.97,distilbert,negative,neutral
+499,499,499,5,Great product and excellent quality,2026-06-01 07:35:08.385945,499,neutral,0.69,roberta-base,neutral,positive
+500,500,500,1,Very satisfied with the experience,2026-05-22 07:35:08.385978,500,positive,0.9,roberta-base,positive,negative
+501,501,501,4,Delivery was late,2026-02-27 07:35:08.386010,501,negative,0.9,distilbert,negative,positive
+502,502,502,1,Good value for money,2026-04-20 07:35:08.386043,502,positive,0.81,roberta-base,positive,negative
+503,503,503,2,Very satisfied with the experience,2026-05-26 07:35:08.386076,503,positive,0.84,roberta-base,positive,negative
+504,504,504,5,Great product and excellent quality,2026-02-16 07:35:08.386114,504,negative,0.81,bert-base,negative,positive
+505,505,505,1,Good value for money,2026-04-28 07:35:08.386150,505,positive,0.96,bert-base,positive,negative
+506,506,506,2,Good value for money,2026-05-24 07:35:08.386185,506,neutral,0.87,roberta-base,neutral,negative
+507,507,507,1,Good value for money,2026-05-18 07:35:08.386219,507,neutral,0.62,roberta-base,neutral,negative
+508,508,508,2,Very satisfied with the experience,2026-04-24 07:35:08.386253,508,negative,0.71,distilbert,negative,negative
+509,509,509,5,Fantastic support and fast shipping,2026-07-20 07:35:08.386286,509,positive,0.62,distilbert,positive,positive
+510,510,510,2,Delivery was late,2026-03-25 07:35:08.386319,510,neutral,0.96,roberta-base,neutral,negative
+511,511,511,3,Very satisfied with the experience,2026-04-30 07:35:08.386354,511,neutral,0.64,roberta-base,neutral,neutral
+512,512,512,4,Fantastic support and fast shipping,2026-07-18 07:35:08.386387,512,positive,0.57,bert-base,positive,positive
+513,513,513,5,Fantastic support and fast shipping,2026-03-29 07:35:08.386419,513,neutral,0.74,distilbert,neutral,positive
+514,514,514,5,Fantastic support and fast shipping,2026-06-07 07:35:08.386452,514,negative,0.99,bert-base,negative,positive
+515,515,515,1,Fantastic support and fast shipping,2026-04-22 07:35:08.386484,515,neutral,0.79,bert-base,neutral,negative
+516,516,516,5,Great product and excellent quality,2026-04-07 07:35:08.386519,516,neutral,0.96,distilbert,neutral,positive
+517,517,517,1,Very satisfied with the experience,2026-04-20 07:35:08.386554,517,neutral,0.59,roberta-base,neutral,negative
+518,518,518,4,Very satisfied with the experience,2026-05-13 07:35:08.386589,518,negative,0.8,roberta-base,negative,positive
+519,519,519,1,Very satisfied with the experience,2026-04-14 07:35:08.386625,519,neutral,0.8,roberta-base,neutral,negative
+520,520,520,5,"Average product, could be better",2026-07-10 07:35:08.386658,520,neutral,0.73,bert-base,neutral,positive
+521,521,521,5,Great product and excellent quality,2026-07-12 07:35:08.386692,521,positive,0.75,distilbert,positive,positive
+522,522,522,4,Great product and excellent quality,2026-06-16 07:35:08.386725,522,positive,0.91,bert-base,positive,positive
+523,523,523,2,Good value for money,2026-06-14 07:35:08.386757,523,positive,0.87,distilbert,positive,negative
+524,524,524,4,Fantastic support and fast shipping,2026-02-13 07:35:08.386790,524,negative,0.79,roberta-base,negative,positive
+525,525,525,1,Good value for money,2026-07-27 07:35:08.386823,525,negative,0.98,bert-base,negative,negative
+526,526,526,4,Delivery was late,2026-06-24 07:35:08.386857,526,neutral,0.71,bert-base,neutral,positive
+527,527,527,5,Delivery was late,2026-04-22 07:35:08.386955,527,positive,0.66,bert-base,positive,positive
+528,528,528,5,Fantastic support and fast shipping,2026-02-08 07:35:08.386989,528,neutral,0.61,bert-base,neutral,positive
+529,529,529,5,Very satisfied with the experience,2026-02-16 07:35:08.387025,529,neutral,0.72,roberta-base,neutral,positive
+530,530,530,3,Fantastic support and fast shipping,2026-02-27 07:35:08.387058,530,negative,0.82,bert-base,negative,neutral
+531,531,531,1,Fantastic support and fast shipping,2026-02-11 07:35:08.387095,531,neutral,0.56,bert-base,neutral,negative
+532,532,532,1,"Average product, could be better",2026-07-27 07:35:08.387127,532,neutral,0.93,roberta-base,neutral,negative
+533,533,533,2,"Average product, could be better",2026-03-29 07:35:08.387160,533,neutral,0.99,roberta-base,neutral,negative
+534,534,534,5,"Average product, could be better",2026-07-05 07:35:08.387194,534,negative,0.52,bert-base,negative,positive
+535,535,535,1,Fantastic support and fast shipping,2026-06-22 07:35:08.387226,535,negative,0.68,bert-base,negative,negative
+536,536,536,1,Good value for money,2026-05-24 07:35:08.387259,536,neutral,0.85,roberta-base,neutral,negative
+537,537,537,5,Very satisfied with the experience,2026-02-07 07:35:08.387292,537,neutral,0.96,roberta-base,neutral,positive
+538,538,538,4,Great product and excellent quality,2026-07-22 07:35:08.387325,538,negative,0.95,bert-base,negative,positive
+539,539,539,5,"Average product, could be better",2026-06-24 07:35:08.387358,539,negative,0.7,distilbert,negative,positive
+540,540,540,1,Great product and excellent quality,2026-03-16 07:35:08.387391,540,neutral,0.69,distilbert,neutral,negative
+541,541,541,1,Good value for money,2026-07-24 07:35:08.387425,541,negative,0.79,bert-base,negative,negative
+542,542,542,1,Great product and excellent quality,2026-02-15 07:35:08.387460,542,positive,0.72,distilbert,positive,negative
+543,543,543,4,Good value for money,2026-03-20 07:35:08.387496,543,negative,0.62,roberta-base,negative,positive
+544,544,544,4,Good value for money,2026-06-07 07:35:08.387528,544,neutral,0.54,distilbert,neutral,positive
+545,545,545,4,Fantastic support and fast shipping,2026-04-16 07:35:08.387564,545,positive,0.57,bert-base,positive,positive
+546,546,546,5,Good value for money,2026-04-28 07:35:08.387596,546,positive,0.79,roberta-base,positive,positive
+547,547,547,3,Delivery was late,2026-03-29 07:35:08.387631,547,positive,0.89,bert-base,positive,neutral
+548,548,548,3,"Average product, could be better",2026-07-14 07:35:08.387664,548,positive,0.7,distilbert,positive,neutral
+549,549,549,4,"Average product, could be better",2026-04-07 07:35:08.387697,549,negative,0.72,distilbert,negative,positive
+550,550,550,4,Fantastic support and fast shipping,2026-05-21 07:35:08.387730,550,negative,0.54,bert-base,negative,positive
+551,551,551,5,Good value for money,2026-03-15 07:35:08.387763,551,negative,0.87,distilbert,negative,positive
+552,552,552,2,Good value for money,2026-03-05 07:35:08.387799,552,neutral,0.54,distilbert,neutral,negative
+553,553,553,4,Delivery was late,2026-05-27 07:35:08.387835,553,positive,0.56,bert-base,positive,positive
+554,554,554,3,"Average product, could be better",2026-06-15 07:35:08.387868,554,positive,0.85,roberta-base,positive,neutral
+555,555,555,5,"Average product, could be better",2026-06-01 07:35:08.387903,555,neutral,0.75,distilbert,neutral,positive
+556,556,556,2,Fantastic support and fast shipping,2026-07-27 07:35:08.387936,556,neutral,0.77,distilbert,neutral,negative
+557,557,557,2,"Average product, could be better",2026-06-25 07:35:08.387969,557,neutral,0.76,bert-base,neutral,negative
+558,558,558,1,Good value for money,2026-07-16 07:35:08.388003,558,neutral,0.63,roberta-base,neutral,negative
+559,559,559,1,Delivery was late,2026-04-21 07:35:08.388036,559,negative,0.56,bert-base,negative,negative
+560,560,560,3,Very satisfied with the experience,2026-05-30 07:35:08.388068,560,negative,0.98,roberta-base,negative,neutral
+561,561,561,2,Great product and excellent quality,2026-04-17 07:35:08.388100,561,negative,0.94,distilbert,negative,negative
+562,562,562,5,Very satisfied with the experience,2026-05-01 07:35:08.388133,562,neutral,0.59,distilbert,neutral,positive
+563,563,563,3,Fantastic support and fast shipping,2026-06-12 07:35:08.388166,563,positive,0.9,distilbert,positive,neutral
+564,564,564,2,Great product and excellent quality,2026-02-18 07:35:08.388198,564,neutral,0.55,roberta-base,neutral,negative
+565,565,565,2,"Average product, could be better",2026-03-20 07:35:08.388235,565,negative,0.88,bert-base,negative,negative
+566,566,566,4,Very satisfied with the experience,2026-05-22 07:35:08.388268,566,positive,0.83,roberta-base,positive,positive
+567,567,567,4,Great product and excellent quality,2026-06-12 07:35:08.388305,567,neutral,0.54,distilbert,neutral,positive
+568,568,568,1,Great product and excellent quality,2026-07-24 07:35:08.388340,568,neutral,0.71,bert-base,neutral,negative
+569,569,569,5,Great product and excellent quality,2026-02-23 07:35:08.388373,569,neutral,0.87,distilbert,neutral,positive
+570,570,570,4,Great product and excellent quality,2026-07-17 07:35:08.388406,570,neutral,0.8,roberta-base,neutral,positive
+571,571,571,2,Very satisfied with the experience,2026-02-28 07:35:08.388438,571,negative,0.81,roberta-base,negative,negative
+572,572,572,5,Delivery was late,2026-06-12 07:35:08.388471,572,positive,0.55,distilbert,positive,positive
+573,573,573,5,Fantastic support and fast shipping,2026-04-09 07:35:08.388503,573,positive,0.62,bert-base,positive,positive
+574,574,574,5,Delivery was late,2026-05-05 07:35:08.388536,574,neutral,0.68,bert-base,neutral,positive
+575,575,575,2,Delivery was late,2026-02-11 07:35:08.388634,575,neutral,0.84,roberta-base,neutral,negative
+576,576,576,2,Very satisfied with the experience,2026-07-31 07:35:08.388669,576,negative,0.61,bert-base,negative,negative
+577,577,577,3,Great product and excellent quality,2026-07-29 07:35:08.388703,577,positive,0.68,distilbert,positive,neutral
+578,578,578,2,Good value for money,2026-05-25 07:35:08.388736,578,negative,0.59,distilbert,negative,negative
+579,579,579,1,Fantastic support and fast shipping,2026-05-06 07:35:08.388770,579,positive,0.65,bert-base,positive,negative
+580,580,580,2,Good value for money,2026-03-17 07:35:08.388803,580,neutral,0.84,roberta-base,neutral,negative
+581,581,581,3,Great product and excellent quality,2026-06-29 07:35:08.388836,581,negative,0.97,roberta-base,negative,neutral
+582,582,582,5,Very satisfied with the experience,2026-04-04 07:35:08.388869,582,positive,0.66,roberta-base,positive,positive
+583,583,583,2,Good value for money,2026-04-07 07:35:08.388901,583,positive,0.69,roberta-base,positive,negative
+584,584,584,5,Very satisfied with the experience,2026-05-02 07:35:08.388936,584,positive,0.79,roberta-base,positive,positive
+585,585,585,2,Great product and excellent quality,2026-04-09 07:35:08.388968,585,positive,0.63,bert-base,positive,negative
+586,586,586,1,Delivery was late,2026-03-14 07:35:08.389002,586,positive,0.66,distilbert,positive,negative
+587,587,587,3,Great product and excellent quality,2026-05-20 07:35:08.389037,587,neutral,0.88,roberta-base,neutral,neutral
+588,588,588,5,Good value for money,2026-03-03 07:35:08.389070,588,negative,0.87,distilbert,negative,positive
+589,589,589,5,Very satisfied with the experience,2026-07-24 07:35:08.389109,589,neutral,0.57,bert-base,neutral,positive
+590,590,590,3,"Average product, could be better",2026-05-09 07:35:08.389143,590,negative,0.51,bert-base,negative,neutral
+591,591,591,2,Very satisfied with the experience,2026-04-01 07:35:08.389178,591,positive,0.66,roberta-base,positive,negative
+592,592,592,2,Good value for money,2026-07-14 07:35:08.389211,592,neutral,0.64,bert-base,neutral,negative
+593,593,593,1,Good value for money,2026-06-28 07:35:08.389250,593,negative,0.71,distilbert,negative,negative
+594,594,594,5,"Average product, could be better",2026-05-13 07:35:08.389285,594,negative,0.6,distilbert,negative,positive
+595,595,595,5,Delivery was late,2026-03-28 07:35:08.389318,595,neutral,0.73,bert-base,neutral,positive
+596,596,596,4,Good value for money,2026-05-29 07:35:08.389350,596,positive,0.94,distilbert,positive,positive
+597,597,597,3,Good value for money,2026-02-21 07:35:08.389384,597,negative,0.64,bert-base,negative,neutral
+598,598,598,4,Very satisfied with the experience,2026-06-19 07:35:08.389416,598,neutral,0.6,bert-base,neutral,positive
+599,599,599,1,Great product and excellent quality,2026-05-28 07:35:08.389450,599,positive,0.85,bert-base,positive,negative
+600,600,600,2,Delivery was late,2026-06-18 07:35:08.389485,600,positive,0.8,bert-base,positive,negative
+601,601,601,3,Very satisfied with the experience,2026-06-16 07:35:08.389522,601,positive,0.85,distilbert,positive,neutral
+602,602,602,1,Great product and excellent quality,2026-04-26 07:35:08.389554,602,positive,0.96,roberta-base,positive,negative
+603,603,603,2,Great product and excellent quality,2026-06-19 07:35:08.389588,603,positive,0.7,bert-base,positive,negative
+604,604,604,1,Good value for money,2026-05-01 07:35:08.389620,604,neutral,0.59,roberta-base,neutral,negative
+605,605,605,1,Great product and excellent quality,2026-06-06 07:35:08.389652,605,neutral,0.65,distilbert,neutral,negative
+606,606,606,4,Fantastic support and fast shipping,2026-02-08 07:35:08.389685,606,negative,0.57,bert-base,negative,positive
+607,607,607,1,Fantastic support and fast shipping,2026-06-02 07:35:08.389718,607,positive,0.8,bert-base,positive,negative
+608,608,608,2,Delivery was late,2026-06-23 07:35:08.389750,608,neutral,0.6,bert-base,neutral,negative
+609,609,609,3,Very satisfied with the experience,2026-07-25 07:35:08.389783,609,positive,0.91,roberta-base,positive,neutral
+610,610,610,3,"Average product, could be better",2026-06-15 07:35:08.389817,610,neutral,0.81,bert-base,neutral,neutral
+611,611,611,2,"Average product, could be better",2026-06-01 07:35:08.389851,611,negative,0.54,distilbert,negative,negative
+612,612,612,4,"Average product, could be better",2026-02-19 07:35:08.389883,612,positive,0.63,roberta-base,positive,positive
+613,613,613,1,Very satisfied with the experience,2026-04-25 07:35:08.389917,613,neutral,0.92,roberta-base,neutral,negative
+614,614,614,4,"Average product, could be better",2026-07-13 07:35:08.389949,614,neutral,0.57,roberta-base,neutral,positive
+615,615,615,3,Very satisfied with the experience,2026-02-17 07:35:08.389981,615,negative,0.53,bert-base,negative,neutral
+616,616,616,3,Very satisfied with the experience,2026-02-03 07:35:08.390073,616,positive,0.82,roberta-base,positive,neutral
+617,617,617,4,"Average product, could be better",2026-02-07 07:35:08.390105,617,positive,0.62,distilbert,positive,positive
+618,618,618,2,Very satisfied with the experience,2026-04-13 07:35:08.390140,618,neutral,0.84,distilbert,neutral,negative
+619,619,619,2,Fantastic support and fast shipping,2026-04-21 07:35:08.390172,619,negative,0.65,bert-base,negative,negative
+620,620,620,3,Good value for money,2026-06-14 07:35:08.390206,620,negative,0.57,roberta-base,negative,neutral
+621,621,621,4,Very satisfied with the experience,2026-02-21 07:35:08.390241,621,negative,0.55,distilbert,negative,positive
+622,622,622,4,Very satisfied with the experience,2026-02-09 07:35:08.390336,622,positive,0.5,roberta-base,positive,positive
+623,623,623,5,Delivery was late,2026-04-13 07:35:08.390374,623,neutral,0.68,roberta-base,neutral,positive
+624,624,624,4,Very satisfied with the experience,2026-06-26 07:35:08.390440,624,positive,0.79,distilbert,positive,positive
+625,625,625,1,Delivery was late,2026-02-19 07:35:08.390479,625,neutral,0.93,distilbert,neutral,negative
+626,626,626,1,Fantastic support and fast shipping,2026-04-24 07:35:08.390513,626,neutral,0.8,distilbert,neutral,negative
+627,627,627,4,Good value for money,2026-07-02 07:35:08.390547,627,neutral,0.82,bert-base,neutral,positive
+628,628,628,3,Very satisfied with the experience,2026-06-05 07:35:08.390583,628,negative,0.63,roberta-base,negative,neutral
+629,629,629,1,"Average product, could be better",2026-02-17 07:35:08.390619,629,neutral,0.68,distilbert,neutral,negative
+630,630,630,5,Delivery was late,2026-06-13 07:35:08.390654,630,negative,0.96,distilbert,negative,positive
+631,631,631,3,Very satisfied with the experience,2026-04-29 07:35:08.390689,631,negative,0.96,bert-base,negative,neutral
+632,632,632,2,Very satisfied with the experience,2026-02-28 07:35:08.390724,632,neutral,0.57,distilbert,neutral,negative
+633,633,633,4,Good value for money,2026-05-18 07:35:08.390761,633,negative,0.97,bert-base,negative,positive
+634,634,634,3,Very satisfied with the experience,2026-02-13 07:35:08.390797,634,positive,0.99,distilbert,positive,neutral
+635,635,635,3,Delivery was late,2026-02-03 07:35:08.390832,635,positive,0.84,distilbert,positive,neutral
+636,636,636,5,Good value for money,2026-06-26 07:35:08.390866,636,neutral,0.84,roberta-base,neutral,positive
+637,637,637,2,Fantastic support and fast shipping,2026-04-26 07:35:08.390902,637,neutral,0.83,bert-base,neutral,negative
+638,638,638,2,Very satisfied with the experience,2026-02-21 07:35:08.390938,638,negative,0.7,bert-base,negative,negative
+639,639,639,4,Fantastic support and fast shipping,2026-05-22 07:35:08.390972,639,negative,0.82,roberta-base,negative,positive
+640,640,640,5,"Average product, could be better",2026-03-31 07:35:08.391007,640,neutral,0.84,bert-base,neutral,positive
+641,641,641,5,Fantastic support and fast shipping,2026-06-14 07:35:08.391039,641,neutral,0.9,bert-base,neutral,positive
+642,642,642,1,Fantastic support and fast shipping,2026-06-15 07:35:08.391071,642,negative,0.84,bert-base,negative,negative
+643,643,643,1,Great product and excellent quality,2026-03-24 07:35:08.391103,643,neutral,0.68,distilbert,neutral,negative
+644,644,644,5,Good value for money,2026-03-28 07:35:08.391138,644,negative,0.65,roberta-base,negative,positive
+645,645,645,5,"Average product, could be better",2026-06-06 07:35:08.391171,645,negative,0.68,bert-base,negative,positive
+646,646,646,4,Delivery was late,2026-02-04 07:35:08.391203,646,positive,0.76,bert-base,positive,positive
+647,647,647,5,Great product and excellent quality,2026-05-29 07:35:08.391235,647,positive,0.63,distilbert,positive,positive
+648,648,648,1,Delivery was late,2026-07-06 07:35:08.391267,648,neutral,0.98,bert-base,neutral,negative
+649,649,649,5,Fantastic support and fast shipping,2026-05-20 07:35:08.391303,649,negative,0.63,bert-base,negative,positive
+650,650,650,4,"Average product, could be better",2026-03-31 07:35:08.391335,650,negative,0.56,bert-base,negative,positive
+651,651,651,5,Good value for money,2026-04-15 07:35:08.391367,651,negative,0.72,roberta-base,negative,positive
+652,652,652,3,Great product and excellent quality,2026-04-18 07:35:08.391402,652,neutral,0.91,distilbert,neutral,neutral
+653,653,653,1,Very satisfied with the experience,2026-04-14 07:35:08.391440,653,negative,0.75,distilbert,negative,negative
+654,654,654,5,Very satisfied with the experience,2026-05-04 07:35:08.391476,654,positive,0.99,distilbert,positive,positive
+655,655,655,4,Great product and excellent quality,2026-03-27 07:35:08.391511,655,neutral,0.58,bert-base,neutral,positive
+656,656,656,5,Great product and excellent quality,2026-04-22 07:35:08.391543,656,positive,0.95,distilbert,positive,positive
+657,657,657,1,Delivery was late,2026-07-30 07:35:08.391575,657,neutral,0.94,bert-base,neutral,negative
+658,658,658,4,Great product and excellent quality,2026-07-30 07:35:08.391607,658,positive,0.88,roberta-base,positive,positive
+659,659,659,4,Very satisfied with the experience,2026-06-20 07:35:08.391639,659,positive,0.67,roberta-base,positive,positive
+660,660,660,1,Delivery was late,2026-06-20 07:35:08.391672,660,negative,0.6,roberta-base,negative,negative
+661,661,661,4,"Average product, could be better",2026-06-28 07:35:08.391706,661,positive,0.97,bert-base,positive,positive
+662,662,662,4,Great product and excellent quality,2026-03-31 07:35:08.391740,662,neutral,0.64,bert-base,neutral,positive
+663,663,663,2,Very satisfied with the experience,2026-04-01 07:35:08.391772,663,negative,0.88,bert-base,negative,negative
+664,664,664,2,Good value for money,2026-04-13 07:35:08.391807,664,positive,0.8,bert-base,positive,negative
+665,665,665,1,Very satisfied with the experience,2026-05-15 07:35:08.391839,665,positive,0.63,roberta-base,positive,negative
+666,666,666,4,Delivery was late,2026-05-21 07:35:08.391871,666,negative,0.55,bert-base,negative,positive
+667,667,667,3,Delivery was late,2026-04-30 07:35:08.391905,667,negative,0.88,distilbert,negative,neutral
+668,668,668,5,Great product and excellent quality,2026-02-14 07:35:08.391938,668,positive,0.59,roberta-base,positive,positive
+669,669,669,2,Good value for money,2026-04-15 07:35:08.391971,669,negative,0.85,distilbert,negative,negative
+670,670,670,1,"Average product, could be better",2026-06-19 07:35:08.392835,670,negative,0.63,bert-base,negative,negative
+671,671,671,2,Great product and excellent quality,2026-04-10 07:35:08.392868,671,negative,0.69,roberta-base,negative,negative
+672,672,672,5,Very satisfied with the experience,2026-03-19 07:35:08.392900,672,neutral,0.65,bert-base,neutral,positive
+673,673,673,3,Good value for money,2026-06-27 07:35:08.392936,673,neutral,0.93,bert-base,neutral,neutral
+674,674,674,3,"Average product, could be better",2026-06-27 07:35:08.392970,674,neutral,0.94,roberta-base,neutral,neutral
+675,675,675,5,"Average product, could be better",2026-07-04 07:35:08.393003,675,negative,0.87,roberta-base,negative,positive
+676,676,676,2,Very satisfied with the experience,2026-04-08 07:35:08.393038,676,positive,0.86,roberta-base,positive,negative
+677,677,677,2,Fantastic support and fast shipping,2026-02-16 07:35:08.393070,677,neutral,0.51,bert-base,neutral,negative
+678,678,678,1,Very satisfied with the experience,2026-03-19 07:35:08.393104,678,positive,0.86,bert-base,positive,negative
+679,679,679,3,Great product and excellent quality,2026-06-25 07:35:08.393136,679,negative,0.79,bert-base,negative,neutral
+680,680,680,3,Delivery was late,2026-03-31 07:35:08.393169,680,positive,0.62,distilbert,positive,neutral
+681,681,681,1,Good value for money,2026-06-04 07:35:08.393202,681,positive,0.61,roberta-base,positive,negative
+682,682,682,2,Great product and excellent quality,2026-07-05 07:35:08.393235,682,neutral,0.68,distilbert,neutral,negative
+683,683,683,3,"Average product, could be better",2026-02-28 07:35:08.393267,683,positive,0.83,bert-base,positive,neutral
+684,684,684,1,Fantastic support and fast shipping,2026-07-31 07:35:08.393299,684,positive,0.88,bert-base,positive,negative
+685,685,685,2,Delivery was late,2026-07-08 07:35:08.393334,685,neutral,0.99,bert-base,neutral,negative
+686,686,686,2,Fantastic support and fast shipping,2026-04-24 07:35:08.393366,686,neutral,0.77,distilbert,neutral,negative
+687,687,687,2,Fantastic support and fast shipping,2026-02-02 07:35:08.393399,687,positive,0.62,bert-base,positive,negative
+688,688,688,4,Delivery was late,2026-06-25 07:35:08.393435,688,negative,0.98,roberta-base,negative,positive
+689,689,689,1,Fantastic support and fast shipping,2026-02-03 07:35:08.393470,689,neutral,0.68,distilbert,neutral,negative
+690,690,690,1,Great product and excellent quality,2026-03-08 07:35:08.393502,690,neutral,0.57,bert-base,neutral,negative
+691,691,691,1,Fantastic support and fast shipping,2026-05-19 07:35:08.393534,691,positive,0.58,distilbert,positive,negative
+692,692,692,3,Fantastic support and fast shipping,2026-03-07 07:35:08.393566,692,negative,0.65,bert-base,negative,neutral
+693,693,693,2,Great product and excellent quality,2026-04-22 07:35:08.393599,693,positive,0.9,distilbert,positive,negative
+694,694,694,2,Very satisfied with the experience,2026-05-23 07:35:08.393632,694,positive,0.55,roberta-base,positive,negative
+695,695,695,2,"Average product, could be better",2026-02-18 07:35:08.393666,695,positive,0.62,bert-base,positive,negative
+696,696,696,5,Very satisfied with the experience,2026-06-12 07:35:08.393699,696,neutral,0.87,distilbert,neutral,positive
+697,697,697,1,Good value for money,2026-03-03 07:35:08.393735,697,neutral,0.73,bert-base,neutral,negative
+698,698,698,2,Fantastic support and fast shipping,2026-06-20 07:35:08.393767,698,negative,0.75,distilbert,negative,negative
+699,699,699,5,Good value for money,2026-02-26 07:35:08.393800,699,positive,0.97,distilbert,positive,positive
+700,700,700,2,Delivery was late,2026-05-17 07:35:08.393833,700,positive,0.53,distilbert,positive,negative
+701,701,701,1,Good value for money,2026-03-08 07:35:08.393871,701,neutral,0.52,roberta-base,neutral,negative
+702,702,702,4,Great product and excellent quality,2026-03-24 07:35:08.393903,702,neutral,0.63,distilbert,neutral,positive
+703,703,703,4,Delivery was late,2026-06-21 07:35:08.393936,703,negative,0.7,bert-base,negative,positive
+704,704,704,2,Great product and excellent quality,2026-07-04 07:35:08.393970,704,neutral,0.88,bert-base,neutral,negative
+705,705,705,1,Very satisfied with the experience,2026-03-14 07:35:08.394005,705,positive,0.96,bert-base,positive,negative
+706,706,706,2,Great product and excellent quality,2026-07-26 07:35:08.394038,706,negative,0.71,roberta-base,negative,negative
+707,707,707,3,Good value for money,2026-06-14 07:35:08.394070,707,positive,0.55,roberta-base,positive,neutral
+708,708,708,3,Very satisfied with the experience,2026-02-04 07:35:08.394102,708,negative,0.69,bert-base,negative,neutral
+709,709,709,2,Very satisfied with the experience,2026-03-26 07:35:08.394138,709,neutral,0.56,distilbert,neutral,negative
+710,710,710,1,"Average product, could be better",2026-07-22 07:35:08.394171,710,positive,0.87,bert-base,positive,negative
+711,711,711,3,Delivery was late,2026-07-27 07:35:08.394204,711,neutral,0.94,distilbert,neutral,neutral
+712,712,712,1,Delivery was late,2026-06-16 07:35:08.394240,712,neutral,0.71,bert-base,neutral,negative
+713,713,713,1,Great product and excellent quality,2026-02-15 07:35:08.394276,713,positive,0.8,roberta-base,positive,negative
+714,714,714,4,Delivery was late,2026-06-07 07:35:08.394309,714,positive,0.88,distilbert,positive,positive
+715,715,715,2,Delivery was late,2026-03-24 07:35:08.394342,715,neutral,0.63,distilbert,neutral,negative
+716,716,716,3,Good value for money,2026-03-21 07:35:08.394376,716,negative,0.79,roberta-base,negative,neutral
+717,717,717,2,Very satisfied with the experience,2026-02-19 07:35:08.394412,717,neutral,0.98,bert-base,neutral,negative
+718,718,718,4,"Average product, could be better",2026-02-21 07:35:08.394511,718,neutral,0.91,bert-base,neutral,positive
+719,719,719,5,Fantastic support and fast shipping,2026-07-11 07:35:08.394545,719,negative,0.69,distilbert,negative,positive
+720,720,720,2,"Average product, could be better",2026-04-26 07:35:08.394585,720,neutral,0.82,roberta-base,neutral,negative
+721,721,721,3,Delivery was late,2026-06-15 07:35:08.394620,721,positive,0.54,roberta-base,positive,neutral
+722,722,722,4,Fantastic support and fast shipping,2026-04-26 07:35:08.394656,722,neutral,0.81,roberta-base,neutral,positive
+723,723,723,3,Delivery was late,2026-03-30 07:35:08.394691,723,negative,0.79,bert-base,negative,neutral
+724,724,724,2,"Average product, could be better",2026-06-06 07:35:08.394724,724,neutral,0.56,bert-base,neutral,negative
+725,725,725,5,Fantastic support and fast shipping,2026-02-15 07:35:08.394760,725,neutral,0.73,roberta-base,neutral,positive
+726,726,726,5,"Average product, could be better",2026-05-13 07:35:08.394793,726,positive,0.89,distilbert,positive,positive
+727,727,727,2,Very satisfied with the experience,2026-03-08 07:35:08.394826,727,neutral,0.68,distilbert,neutral,negative
+728,728,728,1,Very satisfied with the experience,2026-07-02 07:35:08.394860,728,positive,0.9,roberta-base,positive,negative
+729,729,729,1,Fantastic support and fast shipping,2026-05-08 07:35:08.394893,729,positive,0.73,roberta-base,positive,negative
+730,730,730,1,"Average product, could be better",2026-03-07 07:35:08.394926,730,negative,0.71,roberta-base,negative,negative
+731,731,731,2,Very satisfied with the experience,2026-02-28 07:35:08.394959,731,neutral,0.79,bert-base,neutral,negative
+732,732,732,5,"Average product, could be better",2026-07-21 07:35:08.394993,732,neutral,0.82,bert-base,neutral,positive
+733,733,733,4,Delivery was late,2026-02-25 07:35:08.395029,733,positive,0.69,distilbert,positive,positive
+734,734,734,1,Great product and excellent quality,2026-06-26 07:35:08.395064,734,positive,0.99,distilbert,positive,negative
+735,735,735,1,Great product and excellent quality,2026-07-19 07:35:08.395099,735,neutral,0.54,roberta-base,neutral,negative
+736,736,736,4,"Average product, could be better",2026-02-18 07:35:08.395133,736,neutral,0.83,distilbert,neutral,positive
+737,737,737,3,Delivery was late,2026-07-10 07:35:08.395170,737,neutral,0.77,bert-base,neutral,neutral
+738,738,738,4,Good value for money,2026-07-05 07:35:08.395205,738,neutral,0.6,distilbert,neutral,positive
+739,739,739,4,Very satisfied with the experience,2026-02-23 07:35:08.395239,739,negative,0.6,roberta-base,negative,positive
+740,740,740,1,Very satisfied with the experience,2026-07-03 07:35:08.395274,740,positive,0.51,roberta-base,positive,negative
+741,741,741,2,Very satisfied with the experience,2026-06-23 07:35:08.395308,741,neutral,0.75,distilbert,neutral,negative
+742,742,742,4,Good value for money,2026-06-16 07:35:08.395381,742,negative,0.64,distilbert,negative,positive
+743,743,743,5,Great product and excellent quality,2026-05-24 07:35:08.395415,743,positive,0.53,bert-base,positive,positive
+744,744,744,2,Good value for money,2026-06-09 07:35:08.395449,744,neutral,0.81,distilbert,neutral,negative
+745,745,745,1,Fantastic support and fast shipping,2026-06-19 07:35:08.395489,745,positive,0.66,roberta-base,positive,negative
+746,746,746,5,Great product and excellent quality,2026-05-02 07:35:08.395525,746,neutral,0.79,roberta-base,neutral,positive
+747,747,747,2,Good value for money,2026-07-07 07:35:08.395559,747,positive,0.65,distilbert,positive,negative
+748,748,748,3,Delivery was late,2026-05-07 07:35:08.395594,748,negative,0.88,distilbert,negative,neutral
+749,749,749,1,Very satisfied with the experience,2026-05-30 07:35:08.395630,749,negative,0.86,roberta-base,negative,negative
+750,750,750,2,"Average product, could be better",2026-05-25 07:35:08.395664,750,negative,0.67,roberta-base,negative,negative
+751,751,751,5,Delivery was late,2026-06-30 07:35:08.395696,751,neutral,0.89,distilbert,neutral,positive
+752,752,752,5,Delivery was late,2026-03-11 07:35:08.395728,752,negative,0.58,roberta-base,negative,positive
+753,753,753,1,Delivery was late,2026-04-12 07:35:08.395761,753,neutral,0.82,bert-base,neutral,negative
+754,754,754,3,Great product and excellent quality,2026-06-25 07:35:08.395795,754,negative,0.6,distilbert,negative,neutral
+755,755,755,1,Very satisfied with the experience,2026-05-26 07:35:08.395830,755,neutral,0.79,bert-base,neutral,negative
+756,756,756,1,Delivery was late,2026-05-16 07:35:08.395865,756,negative,0.95,roberta-base,negative,negative
+757,757,757,4,Delivery was late,2026-04-03 07:35:08.395903,757,neutral,0.97,roberta-base,neutral,positive
+758,758,758,5,"Average product, could be better",2026-04-27 07:35:08.395936,758,positive,0.8,distilbert,positive,positive
+759,759,759,3,Great product and excellent quality,2026-02-15 07:35:08.395973,759,positive,0.66,bert-base,positive,neutral
+760,760,760,1,Fantastic support and fast shipping,2026-02-02 07:35:08.396008,760,positive,0.75,distilbert,positive,negative
+761,761,761,2,Fantastic support and fast shipping,2026-07-02 07:35:08.396049,761,positive,0.5,distilbert,positive,negative
+762,762,762,3,Great product and excellent quality,2026-04-19 07:35:08.396088,762,neutral,0.98,bert-base,neutral,neutral
+763,763,763,2,Fantastic support and fast shipping,2026-06-18 07:35:08.396121,763,negative,0.86,distilbert,negative,negative
+764,764,764,1,Very satisfied with the experience,2026-04-04 07:35:08.396153,764,neutral,0.9,bert-base,neutral,negative
+765,765,765,3,Great product and excellent quality,2026-06-26 07:35:08.396253,765,neutral,0.93,roberta-base,neutral,neutral
+766,766,766,2,Great product and excellent quality,2026-02-14 07:35:08.396285,766,positive,0.67,distilbert,positive,negative
+767,767,767,4,Fantastic support and fast shipping,2026-04-26 07:35:08.396320,767,neutral,0.8,bert-base,neutral,positive
+768,768,768,2,Fantastic support and fast shipping,2026-06-02 07:35:08.396353,768,positive,0.83,roberta-base,positive,negative
+769,769,769,5,Great product and excellent quality,2026-05-28 07:35:08.396389,769,positive,0.52,distilbert,positive,positive
+770,770,770,5,Good value for money,2026-03-11 07:35:08.396421,770,positive,0.6,roberta-base,positive,positive
+771,771,771,1,Great product and excellent quality,2026-06-09 07:35:08.396456,771,positive,0.9,bert-base,positive,negative
+772,772,772,2,Good value for money,2026-03-07 07:35:08.396488,772,neutral,0.75,roberta-base,neutral,negative
+773,773,773,1,Delivery was late,2026-07-01 07:35:08.396522,773,neutral,0.61,distilbert,neutral,negative
+774,774,774,3,Good value for money,2026-07-12 07:35:08.396554,774,negative,0.78,distilbert,negative,neutral
+775,775,775,4,Delivery was late,2026-05-26 07:35:08.396587,775,positive,0.66,bert-base,positive,positive
+776,776,776,5,Great product and excellent quality,2026-02-25 07:35:08.396619,776,negative,0.91,bert-base,negative,positive
+777,777,777,1,Great product and excellent quality,2026-07-22 07:35:08.396652,777,neutral,0.75,distilbert,neutral,negative
+778,778,778,4,"Average product, could be better",2026-02-07 07:35:08.396685,778,negative,0.86,distilbert,negative,positive
+779,779,779,1,Very satisfied with the experience,2026-02-24 07:35:08.396718,779,neutral,0.67,roberta-base,neutral,negative
+780,780,780,2,Great product and excellent quality,2026-07-17 07:35:08.396754,780,positive,0.53,roberta-base,positive,negative
+781,781,781,1,Fantastic support and fast shipping,2026-02-13 07:35:08.396788,781,positive,0.54,distilbert,positive,negative
+782,782,782,3,"Average product, could be better",2026-02-14 07:35:08.396821,782,positive,0.76,roberta-base,positive,neutral
+783,783,783,2,Great product and excellent quality,2026-06-26 07:35:08.396853,783,negative,0.61,distilbert,negative,negative
+784,784,784,1,Very satisfied with the experience,2026-07-26 07:35:08.396885,784,neutral,0.91,roberta-base,neutral,negative
+785,785,785,4,Very satisfied with the experience,2026-04-09 07:35:08.396917,785,positive,0.61,roberta-base,positive,positive
+786,786,786,5,Delivery was late,2026-06-06 07:35:08.396951,786,positive,0.67,distilbert,positive,positive
+787,787,787,4,Very satisfied with the experience,2026-03-07 07:35:08.396984,787,negative,0.78,distilbert,negative,positive
+788,788,788,5,Good value for money,2026-05-17 07:35:08.397016,788,neutral,0.78,bert-base,neutral,positive
+789,789,789,4,Good value for money,2026-04-04 07:35:08.397049,789,positive,0.72,roberta-base,positive,positive
+790,790,790,3,"Average product, could be better",2026-07-15 07:35:08.397084,790,neutral,0.59,roberta-base,neutral,neutral
+791,791,791,1,Great product and excellent quality,2026-06-14 07:35:08.397120,791,negative,0.75,roberta-base,negative,negative
+792,792,792,5,Delivery was late,2026-07-20 07:35:08.397155,792,negative,0.62,bert-base,negative,positive
+793,793,793,1,Very satisfied with the experience,2026-02-17 07:35:08.397189,793,neutral,0.93,bert-base,neutral,negative
+794,794,794,1,"Average product, could be better",2026-06-20 07:35:08.397223,794,neutral,0.52,bert-base,neutral,negative
+795,795,795,2,Delivery was late,2026-04-26 07:35:08.397255,795,negative,0.52,distilbert,negative,negative
+796,796,796,5,Fantastic support and fast shipping,2026-04-15 07:35:08.397287,796,negative,0.86,distilbert,negative,positive
+797,797,797,2,Delivery was late,2026-04-30 07:35:08.397320,797,positive,0.72,distilbert,positive,negative
+798,798,798,4,Delivery was late,2026-02-27 07:35:08.397356,798,positive,0.72,roberta-base,positive,positive
+799,799,799,5,Good value for money,2026-05-26 07:35:08.397388,799,neutral,0.67,bert-base,neutral,positive
+800,800,800,2,Great product and excellent quality,2026-07-01 07:35:08.397421,800,neutral,0.63,distilbert,neutral,negative
+801,801,801,4,"Average product, could be better",2026-04-14 07:35:08.397455,801,neutral,0.56,distilbert,neutral,positive
+802,802,802,3,Fantastic support and fast shipping,2026-04-08 07:35:08.397487,802,neutral,0.81,distilbert,neutral,neutral
+803,803,803,5,Great product and excellent quality,2026-03-02 07:35:08.397522,803,neutral,0.83,roberta-base,neutral,positive
+804,804,804,1,Delivery was late,2026-03-09 07:35:08.397554,804,negative,0.94,distilbert,negative,negative
+805,805,805,5,Delivery was late,2026-02-24 07:35:08.397588,805,neutral,0.55,roberta-base,neutral,positive
+806,806,806,2,Great product and excellent quality,2026-02-11 07:35:08.397620,806,neutral,0.57,bert-base,neutral,negative
+807,807,807,4,"Average product, could be better",2026-04-09 07:35:08.397653,807,negative,0.56,roberta-base,negative,positive
+808,808,808,3,Good value for money,2026-02-10 07:35:08.397685,808,positive,0.97,bert-base,positive,neutral
+809,809,809,3,Fantastic support and fast shipping,2026-07-22 07:35:08.397717,809,neutral,0.55,distilbert,neutral,neutral
+810,810,810,4,"Average product, could be better",2026-06-05 07:35:08.397758,810,negative,0.6,roberta-base,negative,positive
+811,811,811,2,Fantastic support and fast shipping,2026-07-31 07:35:08.397791,811,neutral,0.53,distilbert,neutral,negative
+812,812,812,4,Delivery was late,2026-03-18 07:35:08.397824,812,negative,0.97,roberta-base,negative,positive
+813,813,813,1,Good value for money,2026-05-19 07:35:08.397919,813,neutral,0.97,roberta-base,neutral,negative
+814,814,814,4,Good value for money,2026-03-28 07:35:08.397954,814,negative,0.7,bert-base,negative,positive
+815,815,815,4,Very satisfied with the experience,2026-04-14 07:35:08.397986,815,neutral,0.63,bert-base,neutral,positive
+816,816,816,2,"Average product, could be better",2026-02-21 07:35:08.398018,816,positive,0.96,distilbert,positive,negative
+817,817,817,1,"Average product, could be better",2026-02-14 07:35:08.398052,817,positive,0.75,roberta-base,positive,negative
+818,818,818,5,Good value for money,2026-05-29 07:35:08.398086,818,positive,0.52,bert-base,positive,positive
+819,819,819,2,Fantastic support and fast shipping,2026-07-23 07:35:08.398118,819,neutral,0.87,roberta-base,neutral,negative
+820,820,820,5,Great product and excellent quality,2026-02-27 07:35:08.398150,820,positive,0.55,distilbert,positive,positive
+821,821,821,2,Very satisfied with the experience,2026-07-06 07:35:08.398182,821,neutral,0.97,distilbert,neutral,negative
+822,822,822,5,Fantastic support and fast shipping,2026-03-24 07:35:08.398219,822,positive,0.69,roberta-base,positive,positive
+823,823,823,4,Delivery was late,2026-03-09 07:35:08.398251,823,positive,0.81,roberta-base,positive,positive
+824,824,824,4,Good value for money,2026-02-24 07:35:08.398284,824,neutral,0.76,distilbert,neutral,positive
+825,825,825,5,"Average product, could be better",2026-04-18 07:35:08.398319,825,positive,0.63,bert-base,positive,positive
+826,826,826,1,Fantastic support and fast shipping,2026-07-05 07:35:08.398351,826,neutral,0.84,roberta-base,neutral,negative
+827,827,827,2,Very satisfied with the experience,2026-02-21 07:35:08.398384,827,negative,0.74,distilbert,negative,negative
+828,828,828,5,Delivery was late,2026-04-27 07:35:08.398416,828,negative,0.82,bert-base,negative,positive
+829,829,829,2,Delivery was late,2026-06-19 07:35:08.398450,829,negative,0.85,roberta-base,negative,negative
+830,830,830,1,Fantastic support and fast shipping,2026-03-16 07:35:08.398481,830,neutral,0.66,bert-base,neutral,negative
+831,831,831,5,Very satisfied with the experience,2026-05-14 07:35:08.398513,831,neutral,0.81,roberta-base,neutral,positive
+832,832,832,3,Good value for money,2026-03-09 07:35:08.398545,832,positive,0.56,distilbert,positive,neutral
+833,833,833,1,Good value for money,2026-06-02 07:35:08.398578,833,positive,0.54,distilbert,positive,negative
+834,834,834,4,Very satisfied with the experience,2026-05-09 07:35:08.398611,834,neutral,0.75,bert-base,neutral,positive
+835,835,835,1,"Average product, could be better",2026-02-27 07:35:08.398643,835,positive,0.97,distilbert,positive,negative
+836,836,836,3,Very satisfied with the experience,2026-06-16 07:35:08.398676,836,positive,0.92,roberta-base,positive,neutral
+837,837,837,5,Delivery was late,2026-06-12 07:35:08.398712,837,positive,0.79,roberta-base,positive,positive
+838,838,838,4,Very satisfied with the experience,2026-07-20 07:35:08.398793,838,negative,0.85,roberta-base,negative,positive
+839,839,839,5,Very satisfied with the experience,2026-07-05 07:35:08.398834,839,positive,0.68,distilbert,positive,positive
+840,840,840,5,Great product and excellent quality,2026-05-21 07:35:08.398873,840,positive,0.82,distilbert,positive,positive
+841,841,841,4,Great product and excellent quality,2026-04-16 07:35:08.398914,841,negative,0.83,bert-base,negative,positive
+842,842,842,5,Fantastic support and fast shipping,2026-04-18 07:35:08.398952,842,positive,0.81,bert-base,positive,positive
+843,843,843,1,Great product and excellent quality,2026-07-08 07:35:08.398986,843,positive,0.86,bert-base,positive,negative
+844,844,844,2,Great product and excellent quality,2026-05-14 07:35:08.399023,844,negative,0.81,bert-base,negative,negative
+845,845,845,2,Good value for money,2026-05-23 07:35:08.399056,845,positive,0.59,roberta-base,positive,negative
+846,846,846,2,Fantastic support and fast shipping,2026-07-22 07:35:08.399091,846,negative,0.69,distilbert,negative,negative
+847,847,847,1,Delivery was late,2026-03-22 07:35:08.399125,847,positive,0.63,roberta-base,positive,negative
+848,848,848,4,"Average product, could be better",2026-02-13 07:35:08.399159,848,negative,0.94,roberta-base,negative,positive
+849,849,849,2,Delivery was late,2026-04-03 07:35:08.399192,849,negative,0.59,bert-base,negative,negative
+850,850,850,5,Delivery was late,2026-05-06 07:35:08.399227,850,neutral,0.83,roberta-base,neutral,positive
+851,851,851,5,Good value for money,2026-06-19 07:35:08.399260,851,neutral,0.93,distilbert,neutral,positive
+852,852,852,4,Delivery was late,2026-04-21 07:35:08.399293,852,positive,0.73,distilbert,positive,positive
+853,853,853,2,Good value for money,2026-02-06 07:35:08.399327,853,negative,0.91,roberta-base,negative,negative
+854,854,854,4,Fantastic support and fast shipping,2026-04-04 07:35:08.399360,854,negative,0.62,bert-base,negative,positive
+855,855,855,5,Very satisfied with the experience,2026-07-13 07:35:08.399392,855,neutral,0.74,distilbert,neutral,positive
+856,856,856,4,"Average product, could be better",2026-07-12 07:35:08.399424,856,negative,0.61,roberta-base,negative,positive
+857,857,857,3,Delivery was late,2026-04-23 07:35:08.399458,857,negative,0.9,bert-base,negative,neutral
+858,858,858,1,Very satisfied with the experience,2026-06-20 07:35:08.399495,858,neutral,0.56,distilbert,neutral,negative
+859,859,859,1,Fantastic support and fast shipping,2026-02-27 07:35:08.399530,859,neutral,0.75,roberta-base,neutral,negative
+860,860,860,3,Great product and excellent quality,2026-03-02 07:35:08.399631,860,neutral,0.6,distilbert,neutral,neutral
+861,861,861,3,"Average product, could be better",2026-05-28 07:35:08.399670,861,neutral,0.67,roberta-base,neutral,neutral
+862,862,862,5,Great product and excellent quality,2026-07-03 07:35:08.399706,862,neutral,0.86,distilbert,neutral,positive
+863,863,863,3,Delivery was late,2026-04-05 07:35:08.399738,863,negative,0.8,distilbert,negative,neutral
+864,864,864,1,"Average product, could be better",2026-05-06 07:35:08.399771,864,negative,0.87,roberta-base,negative,negative
+865,865,865,5,Good value for money,2026-05-26 07:35:08.399808,865,neutral,0.8,distilbert,neutral,positive
+866,866,866,1,"Average product, could be better",2026-02-27 07:35:08.399840,866,neutral,0.95,distilbert,neutral,negative
+867,867,867,5,Very satisfied with the experience,2026-02-19 07:35:08.399873,867,neutral,0.55,bert-base,neutral,positive
+868,868,868,5,Fantastic support and fast shipping,2026-05-08 07:35:08.399905,868,negative,0.69,distilbert,negative,positive
+869,869,869,2,Fantastic support and fast shipping,2026-02-09 07:35:08.399937,869,neutral,0.63,bert-base,neutral,negative
+870,870,870,4,Delivery was late,2026-02-09 07:35:08.399969,870,neutral,0.51,distilbert,neutral,positive
+871,871,871,2,Very satisfied with the experience,2026-04-26 07:35:08.400005,871,negative,0.56,distilbert,negative,negative
+872,872,872,3,Very satisfied with the experience,2026-06-06 07:35:08.400038,872,neutral,0.94,roberta-base,neutral,neutral
+873,873,873,4,Very satisfied with the experience,2026-05-19 07:35:08.400072,873,neutral,0.58,bert-base,neutral,positive
+874,874,874,4,"Average product, could be better",2026-04-15 07:35:08.400104,874,neutral,0.59,bert-base,neutral,positive
+875,875,875,2,"Average product, could be better",2026-06-19 07:35:08.400137,875,negative,0.81,distilbert,negative,negative
+876,876,876,2,Fantastic support and fast shipping,2026-06-17 07:35:08.400169,876,neutral,0.96,bert-base,neutral,negative
+877,877,877,4,"Average product, could be better",2026-05-31 07:35:08.400203,877,positive,0.98,distilbert,positive,positive
+878,878,878,4,Great product and excellent quality,2026-03-20 07:35:08.400236,878,neutral,0.92,bert-base,neutral,positive
+879,879,879,1,Fantastic support and fast shipping,2026-04-29 07:35:08.400268,879,neutral,0.85,distilbert,neutral,negative
+880,880,880,3,Very satisfied with the experience,2026-06-25 07:35:08.400300,880,positive,0.89,bert-base,positive,neutral
+881,881,881,3,Delivery was late,2026-02-05 07:35:08.400332,881,neutral,0.66,roberta-base,neutral,neutral
+882,882,882,3,"Average product, could be better",2026-05-18 07:35:08.400367,882,neutral,0.96,bert-base,neutral,neutral
+883,883,883,4,Delivery was late,2026-05-27 07:35:08.400401,883,negative,0.61,bert-base,negative,positive
+884,884,884,2,"Average product, could be better",2026-05-04 07:35:08.400436,884,negative,0.58,distilbert,negative,negative
+885,885,885,1,Very satisfied with the experience,2026-02-10 07:35:08.400469,885,positive,0.67,roberta-base,positive,negative
+886,886,886,1,Fantastic support and fast shipping,2026-03-19 07:35:08.400504,886,positive,0.86,roberta-base,positive,negative
+887,887,887,1,"Average product, could be better",2026-07-17 07:35:08.400537,887,neutral,0.78,bert-base,neutral,negative
+888,888,888,3,"Average product, could be better",2026-03-12 07:35:08.400569,888,neutral,0.54,bert-base,neutral,neutral
+889,889,889,5,Great product and excellent quality,2026-07-18 07:35:08.400603,889,neutral,0.89,bert-base,neutral,positive
+890,890,890,3,Very satisfied with the experience,2026-03-08 07:35:08.400638,890,positive,0.79,bert-base,positive,neutral
+891,891,891,2,Very satisfied with the experience,2026-05-08 07:35:08.400671,891,negative,0.74,roberta-base,negative,negative
+892,892,892,4,Good value for money,2026-07-30 07:35:08.400706,892,neutral,0.94,distilbert,neutral,positive
+893,893,893,5,Fantastic support and fast shipping,2026-06-15 07:35:08.400741,893,positive,0.88,bert-base,positive,positive
+894,894,894,2,Fantastic support and fast shipping,2026-05-10 07:35:08.400774,894,positive,0.59,roberta-base,positive,negative
+895,895,895,3,Fantastic support and fast shipping,2026-06-03 07:35:08.400808,895,neutral,0.73,roberta-base,neutral,neutral
+896,896,896,4,"Average product, could be better",2026-04-16 07:35:08.400841,896,positive,0.87,roberta-base,positive,positive
+897,897,897,3,Fantastic support and fast shipping,2026-05-17 07:35:08.400874,897,neutral,0.51,roberta-base,neutral,neutral
+898,898,898,1,Great product and excellent quality,2026-05-30 07:35:08.400906,898,positive,0.66,roberta-base,positive,negative
+899,899,899,1,Great product and excellent quality,2026-02-18 07:35:08.400938,899,neutral,0.64,roberta-base,neutral,negative
+900,900,900,3,"Average product, could be better",2026-03-07 07:35:08.400970,900,positive,0.78,roberta-base,positive,neutral
+901,901,901,3,Great product and excellent quality,2026-04-30 07:35:08.401005,901,neutral,0.87,bert-base,neutral,neutral
+902,902,902,1,"Average product, could be better",2026-06-26 07:35:08.401037,902,positive,0.81,roberta-base,positive,negative
+903,903,903,1,Very satisfied with the experience,2026-03-24 07:35:08.401069,903,neutral,0.89,roberta-base,neutral,negative
+904,904,904,1,"Average product, could be better",2026-03-07 07:35:08.401102,904,neutral,0.8,bert-base,neutral,negative
+905,905,905,5,Very satisfied with the experience,2026-02-04 07:35:08.401136,905,negative,0.9,roberta-base,negative,positive
+906,906,906,2,Delivery was late,2026-03-04 07:35:08.401168,906,negative,0.88,distilbert,negative,negative
+907,907,907,1,Great product and excellent quality,2026-03-17 07:35:08.401204,907,negative,0.96,bert-base,negative,negative
+908,908,908,2,Delivery was late,2026-04-14 07:35:08.401300,908,neutral,0.61,bert-base,neutral,negative
+909,909,909,2,Fantastic support and fast shipping,2026-04-25 07:35:08.401333,909,positive,0.72,roberta-base,positive,negative
+910,910,910,1,"Average product, could be better",2026-06-20 07:35:08.401365,910,positive,0.56,roberta-base,positive,negative
+911,911,911,4,Great product and excellent quality,2026-07-27 07:35:08.401397,911,positive,0.69,roberta-base,positive,positive
+912,912,912,1,Fantastic support and fast shipping,2026-02-15 07:35:08.401429,912,negative,0.9,roberta-base,negative,negative
+913,913,913,5,Good value for money,2026-06-22 07:35:08.401463,913,positive,0.84,bert-base,positive,positive
+914,914,914,5,Good value for money,2026-06-23 07:35:08.401495,914,negative,0.9,distilbert,negative,positive
+915,915,915,3,"Average product, could be better",2026-07-24 07:35:08.401528,915,positive,0.66,roberta-base,positive,neutral
+916,916,916,1,Great product and excellent quality,2026-05-03 07:35:08.401561,916,positive,0.55,bert-base,positive,negative
+917,917,917,4,Very satisfied with the experience,2026-05-27 07:35:08.401594,917,positive,0.66,distilbert,positive,positive
+918,918,918,2,"Average product, could be better",2026-06-25 07:35:08.401626,918,positive,0.82,distilbert,positive,negative
+919,919,919,4,Fantastic support and fast shipping,2026-02-10 07:35:08.401660,919,negative,0.75,distilbert,negative,positive
+920,920,920,1,Good value for money,2026-06-25 07:35:08.401693,920,negative,0.52,bert-base,negative,negative
+921,921,921,2,Very satisfied with the experience,2026-04-06 07:35:08.401725,921,negative,0.63,roberta-base,negative,negative
+922,922,922,4,"Average product, could be better",2026-02-12 07:35:08.401757,922,positive,0.83,roberta-base,positive,positive
+923,923,923,1,Great product and excellent quality,2026-03-13 07:35:08.401790,923,negative,0.64,roberta-base,negative,negative
+924,924,924,2,Good value for money,2026-02-07 07:35:08.401825,924,positive,0.88,bert-base,positive,negative
+925,925,925,2,"Average product, could be better",2026-04-27 07:35:08.401859,925,positive,0.55,bert-base,positive,negative
+926,926,926,5,Very satisfied with the experience,2026-04-15 07:35:08.401894,926,neutral,0.73,bert-base,neutral,positive
+927,927,927,4,Great product and excellent quality,2026-06-26 07:35:08.401928,927,positive,0.74,bert-base,positive,positive
+928,928,928,2,Delivery was late,2026-04-20 07:35:08.401964,928,positive,0.86,distilbert,positive,negative
+929,929,929,5,Delivery was late,2026-07-05 07:35:08.401997,929,negative,0.79,bert-base,negative,positive
+930,930,930,3,Very satisfied with the experience,2026-07-03 07:35:08.402030,930,negative,0.73,distilbert,negative,neutral
+931,931,931,4,Good value for money,2026-02-02 07:35:08.402065,931,neutral,0.71,distilbert,neutral,positive
+932,932,932,1,Great product and excellent quality,2026-07-06 07:35:08.402097,932,negative,0.89,bert-base,negative,negative
+933,933,933,4,"Average product, could be better",2026-02-26 07:35:08.402130,933,negative,0.93,distilbert,negative,positive
+934,934,934,5,Fantastic support and fast shipping,2026-04-15 07:35:08.402162,934,neutral,0.85,bert-base,neutral,positive
+935,935,935,2,"Average product, could be better",2026-07-25 07:35:08.402196,935,negative,0.96,bert-base,negative,negative
+936,936,936,4,Delivery was late,2026-07-19 07:35:08.402229,936,neutral,0.72,distilbert,neutral,positive
+937,937,937,3,Delivery was late,2026-02-24 07:35:08.402266,937,negative,0.86,bert-base,negative,neutral
+938,938,938,4,Good value for money,2026-06-10 07:35:08.402298,938,neutral,0.92,roberta-base,neutral,positive
+939,939,939,3,"Average product, could be better",2026-03-24 07:35:08.402334,939,negative,0.81,roberta-base,negative,neutral
+940,940,940,3,Good value for money,2026-03-17 07:35:08.402367,940,neutral,0.69,roberta-base,neutral,neutral
+941,941,941,2,"Average product, could be better",2026-02-11 07:35:08.402399,941,neutral,0.51,bert-base,neutral,negative
+942,942,942,4,Very satisfied with the experience,2026-04-16 07:35:08.402432,942,negative,0.77,distilbert,negative,positive
+943,943,943,3,Very satisfied with the experience,2026-04-29 07:35:08.402466,943,positive,0.66,roberta-base,positive,neutral
+944,944,944,4,Fantastic support and fast shipping,2026-03-16 07:35:08.402498,944,neutral,0.55,distilbert,neutral,positive
+945,945,945,4,Very satisfied with the experience,2026-03-02 07:35:08.402531,945,neutral,0.53,bert-base,neutral,positive
+946,946,946,3,Fantastic support and fast shipping,2026-07-15 07:35:08.402563,946,negative,0.64,roberta-base,negative,neutral
+947,947,947,3,"Average product, could be better",2026-05-08 07:35:08.402595,947,positive,0.78,distilbert,positive,neutral
+948,948,948,1,Great product and excellent quality,2026-02-24 07:35:08.402628,948,positive,0.76,distilbert,positive,negative
+949,949,949,3,Great product and excellent quality,2026-07-09 07:35:08.402663,949,positive,0.96,distilbert,positive,neutral
+950,950,950,4,Good value for money,2026-05-28 07:35:08.402698,950,neutral,0.54,roberta-base,neutral,positive
+951,951,951,1,"Average product, could be better",2026-03-11 07:35:08.402730,951,positive,0.83,bert-base,positive,negative
+952,952,952,2,Great product and excellent quality,2026-06-13 07:35:08.402762,952,negative,0.8,bert-base,negative,negative
+953,953,953,5,Good value for money,2026-06-23 07:35:08.402794,953,neutral,0.51,bert-base,neutral,positive
+954,954,954,2,"Average product, could be better",2026-02-25 07:35:08.402827,954,neutral,0.96,distilbert,neutral,negative
+955,955,955,4,Good value for money,2026-07-21 07:35:08.402859,955,neutral,0.53,roberta-base,neutral,positive
+956,956,956,5,Very satisfied with the experience,2026-02-17 07:35:08.402958,956,positive,0.64,bert-base,positive,positive
+957,957,957,1,Very satisfied with the experience,2026-05-10 07:35:08.402990,957,negative,0.74,roberta-base,negative,negative
+958,958,958,5,"Average product, could be better",2026-03-15 07:35:08.403022,958,positive,0.81,distilbert,positive,positive
+959,959,959,5,Very satisfied with the experience,2026-03-19 07:35:08.403054,959,positive,0.75,distilbert,positive,positive
+960,960,960,4,Good value for money,2026-06-09 07:35:08.403089,960,negative,0.81,bert-base,negative,positive
+961,961,961,2,Very satisfied with the experience,2026-04-27 07:35:08.403129,961,neutral,0.52,bert-base,neutral,negative
+962,962,962,3,Fantastic support and fast shipping,2026-04-18 07:35:08.403162,962,negative,0.51,roberta-base,negative,neutral
+963,963,963,4,Fantastic support and fast shipping,2026-06-29 07:35:08.403199,963,negative,0.84,bert-base,negative,positive
+964,964,964,4,Delivery was late,2026-05-20 07:35:08.403231,964,negative,0.64,distilbert,negative,positive
+965,965,965,1,"Average product, could be better",2026-04-02 07:35:08.403264,965,neutral,0.55,bert-base,neutral,negative
+966,966,966,4,Good value for money,2026-03-01 07:35:08.403296,966,positive,0.82,distilbert,positive,positive
+967,967,967,2,Very satisfied with the experience,2026-02-17 07:35:08.403328,967,positive,0.69,bert-base,positive,negative
+968,968,968,2,Great product and excellent quality,2026-02-27 07:35:08.403363,968,negative,0.64,bert-base,negative,negative
+969,969,969,3,Good value for money,2026-04-28 07:35:08.403395,969,positive,0.57,bert-base,positive,neutral
+970,970,970,5,Great product and excellent quality,2026-03-14 07:35:08.403427,970,positive,0.51,roberta-base,positive,positive
+971,971,971,3,Delivery was late,2026-02-19 07:35:08.403462,971,neutral,0.73,bert-base,neutral,neutral
+972,972,972,1,Delivery was late,2026-04-12 07:35:08.403494,972,neutral,0.57,roberta-base,neutral,negative
+973,973,973,4,Very satisfied with the experience,2026-04-07 07:35:08.403537,973,neutral,0.97,roberta-base,neutral,positive
+974,974,974,5,Good value for money,2026-06-12 07:35:08.403577,974,negative,0.82,distilbert,negative,positive
+975,975,975,1,Very satisfied with the experience,2026-03-15 07:35:08.403614,975,negative,0.72,distilbert,negative,negative
+976,976,976,2,Great product and excellent quality,2026-04-24 07:35:08.403659,976,negative,0.83,roberta-base,negative,negative
+977,977,977,4,Good value for money,2026-05-12 07:35:08.403692,977,negative,0.96,distilbert,negative,positive
+978,978,978,2,Delivery was late,2026-06-23 07:35:08.403724,978,positive,0.65,bert-base,positive,negative
+979,979,979,5,Great product and excellent quality,2026-06-21 07:35:08.403756,979,positive,0.58,bert-base,positive,positive
+980,980,980,2,Fantastic support and fast shipping,2026-04-09 07:35:08.403794,980,positive,0.87,bert-base,positive,negative
+981,981,981,4,Good value for money,2026-07-26 07:35:08.403826,981,neutral,0.96,distilbert,neutral,positive
+982,982,982,2,Great product and excellent quality,2026-02-19 07:35:08.403858,982,neutral,0.64,bert-base,neutral,negative
+983,983,983,5,Delivery was late,2026-07-25 07:35:08.403897,983,neutral,0.66,bert-base,neutral,positive
+984,984,984,4,Fantastic support and fast shipping,2026-02-13 07:35:08.403932,984,positive,0.66,bert-base,positive,positive
+985,985,985,3,Great product and excellent quality,2026-02-03 07:35:08.403966,985,neutral,0.66,distilbert,neutral,neutral
+986,986,986,1,Delivery was late,2026-04-07 07:35:08.403998,986,negative,0.54,distilbert,negative,negative
+987,987,987,1,Delivery was late,2026-06-22 07:35:08.404032,987,negative,0.89,bert-base,negative,negative
+988,988,988,4,Fantastic support and fast shipping,2026-02-20 07:35:08.404064,988,neutral,0.89,bert-base,neutral,positive
+989,989,989,2,Fantastic support and fast shipping,2026-06-08 07:35:08.404097,989,positive,0.85,roberta-base,positive,negative
+990,990,990,5,Delivery was late,2026-07-16 07:35:08.404129,990,neutral,0.59,bert-base,neutral,positive
+991,991,991,2,Delivery was late,2026-06-20 07:35:08.404161,991,neutral,0.81,distilbert,neutral,negative
+992,992,992,3,Great product and excellent quality,2026-05-20 07:35:08.404197,992,positive,0.53,bert-base,positive,neutral
+993,993,993,1,Fantastic support and fast shipping,2026-05-11 07:35:08.404230,993,negative,0.88,roberta-base,negative,negative
+994,994,994,4,Delivery was late,2026-05-12 07:35:08.404265,994,negative,0.99,bert-base,negative,positive
+995,995,995,4,Very satisfied with the experience,2026-06-22 07:35:08.404299,995,positive,0.86,roberta-base,positive,positive
+996,996,996,4,Great product and excellent quality,2026-02-12 07:35:08.404332,996,positive,0.57,bert-base,positive,positive
+997,997,997,3,Good value for money,2026-03-13 07:35:08.404366,997,neutral,0.61,roberta-base,neutral,neutral
+998,998,998,3,Great product and excellent quality,2026-03-31 07:35:08.404398,998,negative,0.64,bert-base,negative,neutral
+999,999,999,4,"Average product, could be better",2026-02-25 07:35:08.404431,999,positive,0.79,distilbert,positive,positive
+1000,1000,1000,4,Delivery was late,2026-05-29 07:35:08.404463,1000,positive,0.96,distilbert,positive,positive

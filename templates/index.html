@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Data Dashboard</title>
+    <style>
+        :root {
+            --bg: #07111f;
+            --panel: #0f172a;
+            --panel-2: #111c32;
+            --text: #e2e8f0;
+            --muted: #94a3b8;
+            --accent: #38bdf8;
+            --accent-2: #818cf8;
+            --border: #243244;
+        }
+        body {
+            font-family: Inter, Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, var(--bg), #111827);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        .container { max-width: 1280px; margin: 0 auto; padding: 24px; }
+        .hero {
+            background: linear-gradient(135deg, rgba(56,189,248,0.18), rgba(129,140,248,0.2));
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 12px 36px rgba(0,0,0,0.25);
+        }
+        h1 { margin: 0 0 8px; font-size: 2rem; }
+        .subtitle { color: var(--muted); margin-bottom: 16px; }
+        .card {
+            background: rgba(15, 23, 42, 0.92);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 18px;
+            margin-top: 16px;
+            box-shadow: 0 10px 24px rgba(0,0,0,0.2);
+        }
+        .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+        button {
+            padding: 10px 14px;
+            border: none;
+            border-radius: 999px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-2));
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        button:hover { transform: translateY(-1px); }
+        select {
+            padding: 8px 10px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: var(--panel-2);
+            color: var(--text);
+        }
+        #status { margin-top: 12px; color: #7dd3fc; }
+        table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 0.95rem; }
+        th, td { border-bottom: 1px solid var(--border); padding: 10px 8px; text-align: left; }
+        th { background: rgba(56,189,248,0.12); color: #bfdbfe; }
+        tbody tr:hover { background: rgba(129,140,248,0.08); }
+        .footer {
+            text-align: center;
+            padding: 18px 0 8px;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>API Generator & API ETL Dashboard</h1>
+            <div class="subtitle">Explore seeded business data for customers, products, orders, feedback, and sentiments.</div>
+            <div class="card" style="margin-top: 12px;">
+                <div class="controls">
+                    <button onclick="seedData()">Generate 1,000 dummy records</button>
+                    <label for="tableSelect">View:</label>
+                    <select id="tableSelect" onchange="loadTable(this.value)">
+                        <option value="customers">Customers</option>
+                        <option value="products">Products</option>
+                        <option value="orders">Orders</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="sentiments">Sentiments</option>
+                    </select>
+                </div>
+                <div id="status"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 id="tableTitle">Customers</h2>
+            <div id="tableContainer"></div>
+        </div>
+    </div>
+
+    <div class="footer">API Generator & API ETL :: Hassan Rafique</div>
+
+    <script>
+        async function seedData() {
+            const status = document.getElementById('status');
+            status.textContent = 'Generating data...';
+            const response = await fetch('/seed/dummy-data', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ record_count: 1000 })
+            });
+            const data = await response.json();
+            status.textContent = `Seeded ${data.customers} customers, ${data.products} products, ${data.orders} orders, ${data.feedback} feedback, ${data.sentiments} sentiments.`;
+            loadTable(document.getElementById('tableSelect').value);
+        }
+
+        async function loadTable(table) {
+            const title = document.getElementById('tableTitle');
+            title.textContent = table.charAt(0).toUpperCase() + table.slice(1);
+            const response = await fetch(`/${table}`);
+            const rows = await response.json();
+            const container = document.getElementById('tableContainer');
+            if (!rows.length) {
+                container.innerHTML = '<p>No data yet.</p>';
+                return;
+            }
+            const headers = Object.keys(rows[0]);
+            let html = '<table><thead><tr>';
+            headers.forEach(header => html += `<th>${header}</th>`);
+            html += '</tr></thead><tbody>';
+            rows.forEach(row => {
+                html += '<tr>';
+                headers.forEach(header => html += `<td>${row[header]}</td>`);
+                html += '</tr>';
+            });
+            html += '</tbody></table>';
+            container.innerHTML = html;
+        }
+
+        loadTable('customers');
+    </script>
+</body>
+</html>
