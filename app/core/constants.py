@@ -1,0 +1,5 @@
+"""Shared constants for the application."""
+
+API_VERSION = "v1"
+DEFAULT_PAGE_SIZE = 50
+MAX_PAGE_SIZE = 200

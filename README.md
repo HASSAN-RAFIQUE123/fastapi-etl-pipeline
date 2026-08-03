@@ -24,24 +24,52 @@ The application is designed to demonstrate how to:
 ## Project structure
 
 ```text
-app/
-  config.py              # Application configuration and environment settings
-  db.py                  # SQLAlchemy models and database helpers
-  main.py                # FastAPI app and route definitions
-ETL/
-  extract.ipynb          # Pulls API data into staging files
-  transform.ipynb        # Cleans and enriches the data
-  load.ipynb             # Loads transformed data into SQLite
-dummy_data_generator/
-  generate_dummy_data.py # Generates the seeded business records
-templates/
-  index.html             # Browser dashboard UI
-requirements.txt        # Python dependencies
-app/api_generator.py    # Helper to inspect the registered API routes
-run.sh                  # Convenience script to run the app locally
-tests/
-  test_api.py            # Regression tests for the API
+fastapi-etl-pipeline/
+├── app/
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── dependencies.py
+│   │   └── routers/
+│   │       ├── customers.py
+│   │       ├── products.py
+│   │       ├── orders.py
+│   │       ├── payments.py
+│   │       └── feedback.py
+│   ├── services/
+│   ├── repositories/
+│   ├── database/
+│   ├── schemas/
+│   ├── core/
+│   ├── middleware/
+│   ├── exceptions/
+│   ├── utils/
+│   ├── config.py
+│   ├── db.py
+│   └── main.py
+├── etl/
+│   ├── extract/
+│   ├── transform/
+│   ├── load/
+│   ├── pipeline.py
+│   └── metadata.py
+├── dummy_data_generator/
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── archive/
+├── docs/
+├── scripts/
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── api/
+├── requirements.txt
+├── pyproject.toml
+├── .env.example
+└── README.md
 ```
+
+Each package folder above contains focused modules for a specific responsibility so the application is easier to extend.
 
 ## Technology stack
 

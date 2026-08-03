@@ -42,7 +42,15 @@ from fastapi.responses import HTMLResponse
 # Import Pydantic models for request validation.
 from pydantic import BaseModel, Field
 
+<<<<<<< HEAD
 # Import application configuration.
+=======
+from .api.routers.customers import router as customers_router
+from .api.routers.feedback import router as feedback_router
+from .api.routers.orders import router as orders_router
+from .api.routers.payments import router as payments_router
+from .api.routers.products import router as products_router
+>>>>>>> 028e308 (refactor(project): reorganize project structure)
 from .config import APP_NAME
 
 # Import all required database helper functions.
@@ -59,9 +67,19 @@ from .db import (
     seed_dummy_data,
     test_connection,
 )
+from .exceptions.handlers import register_exception_handlers
+from .middleware.request_logging import RequestLoggingMiddleware
 
 # Create the FastAPI application.
 app = FastAPI(title=APP_NAME)
+app.add_middleware(RequestLoggingMiddleware)
+register_exception_handlers(app)
+
+app.include_router(customers_router)
+app.include_router(products_router)
+app.include_router(orders_router)
+app.include_router(payments_router)
+app.include_router(feedback_router)
 
 
 # Request model for executing SQL queries.
