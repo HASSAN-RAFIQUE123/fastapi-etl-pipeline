@@ -1,48 +1,253 @@
-"""Database models and helper functions.
+"""
+===============================================================================
+Database Models & Database Helper Functions
+===============================================================================
 
-This module defines the SQLAlchemy models for the sample business data and provides the
-helper functions used by the FastAPI routes and ETL workflow. It is the bridge between the
-application layer and the SQLite database.
+Summary
+-------
+This module is the heart of the application's database layer.
+
+It performs the following responsibilities:
+
+1. Creates the SQLAlchemy database engine.
+2. Defines all ORM (Object Relational Mapping) models.
+3. Creates database tables.
+4. Tests database connectivity.
+5. Retrieves table information.
+6. Seeds the database with dummy data.
+7. Provides helper functions for querying data.
+8. Computes analytics summaries.
+
+This module acts as the bridge between FastAPI and the database.
+
+Application
+        │
+        ▼
+Database Helper Functions
+        │
+        ▼
+SQLAlchemy ORM
+        │
+        ▼
+SQLite / PostgreSQL
 """
 
 from __future__ import annotations
 
+# -----------------------------------------------------------------------------
+# Import the sys module.
+#
+# Used to modify Python's import path dynamically so the project modules
+# can be imported regardless of the current working directory.
+# -----------------------------------------------------------------------------
 import sys
-from datetime import datetime
-from pathlib import Path
 
+# -----------------------------------------------------------------------------
+# Import datetime utilities.
+#
+# datetime
+#     Represents dates and times.
+#
+# Used by Order and Feedback tables.
+# -----------------------------------------------------------------------------
+from datetime import datetime
+
+# -----------------------------------------------------------------------------
+# pathlib.Path provides an object-oriented way to work with file paths.
+#
+# It is preferred over os.path because it is cleaner and cross-platform.
+# -----------------------------------------------------------------------------
+from pathlib import Path
+# -----------------------------------------------------------------------------
+# Import SQLAlchemy core components.
+#
+# create_engine
+#     Creates the connection between Python and the database.
+#
+# func
+#     Provides SQL aggregate functions like:
+#         AVG()
+#         COUNT()
+#         MAX()
+#         MIN()
+#
+# text
+#     Allows execution of raw SQL queries.
+# -----------------------------------------------------------------------------
 from sqlalchemy import create_engine, func, text
+
+# -----------------------------------------------------------------------------
+# Import SQLAlchemy ORM components.
+#
+# Mapped
+#     Used for type-safe ORM model attributes (SQLAlchemy 2.x style).
+#
+# Session
+#     Represents a database session.
+#     A session is used to:
+#         - Insert data
+#         - Update data
+#         - Delete data
+#         - Query data
+#
+# declarative_base()
+#     Creates the parent class from which all ORM models inherit.
+#
+# mapped_column()
+#     Defines a database column.
+# -----------------------------------------------------------------------------
 from sqlalchemy.orm import Mapped, Session, declarative_base, mapped_column
 
-# Ensure the project root is importable when this file is executed from different locations.
+# -----------------------------------------------------------------------------
+# Determine the project's root directory.
+#
+# __file__
+#     Current Python file.
+#
+# resolve()
+#     Returns the absolute path.
+#
+# parents[1]
+#     Goes one directory above the current folder.
+#
+# Example:
+#
+# app/
+#     db.py
+#
+# becomes
+#
+# project/
+# -----------------------------------------------------------------------------
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+# -----------------------------------------------------------------------------
+# Ensure the project root exists in Python's module search path.
+#
+# This allows imports such as:
+#
+# from app.config import DATABASE_URL
+#
+# to work regardless of where the script is executed.
+# -----------------------------------------------------------------------------
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+# -----------------------------------------------------------------------------
+# Import application configuration.
+#
+# DATABASE_URL
+#     Database connection string.
+#
+# DB_ECHO
+#     Controls whether SQLAlchemy prints generated SQL statements.
+# -----------------------------------------------------------------------------
 from .config import DATABASE_URL, DB_ECHO
 
-# Create the SQLAlchemy engine that connects to the configured database.
-engine = create_engine(DATABASE_URL, future=True, echo=DB_ECHO)
+# -----------------------------------------------------------------------------
+# Create the SQLAlchemy Engine.
+#
+# The engine manages:
+#
+#     Python
+#         │
+#         ▼
+# SQLAlchemy Engine
+#         │
+#         ▼
+# SQLite / PostgreSQL
+#
+# future=True
+#     Enables SQLAlchemy 2.x behavior.
+#
+# echo=DB_ECHO
+#     Prints SQL queries if debugging is enabled.
+# -----------------------------------------------------------------------------
+engine = create_engine(
+    DATABASE_URL,
+    future=True,
+    echo=DB_ECHO,
+)
 
-# Declarative base for all ORM models.
+# -----------------------------------------------------------------------------
+# Create the Declarative Base.
+#
+# Every ORM model in this project inherits from Base.
+#
+# Example:
+#
+# class Customer(Base):
+#
+# SQLAlchemy uses this Base object to know which models belong
+# to the database schema.
+# -----------------------------------------------------------------------------
 Base = declarative_base()
 
-# Alias used throughout the project for database sessions.
+# -----------------------------------------------------------------------------
+# Alias for SQLAlchemy Session.
+#
+# Instead of writing:
+#
+# Session(engine)
+#
+# throughout the project, we keep a common name.
+#
+# In larger projects this is usually created using sessionmaker(),
+# but this alias works for this learning project.
+# -----------------------------------------------------------------------------
 SessionLocal = Session
 
 
+# =============================================================================
+# CUSTOMER MODEL
+# =============================================================================
+#
+# Represents one customer in the database.
+#
+# SQL Table:
+#
+# customers
+#
+# Example
+#
+# customer_id | name       | email              | country
+# ----------------------------------------------------------
+# 1           | John Smith | john@gmail.com     | Germany
+#
+# Every row in the customers table becomes one Customer object.
+# =============================================================================
 class Customer(Base):
     """Represents a customer record in the database."""
 
+    # -------------------------------------------------------------------------
+    # Name of the SQL table.
+    # -------------------------------------------------------------------------
     __tablename__ = "customers"
 
+    # -------------------------------------------------------------------------
+    # Primary Key.
+    #
+    # Every customer has a unique ID.
+    # -------------------------------------------------------------------------
     customer_id: Mapped[int] = mapped_column(primary_key=True)
+
+    # Customer full name.
     name: Mapped[str]
+
+    # Customer email address.
     email: Mapped[str]
+
+    # Customer country.
     country: Mapped[str]
 
+    # -------------------------------------------------------------------------
+    # Convert ORM object into a Python dictionary.
+    #
+    # FastAPI can easily serialize dictionaries into JSON responses.
+    # -------------------------------------------------------------------------
     def to_dict(self) -> dict[str, object]:
         """Return a serializable dictionary for API responses."""
+
         return {
             "customer_id": self.customer_id,
             "name": self.name,
@@ -51,38 +256,112 @@ class Customer(Base):
         }
 
 
+# =============================================================================
+# PRODUCT MODEL
+# =============================================================================
+#
+# Represents products sold by the company.
+#
+# SQL Table:
+#
+# products
+#
+# product_id | product_name | category | price
+# ---------------------------------------------
+# 1          | Laptop       | Tech     | 1200
+#
+# One row in SQL = One Product object.
+# =============================================================================
 class Product(Base):
     """Represents a product record in the database."""
 
+    # SQL table name.
     __tablename__ = "products"
 
+    # Primary key.
     product_id: Mapped[int] = mapped_column(primary_key=True)
+
+    # Product name.
     product_name: Mapped[str]
+
+    # Product category.
     category: Mapped[str]
+
+    # Product selling price.
     price: Mapped[float]
 
+    # Convert ORM object into dictionary.
     def to_dict(self) -> dict[str, object]:
         """Return a serializable dictionary for API responses."""
+
         return {
             "product_id": self.product_id,
             "product_name": self.product_name,
             "category": self.category,
             "price": self.price,
         }
-
-
+    # =============================================================================
+# PAYMENT MODEL
+# =============================================================================
+#
+# Represents a customer's payment information.
+#
+# SQL Table:
+#
+# payments
+#
+# payment_id | payment_method | amount | status
+# ------------------------------------------------
+# 1          | card           | 299.99 | paid
+#
+# Every payment made by a customer is stored here.
+#
+# In a production application this table may also contain:
+#
+# - Transaction ID
+# - Payment Gateway
+# - Currency
+# - Payment Timestamp
+# - Refund Status
+# - Invoice Number
+# =============================================================================
 class Payment(Base):
     """Represents a payment record in the database."""
 
+    # -------------------------------------------------------------------------
+    # SQL table name.
+    # -------------------------------------------------------------------------
     __tablename__ = "payments"
 
+    # -------------------------------------------------------------------------
+    # Primary Key
+    #
+    # Every payment has a unique identifier.
+    # -------------------------------------------------------------------------
     payment_id: Mapped[int] = mapped_column(primary_key=True)
+
+    # Payment type used by customer.
     payment_method: Mapped[str]
+
+    # Total payment amount.
     amount: Mapped[float]
+
+    # Current payment status.
+    #
+    # Example:
+    # Paid
+    # Pending
+    # Failed
     status: Mapped[str]
 
+    # -------------------------------------------------------------------------
+    # Convert ORM object into dictionary.
+    #
+    # FastAPI converts this dictionary into JSON.
+    # -------------------------------------------------------------------------
     def to_dict(self) -> dict[str, object]:
         """Return a serializable dictionary for API responses."""
+
         return {
             "payment_id": self.payment_id,
             "payment_method": self.payment_method,
@@ -91,21 +370,80 @@ class Payment(Base):
         }
 
 
+# =============================================================================
+# ORDER MODEL
+# =============================================================================
+#
+# Represents a customer's order.
+#
+# This table connects:
+#
+# Customer
+# Product
+# Payment
+#
+# Therefore it acts as the central transaction table.
+#
+# Example
+#
+# customer -----> order <------ product
+#                    |
+#                    |
+#                 payment
+#
+# In a production database these IDs should be Foreign Keys.
+#
+# Example:
+#
+# customer_id -> customers.customer_id
+# product_id -> products.product_id
+# payment_id -> payments.payment_id
+#
+# This guarantees referential integrity.
+# =============================================================================
 class Order(Base):
     """Represents a purchase order record in the database."""
 
+    # SQL table name.
     __tablename__ = "orders"
 
+    # Primary key.
     order_id: Mapped[int] = mapped_column(primary_key=True)
+
+    # Customer who placed the order.
+    #
+    # Production:
+    #
+    # ForeignKey("customers.customer_id")
     customer_id: Mapped[int] = mapped_column()
+
+    # Purchased product.
+    #
+    # Production:
+    #
+    # ForeignKey("products.product_id")
     product_id: Mapped[int] = mapped_column()
+
+    # Payment used.
+    #
+    # Production:
+    #
+    # ForeignKey("payments.payment_id")
     payment_id: Mapped[int] = mapped_column()
+
+    # Date and time when order was created.
     order_date: Mapped[datetime]
+
+    # Number of purchased items.
     quantity: Mapped[int]
+
+    # Total order value.
     total_amount: Mapped[float]
 
+    # Convert ORM object into dictionary.
     def to_dict(self) -> dict[str, object]:
         """Return a serializable dictionary for API responses."""
+
         return {
             "order_id": self.order_id,
             "customer_id": self.customer_id,
@@ -117,20 +455,67 @@ class Order(Base):
         }
 
 
+# =============================================================================
+# FEEDBACK MODEL
+# =============================================================================
+#
+# Stores customer reviews after purchasing products.
+#
+# Example
+#
+# Customer
+#     │
+#     ▼
+# Feedback
+#     │
+#     ▼
+# Product
+#
+# Example Record
+#
+# Rating:
+# 5
+#
+# Review:
+# Excellent product.
+#
+# Date:
+# 2026-08-01
+#
+# This table is later used for analytics and sentiment analysis.
+# =============================================================================
 class Feedback(Base):
     """Represents a feedback submission from a customer."""
 
+    # SQL table name.
     __tablename__ = "feedback"
 
+    # Primary key.
     feedback_id: Mapped[int] = mapped_column(primary_key=True)
+
+    # Customer who submitted the review.
     customer_id: Mapped[int] = mapped_column()
+
+    # Reviewed product.
     product_id: Mapped[int] = mapped_column()
+
+    # Customer rating.
+    #
+    # Usually:
+    #
+    # 1–5 Stars
     rating: Mapped[int]
+
+    # Written customer review.
     feedback_text: Mapped[str]
+
+    # Date when review was submitted.
     feedback_date: Mapped[datetime]
 
+    # Convert ORM object into dictionary.
     def to_dict(self) -> dict[str, object]:
         """Return a serializable dictionary for API responses."""
+
         return {
             "feedback_id": self.feedback_id,
             "customer_id": self.customer_id,
@@ -141,19 +526,75 @@ class Feedback(Base):
         }
 
 
+# =============================================================================
+# SENTIMENT MODEL
+# =============================================================================
+#
+# Stores AI/NLP sentiment analysis results.
+#
+# Example
+#
+# Feedback
+#     │
+#     ▼
+# Sentiment Analysis
+#
+# Positive
+# Neutral
+# Negative
+#
+# Confidence:
+#
+# 0.97
+#
+# Model:
+#
+# bert-base
+#
+# This table simulates Machine Learning output.
+# =============================================================================
 class Sentiment(Base):
     """Represents a sentiment analysis result for a feedback record."""
 
+    # SQL table name.
     __tablename__ = "sentiments"
 
+    # Primary key.
     sentiment_id: Mapped[int] = mapped_column(primary_key=True)
+
+    # Related feedback record.
+    #
+    # Production:
+    #
+    # ForeignKey("feedback.feedback_id")
     feedback_id: Mapped[int] = mapped_column()
+
+    # Predicted sentiment.
+    #
+    # Positive
+    # Neutral
+    # Negative
     sentiment: Mapped[str]
+
+    # Confidence score returned by ML model.
+    #
+    # Example:
+    #
+    # 0.98
     confidence: Mapped[float]
+
+    # Name of AI model.
+    #
+    # Example:
+    #
+    # bert-base
+    # roberta-base
     model_name: Mapped[str]
 
+    # Convert ORM object into dictionary.
     def to_dict(self) -> dict[str, object]:
         """Return a serializable dictionary for API responses."""
+
         return {
             "sentiment_id": self.sentiment_id,
             "feedback_id": self.feedback_id,
@@ -161,125 +602,7 @@ class Sentiment(Base):
             "confidence": self.confidence,
             "model_name": self.model_name,
         }
-
-
-def init_db() -> None:
-    """Create all tables if they do not already exist."""
-    Base.metadata.create_all(engine)
-
-
-def test_connection() -> None:
-    """Perform a lightweight database check to ensure the connection works."""
-    with engine.connect() as conn:
-        conn.execute(text("SELECT 1"))
-
-
-def get_tables() -> list[str]:
-    """Return the list of tables available in the connected database."""
-    dialect = engine.dialect.name
-
-    if dialect == "sqlite":
-        query = "SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'"
-    elif dialect == "postgresql":
-        query = (
-            "SELECT tablename FROM pg_catalog.pg_tables "
-            "WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema'"
-        )
-    elif dialect == "mysql":
-        query = "SHOW TABLES"
-    else:
-        raise NotImplementedError(f"Table listing is not supported for dialect: {dialect}")
-
-    with engine.connect() as conn:
-        result = conn.execute(text(query))
-        return [row[0] for row in result.fetchall()]
-
-
-def seed_dummy_data(record_count: int = 1000) -> dict[str, int]:
-    """Seed the database with dummy rows using the generator module."""
-    init_db()
-
-    from dummy_data_generator.generate_dummy_data import generate_dummy_data
-
-    return generate_dummy_data(record_count)
-
-
-def list_customers(limit: int | None = None) -> list[dict[str, object]]:
-    """Return all customers in order, optionally limiting the number of rows."""
-    with Session(engine) as session:
-        query = session.query(Customer).order_by(Customer.customer_id)
-        if limit is not None:
-            query = query.limit(limit)
-        rows = query.all()
-        return [row.to_dict() for row in rows]
-
-
-def list_products(limit: int | None = None) -> list[dict[str, object]]:
-    """Return all products in order, optionally limiting the number of rows."""
-    with Session(engine) as session:
-        query = session.query(Product).order_by(Product.product_id)
-        if limit is not None:
-            query = query.limit(limit)
-        rows = query.all()
-        return [row.to_dict() for row in rows]
-
-
-def list_orders(limit: int | None = None) -> list[dict[str, object]]:
-    """Return all orders in order, optionally limiting the number of rows."""
-    with Session(engine) as session:
-        query = session.query(Order).order_by(Order.order_id)
-        if limit is not None:
-            query = query.limit(limit)
-        rows = query.all()
-        return [row.to_dict() for row in rows]
-
-
-def list_feedback(limit: int | None = None) -> list[dict[str, object]]:
-    """Return all feedback entries in order, optionally limiting the number of rows."""
-    with Session(engine) as session:
-        query = session.query(Feedback).order_by(Feedback.feedback_id)
-        if limit is not None:
-            query = query.limit(limit)
-        rows = query.all()
-        return [row.to_dict() for row in rows]
-
-
-def list_feedback_by_date_range(start_date: str, end_date: str) -> list[dict[str, object]]:
-    """Return feedback entries whose feedback_date falls within the provided date range."""
-    start_dt = datetime.fromisoformat(start_date)
-    end_dt = datetime.fromisoformat(end_date)
-
-    with Session(engine) as session:
-        rows = (
-            session.query(Feedback)
-            .filter(Feedback.feedback_date >= start_dt)
-            .filter(Feedback.feedback_date <= end_dt)
-            .order_by(Feedback.feedback_id)
-            .all()
-        )
-        return [row.to_dict() for row in rows]
-
-
-def list_sentiments(limit: int | None = None) -> list[dict[str, object]]:
-    """Return all sentiment records in order, optionally limiting the number of rows."""
-    with Session(engine) as session:
-        query = session.query(Sentiment).order_by(Sentiment.sentiment_id)
-        if limit is not None:
-            query = query.limit(limit)
-        rows = query.all()
-        return [row.to_dict() for row in rows]
-
-
-def feedback_summary() -> dict[str, object]:
-    """Compute a simple analytics summary for feedback data."""
-    with Session(engine) as session:
-        total_feedback = session.query(Feedback).count()
-        positive = session.query(Feedback).filter(Feedback.rating >= 4).count()
-        negative = session.query(Feedback).filter(Feedback.rating <= 2).count()
-        average_rating = session.query(func.avg(Feedback.rating)).scalar()
-        return {
-            "total_feedback": total_feedback,
-            "positive_reviews": positive,
-            "negative_reviews": negative,
-            "average_rating": round(float(average_rating), 2) if average_rating is not None else 0,
-        }
+customer_id = mapped_column(ForeignKey("customers.customer_id"))
+product_id = mapped_column(ForeignKey("products.product_id"))
+payment_id = mapped_column(ForeignKey("payments.payment_id"))
+feedback_id = mapped_column(ForeignKey("feedback.feedback_id"))
